@@ -1,31 +1,107 @@
 .blob1,
 .blob2,
-.blob3 {
-    filter: blur(75px);
+.blob3,
+.blob4,
+.blob5 {
+    position: absolute;
+    filter: blur(80px);
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear, ease-in-out;
 }
 
 .blob1 {
-    margin-left: 8rem;
-    width: 397px;
-    height: 604px;
+    width: 330px;
+    height: 504px;
     border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
-    background: linear-gradient(180deg, rgba(98, 91, 183, 0.57) 0%, rgba(173, 108, 124, 0.512792) 47.67%, rgba(255, 128, 128, 0.45) 100%);
-    transform: rotate(-78.58deg);
+    background: linear-gradient(180deg, rgba(164, 77, 232, 0.49) 0%, rgba(224, 106, 135, 0.69) 47.67%, rgba(253, 154, 154, 0.54) 100%);
+    top: 5rem;
+    left: 8rem;
+    animation-duration: 15s;
+    rotate: 180deg;
+    animation-name: spin, moveX;
+    animation-direction: reverse;
 }
 
 .blob2 {
-    margin-left: 8rem;
     width: 345px;
     height: 525px;
     border-radius: 31% 69% 53% 47% / 63% 48% 52% 37%;
-    background: linear-gradient(180deg, rgba(120, 91, 183, 0.57) 0%, rgba(128, 209, 255, 0.6) 100%);
-    transform: rotate(-78.58deg);
+    background: linear-gradient(180deg, rgba(120, 91, 183, 0.61) 0%, rgba(128, 209, 255, 0.6) 100%, rgba(128, 232, 255, 0.6) 100%);
+    top: -8rem;
+    left: 25rem;
+    animation-name: spin, moveX;
 }
 
 .blob3 {
-    margin-left: 8rem;
-    width: 400px;
-    height: 358px;
+    width: 310px;
+    height: 275px;
     border-radius: 49% 51% 47% 53% / 56% 60% 40% 44%;
-    background: linear-gradient(180deg, rgba(128, 255, 255, 0.49) 0%, rgba(128, 128, 255, 0.37) 100%);
+    
+    /* background: linear-gradient(180deg, rgba(128, 255, 255, 0.63) 0%, rgba(255, 158, 216, 0.85) 100%); */
+    background: linear-gradient(180deg, rgba(119, 255, 255, 0.63) 0%, rgba(255, 72, 182, 0.85) 100%);
+
+    top: 70vh;
+    right: 0;
+    animation-name: spin, moveY;
+    animation-duration: 8s;
+    /* filter: blur(65px); */
+}
+
+.blob4 {
+    width: 420px;
+    height: 310px;
+    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+    background: linear-gradient(180deg, rgba(183, 91, 91, 0.57) 0%, rgba(128, 163, 255, 0.45) 100%);
+    top: 120vh;
+    left: 30rem;
+    rotate: 180deg;
+    animation-name: spin, moveX;
+    filter: blur(60px);
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes moveX {
+    0%, 50%, 100% {
+        translate: 2rem;
+    }
+    25%, 75% {
+        translate: -2rem;
+    }
+}
+
+@keyframes moveY {
+    0%, 50%, 100% {
+        translate: 0 2rem;
+    }
+    25%, 75% {
+        translate: 0 -2rem;
+    }
+}
+
+@keyframes spinAndMove {
+    0% {
+        transform: rotate(0deg) translateX(0);
+    }
+
+    25% {
+        transform: rotate(90deg) translateX(5rem);
+    }
+
+    75% {
+        transform: rotate(270deg) translateX(-5rem);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(0);
+    }
 }

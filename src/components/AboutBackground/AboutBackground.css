@@ -1,0 +1,13 @@
+@import '../Background/Background.css';
+
+.blob5 {
+    width: 627px;
+    height: 954px;
+    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+    background: linear-gradient(180deg, #C76996 0%, rgba(128, 209, 255, 0.6) 100%, #B667F3 100%);
+    top: 0;
+    left: 0;
+    rotate: 180deg;
+    animation-name: spin, moveX;
+    filter: blur(120px);
+}

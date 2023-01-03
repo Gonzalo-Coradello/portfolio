@@ -1,0 +1,24 @@
+.gradient {
+    /* background: rgb(255,165,225);
+    background: linear-gradient(90deg, rgba(255,165,225,1) 0%, rgba(205,252,255,1) 100%);  */
+    background: rgb(75,15,77);
+    background: linear-gradient(90deg, rgba(75,15,77,1) 0%, rgb(10, 87, 158) 100%); 
+    color: transparent;
+    background-clip: text;
+}
+
+.arrowAnimation {
+    animation-name: arrow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+@keyframes arrow {
+   0%, 50%, 100%{
+    translate: 0 4px;
+   }
+   25%, 75% {
+    translate: 0 -4px;
+   }
+}

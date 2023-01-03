@@ -1,0 +1,59 @@
+.projectsGradient {
+    background: linear-gradient(90deg, #811A84 4.67%, #165E9E 53.46%, #96E3E8 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.span {
+    position: relative;
+}
+
+.span::before {
+    content: "<";
+    position: absolute;
+    left: -6%;
+    top: 15%;
+    color: #811A84;
+}
+
+.span::after {
+    content: ">";
+    position: absolute;
+    right: -6%;
+    top: 15%;
+    color: #96E3E8;
+}
+
+.main-project:hover {
+    animation-name: projectAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.main-project:hover img {
+    animation-name: antiAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes projectAnimation {
+    0%, 50%, 100% {
+        transform: scale(1);
+    }
+
+    25%, 75% {
+        transform: scale(1.03);
+    }
+}
+
+@keyframes antiAnimation {
+    0%, 50%, 100% {
+        transform: scale(1);
+    }
+
+    25%, 75% {
+        transform: scale(0.97);
+    }
+}

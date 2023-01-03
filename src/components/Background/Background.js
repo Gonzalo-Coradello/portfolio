@@ -6,6 +6,7 @@ const Background = () => {
             <div className="blob1" />
             <div className="blob2" />
             <div className="blob3" />
+            <div className="blob4" />
         </div>
     )
 }

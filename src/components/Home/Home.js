@@ -1,13 +1,13 @@
 import Background from '../Background/Background'
 import Hero from '../Hero/Hero'
-import Projects from '../Projects/Proyects'
+import ProjectsContainer from '../ProjectsContainer/ProjectsContainer'
 
 const Home = () => {
     return (
         <>
             <Background />
             <Hero />
-            <Projects />
+            <ProjectsContainer />
         </>
     )
 }

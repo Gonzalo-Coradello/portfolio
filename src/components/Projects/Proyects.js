@@ -1,29 +1,48 @@
 import './Projects.css'
+import Project from '../Project/Project'
+import { useState } from 'react'
+import './animateGrid'
 
-const Projects = () => {
+const Projects = ({ projects }) => {
+    
+    const [ isActive, setIsActive ] = useState({project1: true, project2: false, project3: false})
+
+    const handleChange = (project) => {
+        setIsActive(prev => {
+            
+            Object.keys(prev).forEach(key => prev[key] = false)
+            
+            const newObj = {
+                ...prev,
+                [project]: true
+            }
+
+            return newObj
+        })
+    }
+
     return (
         <section className="md:h-[80vh] py-0 mt-20" id="projects">
             <h2 className='font-medium text-3xl'>My works</h2>
-            <div className='grid md:grid-cols-3 items-center content-center h-[80%] mt-4'>
+            <div className='projectsContainer grid md:grid-cols-3 items-center content-center h-[80%] mt-4 relative'>
                 <div>
-                    <div>
-                        <p className="projectsGradient text-3xl md:text-4xl font-medium text-left ml-4 mt-8 md:mt-0 w-fit md:pl-4">
-                            delivering<br />
-                            <span className='span'>beautiful & efficient</span><br />
-                            <span>experiences</span>
-                        </p>
-                    </div>
+                    <p className="projectsGradient text-3xl md:text-4xl font-medium text-left ml-4 mt-8 md:mt-0 w-fit md:pl-4">
+                        delivering<br />
+                        <span className='span'>beautiful & efficient</span><br />
+                        <span>experiences</span>
+                    </p>
                 </div>
-                <div className='grid gap-4'>
-                    <div className='main-project bg-transparent z-10 backdrop-blur-sm rounded-lg shadow-md w-full md:ml-4 mt-8 md:mt-0 px-8 py-12'>
-                        <img className='rounded-lg' src='/images/zara-for-men.jpg' alt='ZARA FOR MEN' />
-                    </div>
-                    <h2 className='text-xl font-medium'>ZARA FOR MEN</h2>
+                <div className={isActive['project1'] ? 'project project1 active' : 'project project1'} onClick={() => handleChange('project1')}>
+                    <Project {...projects[0]} mainProject={isActive['project1']} />
                 </div>
-                <div className='bg-transparent z-10 backdrop-blur-sm rounded-lg shadow-md md:w-4/5 md:justify-self-end md:mr-[-15%] mt-8 md:mt-0 px-8 py-12 md:mb-8'>
-                    <img className='rounded-lg md:blur-sm' src='/images/blackcoffee.jpg' alt='BLACKCOFFEE' />
+                <div className={isActive['project2'] ? 'project project2 active' : 'project project2'} onClick={() => handleChange('project2')}>
+                    <Project {...projects[1]} mainProject={isActive['project2']} />
+                </div>
+                <div className={isActive['project3'] ? 'project project3 active' : 'project project3'} onClick={() => handleChange('project3')}>
+                    <Project {...projects[2]} mainProject={isActive['project3']} />
                 </div>
             </div>
+                {/* { projects.map(project => <input type="radio" name="slider" id={project.id} key={`input${project.id}`} defaultChecked={project.id === projects[0].id ? true : false} />) } */}
         </section>
     )
 }

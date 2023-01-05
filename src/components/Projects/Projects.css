@@ -57,3 +57,110 @@
         transform: scale(0.97);
     }
 }
+
+/* .projectInput:nth-of-type(1):checked ~ label {
+    transform: scale(50%);
+} */
+
+/* input:checked ~ label {
+    display: none;
+} */
+
+
+/* #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+  
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3 {
+    transform: translatex(40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+} */
+
+.projectsContainer {
+    grid-template-areas: "a b c";
+}
+
+.projectsGradient {
+    position: absolute;
+    grid-column: a;
+    top: 35%;
+    left: 0;
+}
+
+.project {
+    margin-left: 1rem;
+}
+
+.active {
+    width: 100%;
+    grid-area: b;
+}
+
+.active h2 {
+    display: block;
+}
+
+.active + .project {
+    width: 80%;
+    justify-self: end;
+    /* margin-right: -15%; */
+    /* margin-bottom: 2rem; */
+    translate: 15% -0.25rem;
+    grid-area: c;
+}
+
+.active + .project + .project {
+    position: absolute;
+    top: 5rem;
+    right: -50%;
+    translate: 50%;
+    max-width: 275px;
+}
+
+.active + .project img {
+    filter: blur(4px);
+}
+
+.project:not(.active) h2 {
+    opacity: 0;
+}
+
+.project:not(.active):not(.active ~ .project) {
+    width: 100%;
+    grid-area: a;
+    translate: -50% -1.75rem;
+    scale: 1.2;
+    /* transform: scale(1.2) translateX(-45%); */
+    /* margin-bottom: 5rem; */
+}
+
+
+/* .project:not(.active):not(.active ~ .project) {
+    position: absolute;
+    top: 2.5rem;
+    left: 35%;
+    max-width: 440px;
+    transform: translateX(-145%) scale(1.2);
+} */
+
+.project {
+    /* transition: all 250ms; */
+    transition: translate 500ms, scale 500ms, width 500ms, margin 500ms;
+}
+
+.project img {
+    transition: filter 500ms;
+}
+
+.project h2 {
+    transition: opacity 500ms;
+}

@@ -24,6 +24,12 @@ const projects = [
         name: 'otro mas',
         img: '/images/blackcoffee.jpg',
         description: 'description'
+    },
+    {
+        id: 5,
+        name: 'el ultimo',
+        img: '/images/blackcoffee.jpg',
+        description: 'description'
     }
 ]
 

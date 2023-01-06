@@ -1,10 +1,10 @@
 const Project = ({ id, name, img, description, mainProject }) => {
     return (
-        <div className={mainProject ? '' : 'cursor-pointer'}>
-            <div className={'inline-block bg-transparent z-10 backdrop-blur-sm rounded-lg shadow-md mt-8 md:mt-0 px-8 py-12'}>
+        <div className={!mainProject && 'md:cursor-pointer'}>
+            <div className={'inline-block bg-transparent z-10 backdrop-blur-sm rounded-lg shadow-md px-4 py-6 mt-8 md:mt-0 md:px-8 md:py-12'}>
                 <img className='rounded-lg' src={img} alt={name} />
             </div>
-            <h2 className='text-xl font-medium uppercase'>{name}</h2>
+            <h2 className='text-xl font-medium uppercase mt-2'>{name}</h2>
 
 
             {/* <div className='md:w-4/5 md:justify-self-end md:mr-[-15%] md:mb-8'>

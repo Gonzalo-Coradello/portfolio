@@ -1,19 +1,16 @@
 import './Projects.css'
 import Project from '../Project/Project'
 import { useState, useEffect } from 'react'
-// import './animateGrid'
 import { wrapGrid } from 'animate-css-grid'
 
 const Projects = ({ projects }) => {
-    
+
+    const [ isActive, setIsActive ] = useState({project1: true, project2: false})
+
     useEffect(() => {
         const gridContainer = document.querySelector('.projectsContainer');
-        console.log(gridContainer)
-        wrapGrid(gridContainer, {duration: 350, easing: 'linear'});
+        wrapGrid(gridContainer, {duration: 500, easing: 'linear'});
     }, [])
-    
-
-    const [ isActive, setIsActive ] = useState({project1: true, project2: false, project3: false, project4: false})
 
     const handleChange = (project) => {
         setIsActive(prev => {
@@ -30,7 +27,7 @@ const Projects = ({ projects }) => {
     }
 
     return (
-        <section className="md:h-[80vh] py-0 mt-20" id="projects">
+        <section className="md:h-[80vh] mb-10 py-0 mt-20 md:mb-0" id="projects">
             <h2 className='font-medium text-3xl'>My works</h2>
             <div className='projectsContainer grid md:grid-cols-3 items-center content-center h-[80%] mt-4 relative'>
                 <div>
@@ -46,12 +43,6 @@ const Projects = ({ projects }) => {
                 <div className={isActive['project2'] ? 'project project2 active' : 'project project2'} onClick={() => handleChange('project2')}>
                     <Project {...projects[1]} mainProject={isActive['project2']} />
                 </div>
-                {/* <div className={isActive['project3'] ? 'project project3 active' : 'project project3'} onClick={() => handleChange('project3')}>
-                    <Project {...projects[2]} mainProject={isActive['project3']} />
-                </div> */}
-                {/* <div className={isActive['project4'] ? 'project project4 active' : 'project project3'} onClick={() => handleChange('project4')}>
-                    <Project {...projects[3]} mainProject={isActive['project4']} />
-                </div> */}
             </div>
                 {/* { projects.map(project => <input type="radio" name="slider" id={project.id} key={`input${project.id}`} defaultChecked={project.id === projects[0].id ? true : false} />) } */}
         </section>

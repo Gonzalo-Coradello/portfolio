@@ -13,7 +13,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="hero h-screen md:h-screen grid items-center max-w-[1200px] mx-auto mb-8">
+        <section className="hero h-screen md:h-screen grid md:items-center max-w-[1200px] mx-auto mb-8">
             <div className='md:flex md:justify-between'>
                 <div className='grid justify-center text-left items-center gap-3 md:gap-6'>
                     <h2 className='font-medium text-3xl md:text-5xl mt-auto leading-[1.5] md:leading-[1.5]'>Hello,<br />I'm <span className='gradient'>&lt;Gonzalo&gt;</span></h2>

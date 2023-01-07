@@ -11,3 +11,16 @@
     animation-name: spin, moveX;
     filter: blur(120px);
 }
+
+.blob6 {
+    width: 627px;
+    height: 600px;
+    border-radius: 49% 51% 47% 53% / 56% 60% 40% 44%;
+    background: linear-gradient(180deg, rgba(119, 255, 255, 0.63) 0%, rgba(120, 91, 183, 0.61) 100%);    
+    bottom: -5%;
+    left: 25%;
+    animation-name: spin, moveX;
+    animation-direction: reverse;
+    filter: blur(180px);
+    opacity: .7;
+}

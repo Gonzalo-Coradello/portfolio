@@ -27,7 +27,7 @@ const Projects = ({ projects }) => {
     }
 
     return (
-        <section className="md:h-[80vh] mb-10 py-0 mt-20 md:mb-0" id="projects">
+        <section className="md:h-[80vh] mb-10 py-0 md:mb-0" id="projects">
             <h2 className='font-medium text-2xl md:text-3xl md:mb-8'>My works</h2>
             <div className='projectsContainer grid lg:grid-cols-3 items-center content-center lg:h-[80%] mt-4 relative'>
                 <div>

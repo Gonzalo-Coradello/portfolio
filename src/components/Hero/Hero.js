@@ -13,7 +13,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="hero md:h-screen grid items-center max-w-[1200px] mx-auto">
+        <section className="hero h-screen md:h-screen grid items-center max-w-[1200px] mx-auto mb-8">
             <div className='md:flex md:justify-between'>
                 <div className='grid justify-center text-left items-center gap-3 md:gap-6'>
                     <h2 className='font-medium text-4xl md:text-5xl mt-auto leading-[1.5] md:leading-[1.5]'>Hello,<br />I'm <span className='gradient'>&lt;Gonzalo&gt;</span></h2>
@@ -23,9 +23,9 @@ const Hero = () => {
                     <img src={heroImg} alt=""/>
                 </div>
             </div>
-            <a href='#projects' className={`relative flex justify-center flex-col w-fit mx-auto pb-6 hover:opacity-50 transition-opacity duration-300 ${scroll ? 'fade' : null}`}>
+            <a href='#projects' className={`fixed bottom-0 left-0 right-0 flex justify-center flex-col w-fit mx-auto mb-6 md:mb-4 hover:opacity-50 transition-opacity duration-300 ${scroll ? 'fade' : null}`}>
                 <p>check out my work</p>
-                <BsChevronCompactDown size={35} className={`mx-auto fixed bottom-0 left-0 right-0 mb-2 arrowAnimation z-[500]`} />
+                <BsChevronCompactDown size={35} className={`mx-auto arrowAnimation z-[500]`} />
             </a>
         </section>
     )

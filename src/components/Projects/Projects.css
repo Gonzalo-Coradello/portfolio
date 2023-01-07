@@ -54,7 +54,7 @@
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
     .projectsContainer {
         grid-template-areas: "a b c";
     }
@@ -103,7 +103,7 @@
         top: 5rem;
         /* right: -50%; */
         /* translate: 50%; */
-        translate: 15% -0.25rem;
+        translate: 15% -2.25rem;
         max-width: 275px;
         grid-area: c;
     }
@@ -116,7 +116,7 @@
         justify-self: end;
         /* margin-right: -15%; */
         /* margin-bottom: 2rem; */
-        translate: 15% -0.25rem;
+        translate: 15% -2.25rem;
         grid-area: c;
     }
     

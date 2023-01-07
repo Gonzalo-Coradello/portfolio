@@ -13,7 +13,7 @@ const About = () => {
                 <div className='flex flex-col md:flex-row gap-12 justify-center items-center min-h-[70vh] md:h-[85vh] md:gap-24'>
                     <div className='basis-1/6 flex gap-16 md:gap-6 md:flex-col'>
                         <div className='rounded-full aspect-square overflow-hidden w-3/4 mx-auto md:w-full'>
-                            <img src={Photo} alt='' className='object-cover h-full' />
+                            <img src={Photo} alt='' className='object-cover h-full max-h-[400px]' />
                         </div>
                         <div className='flex flex-col md:flex-row justify-around md:justify-between'>
                             <a href='mailto:gonzalocoradello@gmail.com' className='hover:opacity-50 hover:scale-110 transition-all duration-200'><FaEnvelope size={30} /></a>
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
                 <div className='max-w-[800px] mx-auto mb-4'>
                     <h2 className='text-left text-3xl font-medium mb-8 md:ml-8'>My skillset</h2>
-                    <div className=' grid grid-cols-3 md:grid-cols-4 gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
+                    <div className=' grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
                         <SkillsIcon label='HTML'><IoLogoHtml5 size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='CSS'><IoLogoCss3 size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='JavaScript'><FaJsSquare size={50} className='w-8 md:w-auto'/></SkillsIcon>

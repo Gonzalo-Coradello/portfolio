@@ -1,6 +1,6 @@
 const Project = ({ id, name, img, description, mainProject }) => {
     return (
-        <div className={mainProject ? null : 'md:cursor-pointer'}>
+        <div className={mainProject ? null : 'lg:cursor-pointer'}>
             <div className={'inline-block bg-transparent z-10 backdrop-blur-sm rounded-lg shadow-md px-4 py-6 mt-8 md:mt-0 md:px-8 md:py-12'}>
                 <img className='rounded-lg' src={img} alt={name} />
             </div>

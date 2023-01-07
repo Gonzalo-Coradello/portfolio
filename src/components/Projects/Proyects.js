@@ -28,10 +28,10 @@ const Projects = ({ projects }) => {
 
     return (
         <section className="md:h-[80vh] mb-10 py-0 mt-20 md:mb-0" id="projects">
-            <h2 className='font-medium text-3xl'>My works</h2>
+            <h2 className='font-medium text-2xl md:text-3xl'>My works</h2>
             <div className='projectsContainer grid md:grid-cols-3 items-center content-center h-[80%] mt-4 relative'>
                 <div>
-                    <p className="projectsGradient text-3xl md:text-4xl font-medium text-left ml-4 mt-8 md:mt-0 w-fit md:pl-4">
+                    <p className="projectsGradient relative text-2xl md:text-4xl font-medium text-left ml-4 mt-8 pl-2 md:mt-0 w-fit md:pl-4">
                         delivering<br />
                         <span className='span'>beautiful & efficient</span><br />
                         <span>experiences</span>

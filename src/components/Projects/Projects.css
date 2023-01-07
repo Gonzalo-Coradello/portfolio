@@ -4,23 +4,19 @@
     background-clip: text;
 }
 
-.span {
-    position: relative;
-}
-
 .span::before {
     content: "<";
     position: absolute;
-    left: -6%;
-    top: 15%;
+    left: -3%;
+    top: 35%;
     color: #811A84;
 }
 
 .span::after {
     content: ">";
     position: absolute;
-    right: -6%;
-    top: 15%;
+    right: -7%;
+    top: 35%;
     color: #96E3E8;
 }
 

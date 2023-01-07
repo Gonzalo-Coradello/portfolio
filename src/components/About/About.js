@@ -28,21 +28,21 @@ const About = () => {
                 </div>
                 <div className='max-w-[800px] mx-auto mb-4'>
                     <h2 className='text-left text-3xl font-medium mb-8 md:ml-8'>My skillset</h2>
-                    <div className=' grid grid-cols-3 md:grid-cols-4 gap-10 justify-items-center py-12 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
-                        <SkillsIcon label='HTML'><IoLogoHtml5 size={50}/></SkillsIcon>
-                        <SkillsIcon label='CSS'><IoLogoCss3 size={50}/></SkillsIcon>
-                        <SkillsIcon label='JavaScript'><FaJsSquare size={50}/></SkillsIcon>
-                        <SkillsIcon label='ReactJS'><FaReact size={50}/></SkillsIcon>
-                        <SkillsIcon label='TypeScript'><SiTypescript size={50}/></SkillsIcon>
-                        <SkillsIcon label='TailwindCSS'><SiTailwindcss size={50}/></SkillsIcon>
-                        <SkillsIcon label='Sass'><FaSass size={50}/></SkillsIcon>
-                        <SkillsIcon label='Bootstrap'><SiBootstrap size={50}/></SkillsIcon>
-                        <SkillsIcon label='NodeJS'><FaNodeJs size={50}/></SkillsIcon>
-                        <SkillsIcon label='ExpressJS'><SiExpress size={50}/></SkillsIcon>
-                        <SkillsIcon label='MongoDB'><SiMongodb size={50}/></SkillsIcon>
-                        <SkillsIcon label='Firebase'><SiFirebase size={50}/></SkillsIcon>
-                        <SkillsIcon label='Git'><FaGitAlt size={50}/></SkillsIcon>
-                        <SkillsIcon label='Github'><FaGithub size={50}/></SkillsIcon>
+                    <div className=' grid grid-cols-3 md:grid-cols-4 gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
+                        <SkillsIcon label='HTML'><IoLogoHtml5 size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='CSS'><IoLogoCss3 size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='JavaScript'><FaJsSquare size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='ReactJS'><FaReact size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='TypeScript'><SiTypescript size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='TailwindCSS'><SiTailwindcss size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Sass'><FaSass size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Bootstrap'><SiBootstrap size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='NodeJS'><FaNodeJs size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='ExpressJS'><SiExpress size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='MongoDB'><SiMongodb size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Firebase'><SiFirebase size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Git'><FaGitAlt size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Github'><FaGithub size={50} className='w-8 md:w-auto'/></SkillsIcon>
                     </div>
                 </div>
             </section>

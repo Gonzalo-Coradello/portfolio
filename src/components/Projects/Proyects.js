@@ -31,7 +31,7 @@ const Projects = ({ projects }) => {
             <h2 className='font-medium text-2xl md:text-3xl md:mb-8'>My works</h2>
             <div className='projectsContainer grid lg:grid-cols-3 items-center content-center lg:h-[80%] mt-4 relative'>
                 <div>
-                    <p className="projectsGradient relative w-full text-center mx-auto text-2xl md:col-span-2 md:text-4xl font-medium text-left lg:ml-4 mt-8 pl-2 md:mt-0 w-fit md:pl-4 lg:text-left">
+                    <p className="projectsGradient relative w-fit text-center mx-auto text-2xl md:col-span-2 md:text-4xl font-medium text-left lg:ml-4 mt-8 pl-2 md:mt-0 w-fit md:pl-4 lg:text-left">
                         delivering<br />
                         <span className='span'>beautiful & efficient</span><br />
                         <span>experiences</span>

@@ -22,8 +22,8 @@ export const projects = [
         url: 'https://blackcoffee-store.netlify.app/'
     },
     {
-        id: 1,
-        name: 'zara for men',
+        id: 3,
+        name: 'Prueba',
         img: '/images/zara-for-men.jpg',
         description: {
             es: 'E-commerce inspirado en la marca de indumentaria Zara. Desarrollado con React y CSS, con base de datos en Firebase.',

@@ -54,24 +54,27 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {    
     .projectsContainer {
-        grid-template-areas: "a b c";
+        position: relative;
+        transform-style: preserve-3d;
     }
-    
-    .projectsGradient {
-        grid-column: a;
-    }
-    
+
     .project {
+        position: absolute;
+        width: 50%;
+        top: 0;
+        bottom: 0;
+        margin-top: 2.5rem;
+    }
+
+    .active {
+        transform: translate(0) scale(1);
         margin-left: 1rem;
     }
-    
-    .active {
-        width: 100% !important;
-        grid-area: b !important;
-        /* background-color: red; */
-        z-index: 100;
+
+    .project:not(.active) {
+        transform: translate(130%, -0.75rem) scale(0.6);
     }
     
     .project h2 {
@@ -79,63 +82,7 @@
     }
     
     .active h2 {
-        opacity: 1;;
-    }
-    
-    .project3 {
-        /* background-color: black; */
-        z-index: 20;
-    
-        width: 80%;
-        justify-self: end;
-        /* margin-right: -15%; */
-        /* margin-bottom: 2rem; */
-        /* translate: 15% -0.25rem; */
-        grid-area: c;
-    }
-    
-    
-    .project:not(.active) {
-        /* background-color: #811A84; */
-        position: absolute;
-        justify-self: end;
-    
-        top: 5rem;
-        /* right: -50%; */
-        /* translate: 50%; */
-        translate: 15% -2.25rem;
-        max-width: 275px;
-        grid-area: c;
-    }
-    
-    .project:not(.active):not(.project2) {
-        /* background-color: palegreen; */
-        z-index: 10;
-    
-        width: 80%;
-        justify-self: end;
-        /* margin-right: -15%; */
-        /* margin-bottom: 2rem; */
-        translate: 15% -2.25rem;
-        grid-area: c;
-    }
-    
-    .project2:not(.active) + .project:not(.active),
-    .project3:not(.active) + .project:not(.active) {
-        /* background-color: khaki; */
-        z-index: 0;
-    }
-    
-    .active + .project + .project,
-    .active + .project + .project + .project,
-    .active + .project + .project + .project + .project {
-        position: absolute;
-        top: 5rem;
-        right: -50%;
-        translate: 50%;
-        max-width: 275px;
-        /* background-color: yellow; */
-        z-index: -10;
+        opacity: 1;
     }
     
     .project:not(.active) img {
@@ -145,9 +92,9 @@
     .project:not(.active) h2 {
         opacity: 0;
     }
-    
+
     .project {
-        transition: translate 500ms, scale 500ms, width 500ms, margin 500ms;
+        transition: all 1000ms ease-out;
     }
     
     .project img {
@@ -156,5 +103,24 @@
     
     .project h2 {
         transition: opacity 750ms;
+    }
+
+    .order0 {
+        z-index: 50;
+    }
+    .order1 {
+        z-index: 40;
+    }
+    .order2 {
+        z-index: 30;
+    }
+    .order3 {
+        z-index: 20;
+    }
+    .order4 {
+        z-index: 10;
+    }
+    .order5 {
+        z-index: 0;
     }
 }

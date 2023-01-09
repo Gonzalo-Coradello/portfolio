@@ -1,37 +1,45 @@
 import Projects from "../Projects/Proyects"
 
-const projects = [
+export const projects = [
     {
         id: 1,
         name: 'zara for men',
         img: '/images/zara-for-men.jpg',
-        description: 'E-commerce inspirado en la marca de indumentaria Zara. Desarrollado con React y CSS, con base de datos en Firebase.',
+        description: {
+            es: 'E-commerce inspirado en la marca de indumentaria Zara. Desarrollado con React y CSS, con base de datos en Firebase.',
+            en: 'E-commerce inspired by the brand Zara. Developed with React and CSS, with Firebase database.',
+        },
         url: 'https://zara-for-men.vercel.app'
     },
     {
         id: 2,
         name: 'blackcoffee',
         img: '/images/blackcoffee.jpg',
-        description: 'E-commerce de una marca ficticia llamada Black Coffee, especializada en café. Desarrollado con HTML, CSS y JavaScript.',
+        description: {
+            es: 'E-commerce de una marca ficticia llamada Black Coffee, especializada en café. Desarrollado con HTML, CSS y JavaScript.',
+            en: 'E-commerce for a fictional coffee brand called Black Coffee. Developed with HTML, CSS and JavaScript.',
+        },
         url: 'https://blackcoffee-store.netlify.app/'
     },
     {
-        id: 3,
-        name: 'Otro',
+        id: 1,
+        name: 'zara for men',
         img: '/images/zara-for-men.jpg',
-        description: 'description'
+        description: {
+            es: 'E-commerce inspirado en la marca de indumentaria Zara. Desarrollado con React y CSS, con base de datos en Firebase.',
+            en: 'E-commerce inspired by the brand Zara. Developed with React and CSS, with Firebase database.',
+        },
+        url: 'https://zara-for-men.vercel.app'
     },
     {
-        id: 4,
-        name: 'otro mas',
+        id: 2,
+        name: 'blackcoffee',
         img: '/images/blackcoffee.jpg',
-        description: 'description'
-    },
-    {
-        id: 5,
-        name: 'el ultimo',
-        img: '/images/blackcoffee.jpg',
-        description: 'description'
+        description: {
+            es: 'E-commerce de una marca ficticia llamada Black Coffee, especializada en café. Desarrollado con HTML, CSS y JavaScript.',
+            en: 'E-commerce for a fictional coffee brand called Black Coffee. Developed with HTML, CSS and JavaScript.',
+        },
+        url: 'https://blackcoffee-store.netlify.app/'
     }
 ]
 

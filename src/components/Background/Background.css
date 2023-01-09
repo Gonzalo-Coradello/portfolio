@@ -58,6 +58,11 @@
 }
 
 @media screen and (max-width: 900px) {
+
+    .blob2 {
+        left: -8rem;
+    }
+
     .blob4 {
         left: 0;
     }

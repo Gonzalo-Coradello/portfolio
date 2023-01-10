@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed top-0 w-full h-16 text-black shadow-md md:w-[80%] md:mx-auto md:mt-6 bg-white/20 pseudo-backdrop-blur rounded-lg px-4 z-[1000]">
-            <div className={`w-full h-full flex justify-center items-center z-[100]`}>
+            <div className={`relative w-full h-full flex justify-center items-center z-[100]`}>
                 <div className={openMenu ? 'hamburger active md:hidden' : 'hamburger md:hidden'} onClick={() => {
                     setOpenMenu(!openMenu)
                     setOpenLang(false)}}>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <MdArrowDropDown size={22} />
                 </div>
                 <div>
-                    <ul className={`font-light text-base flex flex-col bg-white/20 backdrop-blur-sm rounded-lg shadow-md w-fit gap-2 pb-2 px-8 z-100 fixed right-0 transition-all duration-300 ${ openLang ? 'top-16 pt-4 opacity-1' : '-top-full opacity-0' }`}>
+                    <ul className={`font-light text-base flex flex-col bg-white/20 backdrop-blur-sm rounded-lg shadow-md w-fit gap-2 pb-2 px-8 pt-4 z-100 absolute right-0 transition-all duration-300 ${ openLang ? 'top-16 opacity-1' : '-top-full opacity-0' }`}>
                         <li><button className={`hover:opacity-50 transition-opacity duration-300 ${i18n.resolvedLanguage === 'es' ? 'disabled opacity-50 cursor-default' : 'cursor-pointer'}`} onClick={() => {
                             i18n.changeLanguage('es')
                             setOpenLang(false)}}>ES</button></li>

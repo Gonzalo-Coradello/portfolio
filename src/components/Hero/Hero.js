@@ -19,7 +19,7 @@ const Hero = () => {
         <section className="hero h-screen md:h-screen grid md:items-center max-w-[1200px] mx-auto">
             <div className='md:flex md:justify-between'>
                 <div className='grid justify-center text-left items-center gap-3 md:gap-6'>
-                    <h2 className='font-medium text-3xl md:text-5xl mt-auto leading-[1.5] md:leading-[1.5]'>{t('hero.part1')}<br />{t('hero.part2')} <span className='gradient'>&lt;Gonzalo&gt;</span></h2>
+                    <h2 className='font-medium text-3xl md:text-4xl lg:text-5xl mt-auto leading-[1.5] md:leading-[1.5]'>{t('hero.part1')}<br />{t('hero.part2')} <span className='gradient'>&lt;Gonzalo&gt;</span></h2>
                     <p className='font-extralight md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-8'>{t('presentation')}</p>
                     {/* <p className='font-extralight md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-8'>I'm a creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.</p> */}
                 </div>

@@ -1,6 +1,6 @@
 import './Projects.css'
 import Project from '../Project/Project'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 const Projects = ({ projects }) => {
@@ -37,13 +37,13 @@ const Projects = ({ projects }) => {
             <h2 className='font-medium text-2xl md:text-3xl md:mb-8'>{t('projects.heading')}</h2>
             <div className='grid lg:grid-cols-3 lg:grid-rows-1 items-center content-center lg:h-[80%] mt-4 relative'>
                 <div>
-                    <p className="projectsGradient relative w-fit text-center mx-auto text-2xl md:col-span-2 md:text-4xl font-medium text-left lg:ml-4 mt-8 pl-2 md:mt-0 w-fit md:pl-4 lg:text-left">
+                    <p className="projectsGradient relative w-fit text-center mx-auto text-2xl lg:col-span-2 md:text-4xl font-medium lg:ml-4 mt-8 pl-2 lg:mt-0 w-fit lg:pl-4 lg:text-left">
                         delivering<br />
                         <span className='span'>beautiful & efficient</span><br />
                         <span>experiences</span>
                     </p>
                 </div>
-                <div className='projectsContainer w-full h-full col-span-2'>
+                <div className='projectsContainer w-full h-full lg:col-span-2'>
                     <div className={`${isActive['project1'] ? `project project1 active order${order.project1}` : `project project1 order${order.project1}`}`} onClick={() => handleChange('project1')}>
                         <Project {...projects[0]} mainProject={isActive['project1']} />
                     </div>

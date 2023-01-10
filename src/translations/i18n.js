@@ -54,7 +54,7 @@ i18n
             about: {
                 heading: 'About me',
                 part1: "I'm a Full Stack Developer available for freelance projects, full-time and part-time jobs.",
-                part2: "I'm Gonzalo Coradello, a Front-End oriented web developer from Argentina. I'm 23 and I am a music professor",
+                part2: "I'm Gonzalo Coradello, a Front-End oriented web developer from Argentina. I'm 23 and I am a music professor.",
                 part3: "I've always loved technology. I discovered programming a short time ago and I fell in love with it for the amazing posibilities that it offers. I started coding in april 2022 and since then I strive to get better everyday, learning new technologies, practicing my skills and working on proyects. My goal is to be a professional developer.",
                 part4: "I'm passionate about learning, creating solutions and bringing projects to life.",
                 skills: 'My skillset'

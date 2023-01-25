@@ -7,7 +7,7 @@
 .blob7 {
     position: absolute;
     filter: blur(80px);
-    animation-duration: 12s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear, ease-in-out;
 }
@@ -19,7 +19,6 @@
     background: linear-gradient(180deg, rgba(164, 77, 232, 0.49) 0%, rgba(224, 106, 135, 0.69) 47.67%, rgba(253, 154, 154, 0.54) 100%);
     top: 5rem;
     left: 8rem;
-    animation-duration: 15s;
     rotate: 180deg;
     animation-name: spin, moveX;
     animation-direction: reverse;
@@ -67,7 +66,7 @@
     right: 0;
     rotate: 180deg;
     animation-name: spin, moveX;
-    filter: blur(60px);
+    filter: blur(80px);
 }
 
 @media screen and (max-width: 900px) {

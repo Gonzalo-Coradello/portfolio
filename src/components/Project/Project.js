@@ -15,7 +15,7 @@ const Project = ({ id, name, img, description, url, mainProject }) => {
                     <h4 className="mt-auto">{t('projects.inst')}</h4>
                 </div>
             </div>
-            <a href={url}>
+            <a href={url} target="_blank" rel="noopener noreferrer">
                 <h2 className='text-md md:text-xl font-medium uppercase mt-2 w-fit mx-auto hover:opacity-50 transition-opacity duration-300'>{name}</h2>
             </a>
         </div>

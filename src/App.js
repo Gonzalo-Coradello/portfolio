@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
           </Routes>
+          <Footer />
         </main>
       </div>
     </BrowserRouter>

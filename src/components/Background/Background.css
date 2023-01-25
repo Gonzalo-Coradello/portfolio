@@ -3,7 +3,8 @@
 .blob3,
 .blob4,
 .blob5,
-.blob6 {
+.blob6,
+.blob7 {
     position: absolute;
     filter: blur(80px);
     animation-duration: 12s;
@@ -52,6 +53,18 @@
     background: linear-gradient(180deg, rgba(183, 91, 91, 0.57) 0%, rgba(128, 163, 255, 0.45) 100%);
     top: 120vh;
     left: 30rem;
+    rotate: 180deg;
+    animation-name: spin, moveX;
+    filter: blur(60px);
+}
+
+.blob7 {
+    width: 300px;
+    height: 310px;
+    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+    background: linear-gradient(180deg, rgba(119, 255, 255, 0.63) 0%, rgba(255, 72, 182, 0.85) 100%);
+    bottom: 0;
+    right: 0;
     rotate: 180deg;
     animation-name: spin, moveX;
     filter: blur(60px);

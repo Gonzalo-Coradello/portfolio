@@ -33,9 +33,9 @@ const Projects = ({ projects }) => {
     }
 
     return (
-        <section className="md:h-[80vh] mb-10 py-0 md:mb-0" id="projects">
+        <section className="lg:h-[80vh] py-0" id="projects">
             <h2 className='font-medium text-2xl md:text-3xl md:mb-8'>{t('projects.heading')}</h2>
-            <div className='grid lg:grid-cols-3 lg:grid-rows-1 items-center content-center lg:h-[80%] mt-4 relative'>
+            <div className='grid lg:grid-cols-3 lg:grid-rows-1 items-center content-center lg:min-h-[80%] mt-4 relative'>
                 <div>
                     <p className="projectsGradient relative w-fit text-center mx-auto text-2xl lg:col-span-2 md:text-4xl font-medium lg:ml-4 mt-8 pl-2 lg:mt-0 w-fit lg:pl-4 lg:text-left">
                         delivering<br />

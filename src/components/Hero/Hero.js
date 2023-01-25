@@ -16,14 +16,14 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="hero h-screen md:h-screen grid md:items-center max-w-[1200px] mx-auto">
+        <section className="hero h-screen md:h-screen md:w-[80%] grid md:items-center max-w-[1200px] mx-auto">
             <div className='md:flex md:justify-between'>
                 <div className='grid justify-center text-left items-center gap-3 md:gap-6'>
-                    <h2 className='font-medium text-3xl md:text-4xl lg:text-5xl mt-auto leading-[1.5] md:leading-[1.5]'>{t('hero.part1')}<br />{t('hero.part2')} <span className='gradient'>&lt;Gonzalo&gt;</span></h2>
+                    <h2 className='font-medium text-3xl md:text-4xl lg:text-5xl mt-auto leading-[1.5] md:leading-[1.5] w-max'>{t('hero.part1')}<br />{t('hero.part2')} <span className='gradient'>&lt;Gonzalo&gt;</span></h2>
                     <p className='font-extralight md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-8'>{t('presentation')}</p>
                     {/* <p className='font-extralight md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-8'>I'm a creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.</p> */}
                 </div>
-                <div className='grid justify-center w-3/4 mx-auto lg:justify-end'>
+                <div className='grid justify-center w-3/4 md:justify-end md:mb-12 md:mr-[-2rem]'>
                     <img src={heroImg} alt=""/>
                 </div>
             </div>

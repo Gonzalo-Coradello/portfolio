@@ -1,0 +1,6 @@
+.footer-gradient {
+    background: rgb(107, 22, 110);
+    background: linear-gradient(90deg, rgb(107, 22, 110) 0%, rgb(12, 100, 182) 100%); 
+    color: transparent;
+    background-clip: text;
+}

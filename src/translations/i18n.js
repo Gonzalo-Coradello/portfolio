@@ -36,6 +36,15 @@ i18n
                 part3: 'Siempre amé la tecnología. Descubrí la programación hace poco tiempo y me enamoré de las posibilidades que brinda este campo. Empecé a programar en abril del 2022 y desde entonces me esfuerzo cada día por mejorar, aprendiendo nuevas tecnologías, mejorando mis habilidades y creando proyectos. Tengo claro que mi objetivo es dedicarme a la programación a nivel profesional.',
                 part4: 'Me apasiona aprender, crear soluciones y hacer realidad proyectos.',
                 skills: 'Mis skills'
+            },
+            header: {
+              home: "Inicio",
+              about: "Sobre mí",
+              contact: "Contacto"
+            },
+            footer: {
+              design: "Diseño: ",
+              illustration: "Ilustración: "
             }
         }
       },
@@ -58,6 +67,15 @@ i18n
                 part3: "I've always loved technology. I discovered programming a short time ago and I fell in love with it for the amazing posibilities that it offers. I started coding in april 2022 and since then I strive to get better everyday, learning new technologies, practicing my skills and working on proyects. My goal is to be a professional developer.",
                 part4: "I'm passionate about learning, creating solutions and bringing projects to life.",
                 skills: 'My skillset'
+            },
+            header: {
+              home: "Home",
+              about: "About",
+              contact: "Contact"
+            },
+            footer: {
+              design: "Design: ",
+              illustration: "Illustration: "
             }
         }
       }

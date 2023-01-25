@@ -11,7 +11,7 @@ const Navbar = () => {
     const [openLang, setOpenLang] = useState(false)
     // const [lang, setLang] = useState('ES')
 
-    const { i18n } = useTranslation()
+    const { i18n, t } = useTranslation()
 
     return (
         <nav className="fixed top-0 w-full h-16 text-black shadow-md md:w-[80%] md:mx-auto md:mt-6 bg-white/20 pseudo-backdrop-blur rounded-lg px-4 z-[1000]">
@@ -24,9 +24,9 @@ const Navbar = () => {
                     <span className='bar'></span>
                 </div>
                 <ul className={`font-light text-base flex flex-col bg-white/20 backdrop-blur-sm rounded-lg shadow-md pb-2 w-full z-100 fixed transition-all duration-300 md:w-fit md:flex-row gap-2 md:gap-24 md:ml-auto md:pl-14 md:backdrop-blur-none md:shadow-none md:static md:z-0 md:opacity-100 md:bg-transparent ${ openMenu ? 'top-16 pt-4 opacity-1' : '-top-full opacity-0' }`}>
-                    <li><NavLink to='/' className={({isActive}) => isActive ? 'opacity-50 cursor-default' : 'hover:opacity-50 transition-opacity duration-300'} onClick={() => setOpenMenu(false)}>Home</NavLink></li>
-                    <li><NavLink to='/about' className={({isActive}) => isActive ? 'opacity-50 cursor-default' : 'hover:opacity-50 transition-opacity duration-300'} onClick={() => setOpenMenu(false)}>About</NavLink></li>
-                    <li className='hover:opacity-50 transition-opacity duration-300'><a href="mailto:gonzalocoradello@gmail.com" onClick={() => setOpenMenu(false)}>Contact</a></li>
+                    <li><NavLink to='/' className={({isActive}) => isActive ? 'opacity-50 cursor-default' : 'hover:opacity-50 transition-opacity duration-300'} onClick={() => setOpenMenu(false)}>{t('header.home')}</NavLink></li>
+                    <li><NavLink to='/about' className={({isActive}) => isActive ? 'opacity-50 cursor-default' : 'hover:opacity-50 transition-opacity duration-300'} onClick={() => setOpenMenu(false)}>{t('header.about')}</NavLink></li>
+                    <li className='hover:opacity-50 transition-opacity duration-300'><a href="mailto:gonzalocoradello@gmail.com" onClick={() => setOpenMenu(false)}>{t('header.contact')}</a></li>
                 </ul>
                 <div className='ml-auto cursor-pointer hover:opacity-50 flex transition-opacity duration-300 z-100' onClick={() => {
                     setOpenLang(!openLang)

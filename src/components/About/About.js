@@ -38,16 +38,7 @@ const About = () => {
                             <p className='md:max-w-[60ch]'>{t('about.part3')}</p>
                             <p className='md:max-w-[60ch]'>{t('about.part4')}</p>
                         </div>
-                       
                     </div>
-                    {/* <div className='md:min-h-[85vh] mb-12'>
-                        <h2 className='text-2xl font-medium mb-4'>Sobre mí</h2>
-                        <div className='text-left font-light w-fit mx-auto grid gap-8 py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md md:py-12 md:px-8 '>
-                            <p className='md:max-w-[55ch] mx-auto'>Soy Gonzalo Coradello, desarrollador web orientado al Front-End. Tengo 23 años y vivo en Pergamino, Buenos Aires. Soy profesor de música y técnico multimedial. Los últimos años estuve trabajando como docente mientras avanzaba con la carrera.</p>
-                            <p className='md:max-w-[55ch] mx-auto'>Siempre amé la tecnología. Descubrí la programación hace poco tiempo y me enamoré de las amplias posibilidades que brinda este campo. Empecé a programar en abril del 2022 y desde entonces me esfuerzo cada día por mejorar, aprendiendo nuevas tecnologías, mejorando mis habilidades y creando proyectos. Tengo claro que mi objetivo es dedicarme a la programación a nivel profesional.</p>
-                            <p className='md:max-w-[55ch] mx-auto'>Me apasiona aprender, crear soluciones y hacer realidad proyectos.</p>
-                        </div>
-                    </div> */}
                 </div>
                 <div className='max-w-[800px] mx-auto mb-4'>
                     <h2 className='text-left text-3xl font-medium mb-8 md:ml-8'>{t('about.skills')}</h2>

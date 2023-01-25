@@ -23,7 +23,7 @@ const Hero = () => {
                     <p className='font-extralight md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-8'>{t('presentation')}</p>
                     {/* <p className='font-extralight md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-8'>I'm a creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.</p> */}
                 </div>
-                <div className='grid justify-center w-3/4 md:justify-end md:mb-12 md:mr-[-2rem]'>
+                <div className='grid justify-center w-3/4 mx-auto md:justify-end md:mb-12 md:mr-[-2rem]'>
                     <img src={heroImg} alt=""/>
                 </div>
             </div>

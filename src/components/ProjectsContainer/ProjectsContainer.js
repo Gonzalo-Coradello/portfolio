@@ -26,7 +26,7 @@ export const projects = [
         name: 'To-do app',
         img: '/images/to-do-mern.jpg',
         description: {
-            es: 'Lista de tareas creada con MongoDB, Express, React, Node.js y MUI. Cuenta con un sistema de login implementado con medidas de seguridad como hasheo de contraseñas y JSON Web Tokens. Los usuarios y sus tareas se almacenan en la base de datos.',
+            es: 'Lista de tareas creada con MongoDB, Express, React, Node.js y MUI. Cuenta con un sistema de login implementado con medidas de seguridad como hash de contraseñas y JSON Web Tokens. Los usuarios y sus tareas se almacenan en la base de datos.',
             en: 'To-do app developed with MongoDB, Express, React, Node.js and MUI. It has a login system implemented with security measures such as password hashing and JSON Web Tokens. Users and tasks are stored in the database.',
         },
         url: 'https://to-do-mern.vercel.app/'

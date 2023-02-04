@@ -50,6 +50,9 @@ const Projects = ({ projects }) => {
                     <div className={`${isActive['project2'] ? `project project2 active order${order.project2}` : `project project2 order${order.project2}`}`} onClick={() => handleChange('project2')}>
                         <Project {...projects[1]} mainProject={isActive['project2']} />
                     </div>
+                    <div className={`${isActive['project3'] ? `project project3 active order${order.project3}` : `project project3 order${order.project3}`}`} onClick={() => handleChange('project3')}>
+                        <Project {...projects[2]} mainProject={isActive['project3']} />
+                    </div>
                 </div>
             </div>
                 {/* { projects.map(project => <input type="radio" name="slider" id={project.id} key={`input${project.id}`} defaultChecked={project.id === projects[0].id ? true : false} />) } */}

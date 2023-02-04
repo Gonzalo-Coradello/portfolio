@@ -28,7 +28,7 @@ En mi portfolio pueden ver los proyectos en los que trabajé, conocer más sobre
 ##### [Portfolio](https://gonzalodev.vercel.app/)
 
 ## Credits
-Design: [Talia Laborde](https://www.linkedin.com/in/talia-laborde/)
+Design: [Talia Laborde](https://www.linkedin.com/in/talia-laborde/)  
 Illustration: [wiwadd](https://www.instagram.com/wiwadd/)
 
 ## Screeenshots

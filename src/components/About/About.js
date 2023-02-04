@@ -1,6 +1,6 @@
 import { IoLogoHtml5, IoLogoCss3 } from 'react-icons/io'
 import { FaJsSquare, FaReact, FaNodeJs, FaSass, FaGitAlt, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui } from 'react-icons/si'
 import Photo from './assets/foto-gonzalo.jpg'
 import SkillsIcon from './SkillsIcon'
 import AboutBackground from '../AboutBackground/AboutBackground'
@@ -49,6 +49,7 @@ const About = () => {
                         <SkillsIcon label='ReactJS'><FaReact size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='TypeScript'><SiTypescript size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='TailwindCSS'><SiTailwindcss size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='MUI'><SiMaterialui size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Sass'><FaSass size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Bootstrap'><SiBootstrap size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='NodeJS'><FaNodeJs size={50} className='w-8 md:w-auto'/></SkillsIcon>

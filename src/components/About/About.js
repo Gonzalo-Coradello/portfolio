@@ -37,6 +37,7 @@ const About = () => {
                             <p className='md:max-w-[60ch]'>{t('about.part2')}</p>
                             <p className='md:max-w-[60ch]'>{t('about.part3')}</p>
                             <p className='md:max-w-[60ch]'>{t('about.part4')}</p>
+                            <p className='md:max-w-[60ch]'>{t('about.part5')}</p>
                         </div>
                     </div>
                 </div>

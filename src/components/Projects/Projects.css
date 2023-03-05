@@ -20,27 +20,13 @@
     color: #96E3E8;
 }
 
-.main-project:hover {
-    animation-name: projectAnimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-.main-project:hover img {
-    animation-name: antiAnimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
 @keyframes projectAnimation {
     0%, 50%, 100% {
         transform: scale(1);
     }
 
     25%, 75% {
-        transform: scale(1.03);
+        transform: scale(1.02);
     }
 }
 
@@ -50,11 +36,26 @@
     }
 
     25%, 75% {
-        transform: scale(0.97);
+        transform: scale(0.98);
     }
 }
 
-@media screen and (min-width: 1024px) {    
+@media screen and (min-width: 1024px) {  
+    
+    .active .projectAnimation:not(:hover) {
+        animation-name: projectAnimation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    .active .projectAnimation:not(:hover) img {
+        animation-name: antiAnimation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
     .projectsContainer {
         position: relative;
         transform-style: preserve-3d;

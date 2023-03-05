@@ -32,9 +32,9 @@ i18n
             about: {
                 heading: 'Sobre mí',
                 part1: 'Soy un desarrollador Full-Stack disponible para trabajos de tiempo completo, medio tiempo y proyectos freelance.',
-                part2: 'Soy Gonzalo Coradello, desarrollador web. Tengo 23 años y vivo en Pergamino, Buenos Aires. Soy profesor de música y técnico multimedial. Los últimos años estuve trabajando como docente mientras avanzaba con la carrera de profesor.',
-                part3: 'Siempre amé la tecnología. Descubrí la programación hace poco tiempo y me enamoré de las posibilidades que brinda este campo. Empecé a programar en 2022 y desde entonces me esfuerzo por mejorar cada día.',
-                part4: 'Tengo una experiencia sólida en el Front End, habiendo trabajado en varios proyectos personales. Actualmente me encuentro desarrollando mis habilidades en el Back End y trabajando en mi proyecto más ambicioso: un ecommerce Full Stack. Mi objetivo actual es conseguir mi primer trabajo como desarrollador, además de seguir aprendiendo nuevas tecnologías y creando sitios web. ✨',
+                part2: 'Soy Gonzalo Coradello, desarrollador web. Tengo 23 años y vivo en Pergamino, Buenos Aires. Soy profesor de música y técnico multimedial.',
+                part3: 'Siempre amé la tecnología. Descubrí la programación hace poco tiempo y me enamoré de las posibilidades que existen en este campo. Empecé a programar en 2022 y desde entonces me esfuerzo cada día por mejorar mis habilidades.',
+                part4: 'Tengo una experiencia sólida tanto en el Front End como en el Back End, habiendo trabajado en varios proyectos personales. Actualmente trabajo como desarrollador freelance. Además, me encuentro trabajando en un e-commerce Full-Stack, mi proyecto personal más ambicioso hasta el momento. Mi objetivo actual es seguir creciendo en mi carrera como desarrollador, además de seguir aprendiendo nuevas tecnologías y creando sitios web. ✨',
                 part5: 'Me apasiona aprender, crear soluciones y hacer realidad proyectos. 🚀',
                 skills: 'Mis skills'
             },
@@ -66,7 +66,7 @@ i18n
                 part1: "I'm a Full Stack Developer available for freelance projects, full-time and part-time jobs.",
                 part2: "I'm Gonzalo Coradello, web developer from Argentina. I'm 23 and I am a music professor.",
                 part3: "I've always loved technology. I discovered programming a short time ago and I fell in love with it for the amazing posibilities that it offers. I started coding in 2022 and since then I strive to get better everyday.",
-                part4: "I have solid Front End experience, having worked at several personal projects. I'm currently developing my Back End skills and working on my biggest proyect: a Full Stack Ecommerce. My current goal is to get my first job as a developer, as well as keep learning new technologies and building websites. ✨",
+                part4: "I have solid Front End and Back End experience, having worked at several personal projects. I'm currently working as a freelancer. I'm also working on my biggest personal proyect: a Full Stack E-commerce. My current goal is to keep growing in my career as a software developer, as well as keep learning new technologies and building websites. ✨",
                 part5: "I'm passionate about learning, creating solutions and bringing projects to life. 🚀",
                 skills: 'My skillset'
             },

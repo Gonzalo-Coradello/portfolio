@@ -1,6 +1,6 @@
 import { IoLogoHtml5, IoLogoCss3 } from 'react-icons/io'
-import { FaJsSquare, FaReact, FaNodeJs, FaSass, FaGitAlt, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui, SiRedux } from 'react-icons/si'
+import { FaJsSquare, FaReact, FaNodeJs, FaSass, FaGitAlt, FaGithub, FaLinkedin, FaEnvelope, FaDocker } from 'react-icons/fa'
+import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui, SiRedux, SiStyledcomponents, SiMysql, SiNextdotjs } from 'react-icons/si'
 import Photo from './assets/foto-gonzalo.jpg'
 import SkillsIcon from './SkillsIcon'
 import AboutBackground from '../AboutBackground/AboutBackground'
@@ -48,18 +48,22 @@ const About = () => {
                         <SkillsIcon label='CSS'><IoLogoCss3 size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='JavaScript'><FaJsSquare size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='TypeScript'><SiTypescript size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='ReactJS'><FaReact size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='React'><FaReact size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Next.js'><SiNextdotjs size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Redux'><SiRedux size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='NodeJS'><FaNodeJs size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='ExpressJS'><SiExpress size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Node.js'><FaNodeJs size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Express'><SiExpress size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='MongoDB'><SiMongodb size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='MySQL'><SiMysql size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Firebase'><SiFirebase size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Git'><FaGitAlt size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Github'><FaGithub size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Docker'><FaDocker size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='TailwindCSS'><SiTailwindcss size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='MUI'><SiMaterialui size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Sass'><FaSass size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Bootstrap'><SiBootstrap size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='MUI'><SiMaterialui size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='styled components'><SiStyledcomponents size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Git'><FaGitAlt size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Github'><FaGithub size={50} className='w-8 md:w-auto'/></SkillsIcon>
                     </div>
                 </div>
             </section>

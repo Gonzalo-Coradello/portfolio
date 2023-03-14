@@ -16,8 +16,6 @@ const Projects = ({ projects }) => {
         if(project === 'project2') setOrder({project2: 0, project3: 1, project1: 2})
         if(project === 'project3') setOrder({project3: 0, project1: 1, project2: 2})
 
-        console.log(order)
-
         setIsActive(prev => {
             
             Object.keys(prev).forEach(key => prev[key] = false)
@@ -26,7 +24,6 @@ const Projects = ({ projects }) => {
                 ...prev,
                 [project]: true
             }
-
             
             return newObj
         })

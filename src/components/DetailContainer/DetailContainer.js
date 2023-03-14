@@ -5,7 +5,7 @@ import { projects } from "../ProjectsContainer/ProjectsContainer"
 const DetailContainer = () => {
 
     const { id } = useParams()
-    const project = projects.find(p => p.id == id)
+    const project = projects.find(p => p.id === id)
 
   return (
     <section>

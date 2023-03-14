@@ -1,7 +1,10 @@
-const ProjectDetail = ({ id, name, img, description, url }) => {
+const ProjectDetail = ({ name, screenshots, description, url }) => {
   return (
     <div>
-      <p>Detalle</p>
+        <h1>{name}</h1>
+        {screenshots.map(img => (
+            <img width={500} key={img} src={img} alt='screenshot' />
+        ))}
     </div>
   )
 }

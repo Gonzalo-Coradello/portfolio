@@ -5,16 +5,17 @@ import { useTranslation } from 'react-i18next'
 
 const Projects = ({ projects }) => {
 
-    const [ isActive, setIsActive ] = useState({project1: true, project2: false})
+    const [ isActive, setIsActive ] = useState({project1: true, project2: false, project3: false, project4: false})
     const { t } = useTranslation()
 
-    const [ order, setOrder ] = useState({project1: 0, project2: 1, project3: 2})
+    const [ order, setOrder ] = useState({project1: 0, project2: 1, project3: 2, project4: 3})
 
     const handleChange = (project) => {
 
-        if(project === 'project1') setOrder({project1: 0, project2: 1, project3: 2})
-        if(project === 'project2') setOrder({project2: 0, project3: 1, project1: 2})
-        if(project === 'project3') setOrder({project3: 0, project1: 1, project2: 2})
+        if(project === 'project1') setOrder({project1: 0, project2: 1, project3: 2, project4: 3})
+        if(project === 'project2') setOrder({project2: 0, project3: 1, project4: 2, project1: 3})
+        if(project === 'project3') setOrder({project3: 0, project4: 1, project1: 2, project2: 3})
+        if(project === 'project4') setOrder({project4: 0, project1: 1, project2: 2, project3: 3})
 
         setIsActive(prev => {
             
@@ -49,6 +50,9 @@ const Projects = ({ projects }) => {
                     </div>
                     <div className={`${isActive['project3'] ? `project project3 active order${order.project3}` : `project project3 order${order.project3}`}`} onClick={() => handleChange('project3')}>
                         <Project {...projects[2]} mainProject={isActive['project3']} />
+                    </div>
+                    <div className={`${isActive['project4'] ? `project project4 active order${order.project4}` : `project project4 order${order.project4}`}`} onClick={() => handleChange('project4')}>
+                        <Project {...projects[3]} mainProject={isActive['project4']} />
                     </div>
                 </div>
             </div>

@@ -6,6 +6,29 @@ import SkillsIcon from './SkillsIcon'
 import AboutBackground from '../AboutBackground/AboutBackground'
 import { useTranslation } from 'react-i18next'
 
+export const icons = [
+    { label: 'HTML', icon: <IoLogoHtml5 size={50} className='w-8 md:w-auto'/> },
+    { label: 'CSS', icon: <IoLogoCss3 size={50} className='w-8 md:w-auto'/> },
+    { label: 'JavaScript', icon: <FaJsSquare size={50} className='w-8 md:w-auto'/> },
+    { label: 'TypeScript', icon: <SiTypescript size={50} className='w-8 md:w-auto'/> },
+    { label: 'React', icon: <FaReact size={50} className='w-8 md:w-auto'/> },
+    { label: 'Next.js', icon: <SiNextdotjs size={50} className='w-8 md:w-auto'/> },
+    { label: 'Redux', icon: <SiRedux size={50} className='w-8 md:w-auto'/> },
+    { label: 'Node.js', icon: <FaNodeJs size={50} className='w-8 md:w-auto'/> },
+    { label: 'Express', icon: <SiExpress size={50} className='w-8 md:w-auto'/> },
+    { label: 'MongoDB', icon: <SiMongodb size={50} className='w-8 md:w-auto'/> },
+    { label: 'MySQL', icon: <SiMysql size={50} className='w-8 md:w-auto'/> },
+    { label: 'Firebase', icon: <SiFirebase size={50} className='w-8 md:w-auto'/> },
+    { label: 'Docker', icon: <FaDocker size={50} className='w-8 md:w-auto'/> },
+    { label: 'TailwindCSS', icon: <SiTailwindcss size={50} className='w-8 md:w-auto'/> },
+    { label: 'Sass', icon: <FaSass size={50} className='w-8 md:w-auto'/> },
+    { label: 'Bootstrap', icon: <SiBootstrap size={50} className='w-8 md:w-auto'/> },
+    { label: 'MUI', icon: <SiMaterialui size={50} className='w-8 md:w-auto'/> },
+    { label: 'styled components', icon: <SiStyledcomponents size={50} className='w-8 md:w-auto'/> },
+    { label: 'Git', icon: <FaGitAlt size={50} className='w-8 md:w-auto'/> },
+    { label: 'Github', icon: <FaGithub size={50} className='w-8 md:w-auto'/> },
+]
+
 const About = () => {
 
     const { t } = useTranslation()
@@ -44,7 +67,12 @@ const About = () => {
                 <div className='max-w-[800px] mx-auto mb-4'>
                     <h2 className='text-left text-3xl font-medium mb-8 md:ml-8'>{t('about.skills')}</h2>
                     <div className=' grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
-                        <SkillsIcon label='HTML'><IoLogoHtml5 size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        
+                        {
+                            icons.map(i => <SkillsIcon label={i.label} icon={i.icon} key={i.label} />)
+                        }
+                        
+                        {/* <SkillsIcon label='HTML'><IoLogoHtml5 size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='CSS'><IoLogoCss3 size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='JavaScript'><FaJsSquare size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='TypeScript'><SiTypescript size={50} className='w-8 md:w-auto'/></SkillsIcon>
@@ -63,7 +91,7 @@ const About = () => {
                         <SkillsIcon label='MUI'><SiMaterialui size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='styled components'><SiStyledcomponents size={50} className='w-8 md:w-auto'/></SkillsIcon>
                         <SkillsIcon label='Git'><FaGitAlt size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Github'><FaGithub size={50} className='w-8 md:w-auto'/></SkillsIcon>
+                        <SkillsIcon label='Github'><FaGithub size={50} className='w-8 md:w-auto'/></SkillsIcon> */}
                     </div>
                 </div>
             </section>

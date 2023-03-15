@@ -3,12 +3,17 @@ import 'swiper/css';
 import { Autoplay } from "swiper";
 import { icons } from '../About/About'
 import SkillsIcon from '../About/SkillsIcon';
+import { useTranslation } from 'react-i18next';
 
-const ProjectDetail = ({ name, screenshots, description, features, technologies, github, deploy, credits }) => {
+const ProjectDetail = ({ name, screenshots, description, status, features, technologies, github, backend, deploy, credits }) => {
+
+    const { t, i18n } = useTranslation()
+
   return (
     <div>
         <h1>{name}</h1>
-        <p>{description.es}</p>
+        <p>{description[i18n.resolvedLanguage]}</p>
+        { status && <p>{status[i18n.resolvedLanguage]}</p>}
 
         <div className='w-[32rem] mx-auto py-8'>
             <Swiper
@@ -36,7 +41,7 @@ const ProjectDetail = ({ name, screenshots, description, features, technologies,
         </div>
 
         <ul>
-            {features.map(feature => <li key={feature}>{feature}</li>)}
+            {features[i18n.resolvedLanguage].map(feature => <li key={feature}>{feature}</li>)}
         </ul>
 
         <div className=' grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
@@ -47,6 +52,24 @@ const ProjectDetail = ({ name, screenshots, description, features, technologies,
 
         </div>
         
+            
+        <div>
+            
+            { 
+                backend ? 
+                    <>
+                        <p>Backend: {backend}</p>
+                        <p>Frontend: {github}</p>
+                    </> : 
+                    <p>{github}</p>
+            }
+            <p>{deploy}</p>
+        </div>
+
+        <div>
+            <p>{credits[i18n.resolvedLanguage]}</p>
+        </div>
+
     </div>
   )
 }

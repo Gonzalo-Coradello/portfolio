@@ -3,6 +3,69 @@ import Projects from "../Projects/Proyects"
 export const projects = [
     {
         id: '1',
+        name: 'the mistery fox',
+        thumbnail: '/images/to-do-mern.jpg',
+        screenshots: [
+            '/images/screenshots/to-do-app/1.jpg',
+            '/images/screenshots/to-do-app/2.jpg'
+        ],
+        description: {
+            es: 'The mistery fox es una boutique de libros que ofrece una experiencia única. Inspirate y disfruta sus increíbles historias. E-commerce Full-Stack con autenticación.',
+            en: 'The mistery fox is a book boutique which offers an unique experience. Get inspired and enjoy their incredible stories. Full-Stack e-commerce with user authentication',
+        },
+        status: {
+            es: 'en proceso',
+            en: 'in progress'
+        },
+        features: {
+            es: [
+                'Registro de usuarios e inicio de sesión.',
+                'Autenticación y autorización con Passport y JWT.',
+                'Implementaciones de seguridad.',
+                'Products fetched from MongoDB database.',
+                'Filter by category.',
+                'Fully functional cart.',
+                'Almacenamiento en base de datos de usuarios, carritos y compras.',
+                'Funciones de administrador. El administrador puede agregar productos nuevos y modificar o eliminar productos existentes.',
+                'Arquitectura de software y patrones de diseño.',
+                'Testing con Mocha y Chai.',
+                'Deploy en la nube con Docker y Kubernetes.',
+                'Buena experiencia de usuario, diseño cuidado y atención a los detalles.',
+                'Completamente responsive. Se adapta a todas las pantallas.',
+            ],
+            en: [
+                'Login/register functionality.',
+                'Authentication and Authorization with Passport and JWT.',
+                'Security measures.',
+                'Acceso a los productos a través de base de datos de MongoDB.',
+                'Filtrado por categorías.',
+                'Funcionalidades de carrito completas.',
+                'Users, carts and orders get stored in the database.',
+                'Software arquitecture and design patterns.',
+                'Admin functionality. Admin can add new products and modify or delete existing ones.',
+                'Testing with Mocha and Chai.',
+                'Cloud deployment with Docker and Kubernetes.',
+                'Good user experience, polished design and attention to detail.',
+                'Completely responsive.'
+            ]
+        },
+        technologies: [
+            'Node.js',
+            'Express',
+            'MongoDB',
+            'React',
+            'TailwindCSS',
+            'Docker'
+        ],
+        github: '',
+        deploy: 'https://to-do-mern.vercel.app/',
+        credits: {
+            es: '',
+            en: ''
+        }
+    },
+    {
+        id: '2',
         name: 'zara for men',
         thumbnail: '/images/zara-for-men.jpg',
         screenshots: [
@@ -19,24 +82,51 @@ export const projects = [
             '/images/screenshots/zara-for-men/11.png'
         ],
         description: {
-            es: 'E-commerce inspirado en la marca de indumentaria Zara. Desarrollado con React y CSS, con base de datos en Firebase.',
-            en: 'E-commerce inspired by the brand Zara. Developed with React and CSS, with Firebase database.',
+            es: 'E-commerce inspirado en ZARA, una de las principales empresas de moda internacional.',
+            en: 'E-commerce inspired by ZARA, one of the biggest international fashion companies.',
         },
-        features: [
-            'Feature 1',
-            'Feature 2'
-        ],
+        features: {
+            es: [
+                'Acceso a los productos a través de una base de datos.',
+                'Filtrado por categorías.',
+                'Selección de color y talle.',
+                'Galería de imágenes para cada producto.',
+                'Funcionalidades de carrito completas.',
+                'Detalles de la compra.',
+                'Formulario de compra con validación.',
+                'Con cada compra se reduce el stock de los productos en la base de datos.',
+                'Almacenamiento en base de datos de las órdenes de los usuarios.',
+                'Buena experiencia de usuario, diseño cuidado y atención a los detalles.',
+                'Completamente responsive. Se adapta a todas las pantallas.'
+            ],
+            en: [
+                'Products fetched from database.',
+                'Filter by category.',
+                'Color and size selection.',
+                'Product gallery for each product.',
+                'Fully functional cart.',
+                'Form validation.',
+                'Order details.',
+                'Stock in database reduces with each order.',
+                'Users\' orders get stored in the database.',
+                'Good user experience, polished design and attention to detail.',
+                'Completely responsive.'
+            ]
+        },
         technologies: [
-            'HTML',
             'React',
-            'Node.js'
+            'CSS',
+            'Firebase'
         ],
         github: '',
         deploy: 'https://zara-for-men.vercel.app',
-        credits: ''
+        credits: {
+            es: 'Diseño: Talia Laborde',
+            en: 'Design: Talia Laborde'
+        }
     },
     {
-        id: '2',
+        id: '3',
         name: 'blackcoffee',
         thumbnail: '/images/blackcoffee.jpg',
         screenshots: [
@@ -54,24 +144,45 @@ export const projects = [
             '/images/screenshots/blackcoffee/12.png'
         ],
         description: {
-            es: 'E-commerce de una marca ficticia llamada Black Coffee, especializada en café. Desarrollado con HTML, CSS y JavaScript.',
-            en: 'E-commerce for a fictional coffee brand called Black Coffee. Developed with HTML, CSS and JavaScript.',
+            es: 'E-commerce de BLACKCOFFEE, tostadores de café de alta calidad. Su misión es que puedas disfrutar del mejor café en la comodidad de tu hogar.',
+            en: 'E-commerce for BLACKCOFFEE, high quality coffee roasters. Their mission is that you can enjoy the best coffee from the comfort of your home.',
         },
-        features: [
-            'Feature 1',
-            'Feature 2'
-        ],
+        features: {
+            es: [
+                'Fully functional cart.',
+                'Order details.',
+                'Form validation.',
+                'Cart is preserved in local storage.',
+                'Good user experience, polished design and attention to detail.',
+                'Completely responsive.',
+                'Landing page.',
+                'DOM manipulation.'
+            ],
+            en: [
+                'Funcionalidades de carrito completas.',
+                'Detalles de la compra.',
+                'Formulario de compra con validación.',
+                'El carrito se preserva en el local storage.',
+                'Buena experiencia de usuario, diseño pulido y atención a los detalles.',
+                'Diseño responsive.',
+                'Landing page.',
+                'Manipulación del DOM.'
+            ]
+        },
         technologies: [
             'HTML',
-            'React',
-            'Node.js'
+            'CSS',
+            'JavaScript'
         ],
         github: '',
         deploy: 'https://blackcoffee-store.netlify.app/',
-        credits: ''
+        credits: {
+            es: 'Diseño, branding y logo: Talia Laborde',
+            en: 'Branding, logo and design: Talia Laborde'
+        }
     },
     {
-        id: '3',
+        id: '4',
         name: 'To-do app',
         thumbnail: '/images/to-do-mern.jpg',
         screenshots: [
@@ -79,21 +190,36 @@ export const projects = [
             '/images/screenshots/to-do-app/2.jpg'
         ],
         description: {
-            es: 'Lista de tareas creada con MongoDB, Express, React, Node.js y MUI. Cuenta con un sistema de login implementado con medidas de seguridad como hash de contraseñas y JSON Web Tokens. Los usuarios y sus tareas se almacenan en la base de datos.',
-            en: 'To-do app developed with MongoDB, Express, React, Node.js and MUI. It has a login system implemented with security measures such as password hashing and JSON Web Tokens. Users and tasks are stored in the database.',
+            es: 'Aplicación de lista de tareas Full-Stack con autenticación de usuarios.',
+            en: 'Full-Stack to-do app with user authentication.',
         },
-        features: [
-            'Feature 1',
-            'Feature 2'
-        ],
+        features: {
+            es: [
+                'Sistema de registro de usuarios e inicio de sesión.',
+                'Autenticación y autorización.',
+                'Implementaciones de seguridad: hash de contraseñas y JSON Web Tokens.',
+                'Persistencia de usuarios y tareas en base de datos de MongoDB.',
+                'CRUD Full-Stack.',
+                'Stack MERN.'
+            ],
+            en: [
+                'Login/register functionality.',
+                'Authentication and Authorization.',
+                'Security measures: password hashing and JSON Web Tokens.',
+                'Users and tasks get stored in MongoDB database.',
+                'Full-Stack CRUD.',
+                'MERN stack.'
+            ]
+        },
         technologies: [
-            'HTML',
+            'MongoDB',
+            'Express',
             'React',
-            'Node.js'
+            'Node.js',
+            'MUI'
         ],
         github: '',
-        deploy: 'https://to-do-mern.vercel.app/',
-        credits: ''
+        deploy: 'https://to-do-mern.vercel.app/'
     }
 ]
 

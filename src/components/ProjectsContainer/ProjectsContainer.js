@@ -151,16 +151,6 @@ export const projects = [
         },
         features: {
             es: [
-                'Fully functional cart.',
-                'Order details.',
-                'Form validation.',
-                'Cart is preserved in local storage.',
-                'Good user experience, polished design and attention to detail.',
-                'Completely responsive.',
-                'Landing page.',
-                'DOM manipulation.'
-            ],
-            en: [
                 'Funcionalidades de carrito completas.',
                 'Detalles de la compra.',
                 'Formulario de compra con validación.',
@@ -169,6 +159,16 @@ export const projects = [
                 'Diseño responsive.',
                 'Landing page.',
                 'Manipulación del DOM.'
+            ],
+            en: [
+                'Fully functional cart.',
+                'Order details.',
+                'Form validation.',
+                'Cart is preserved in local storage.',
+                'Good user experience, polished design and attention to detail.',
+                'Completely responsive.',
+                'Landing page.',
+                'DOM manipulation.'
             ]
         },
         technologies: [

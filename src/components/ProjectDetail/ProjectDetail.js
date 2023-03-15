@@ -15,7 +15,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
     <div>
         <h1>{name}</h1>
         <p>{description[i18n.resolvedLanguage]}</p>
-        { status && <p>{status[i18n.resolvedLanguage]}</p>}
+        { status && <p>{t('details.status')}{status[i18n.resolvedLanguage]}</p>}
 
         <div className='w-[32rem] mx-auto py-8'>
             <Swiper
@@ -42,12 +42,15 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
             </Swiper>
         </div>
 
-        <ul>
-            {features[i18n.resolvedLanguage].map(feature => <li key={feature}>{feature}</li>)}
-        </ul>
+        <div>
+            <h2>{t('details.features')}</h2>
+            <ul>
+                {features[i18n.resolvedLanguage].map(feature => <li key={feature}>{feature}</li>)}
+            </ul>
+        </div>
 
         <div className=' grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
-            
+            <h2>{t('details.technologies')}</h2>
             {
                 icons.filter(i => technologies.includes(i.label)).map(i => <SkillsIcon label={i.label} icon={i.icon} key={i.label} />)
             }
@@ -84,7 +87,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
                     </a>
                 </> :
                 <>
-                <p>Deploy (proximamente)</p>
+                <p>Deploy ({t('details.deploy')})</p>
                     <BsLaptop size={50} className='opacity-50' />
                 </>  
             }

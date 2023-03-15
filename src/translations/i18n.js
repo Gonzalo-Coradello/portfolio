@@ -26,7 +26,7 @@ i18n
             },
             projects: {
                 heading: 'Mis trabajos',
-                inst: 'Click en el título para visitar la página.'
+                inst: 'Click en el título para ver más detalles.'
             },
             presentation: 'Soy un desarrollador Full-Stack de Argentina que ama crear soluciones y hacer proyectos realidad.',
             about: {
@@ -46,6 +46,12 @@ i18n
             footer: {
               design: "Diseño: ",
               illustration: "Ilustración: "
+            },
+            details: {
+              status: "Estado: ",
+              features: "Características",
+              technologies: "Creado con: ",
+              deploy: "proximamente"
             }
         }
       },
@@ -58,7 +64,7 @@ i18n
             },
             projects: {
                 heading: 'My works',
-                inst: 'Click on title to visit the site.'
+                inst: 'Click on title to see more details.'
             },
             presentation: "I'm a creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.",
             about: {
@@ -78,6 +84,12 @@ i18n
             footer: {
               design: "Design: ",
               illustration: "Illustration: "
+            },
+            details: {
+              status: "Status: ",
+              features: "Features",
+              technologies: "Created with: ",
+              deploy: "coming soon"
             }
         }
       }

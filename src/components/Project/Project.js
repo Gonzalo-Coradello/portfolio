@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useTranslation } from 'react-i18next'
 
-const Project = ({ id, name, thumbnail, description, url, mainProject }) => {
+const Project = ({ id, name, thumbnail, description, mainProject, status }) => {
 
     const [isHovered, setIsHovered] = useState(false)
     const { t, i18n } = useTranslation()
@@ -16,7 +16,7 @@ const Project = ({ id, name, thumbnail, description, url, mainProject }) => {
                 </div>
             </div>
             <a href={`/projects/${id}`} >
-                <h2 className='text-md md:text-xl font-medium uppercase mt-2 w-fit mx-auto hover:opacity-50 transition-opacity duration-300'>{name}</h2>
+                <h2 className='text-md md:text-xl font-medium uppercase mt-2 w-fit mx-auto hover:opacity-50 transition-opacity duration-300'>{name} {status && `(${status[i18n.resolvedLanguage]})`}</h2>
             </a>
         </div>
     )

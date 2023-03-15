@@ -4,10 +4,11 @@ export const projects = [
     {
         id: '1',
         name: 'the mistery fox',
-        thumbnail: '/images/to-do-mern.jpg',
+        thumbnail: '/images/the-mistery-fox.jpg',
         screenshots: [
-            '/images/screenshots/to-do-app/1.jpg',
-            '/images/screenshots/to-do-app/2.jpg'
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-2.jpg',
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-3.jpg',
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-4.jpg'
         ],
         description: {
             es: 'The mistery fox es una boutique de libros que ofrece una experiencia única. Inspirate y disfruta sus increíbles historias. E-commerce Full-Stack con autenticación.',
@@ -57,11 +58,12 @@ export const projects = [
             'TailwindCSS',
             'Docker'
         ],
-        github: '',
+        github: 'https://github.com/Gonzalo-Coradello/the-mistery-fox_ecommerce',
+        backend: 'https://github.com/Gonzalo-Coradello/backend-ecommerce',
         deploy: 'https://to-do-mern.vercel.app/',
         credits: {
-            es: '',
-            en: ''
+            es: 'Diseño, branding y logo: Talia Laborde',
+            en: 'Branding, logo and design: Talia Laborde'
         }
     },
     {
@@ -118,7 +120,7 @@ export const projects = [
             'CSS',
             'Firebase'
         ],
-        github: '',
+        github: 'https://github.com/Gonzalo-Coradello/zara-for-men_ecommerce',
         deploy: 'https://zara-for-men.vercel.app',
         credits: {
             es: 'Diseño: Talia Laborde',
@@ -174,7 +176,7 @@ export const projects = [
             'CSS',
             'JavaScript'
         ],
-        github: '',
+        github: 'https://github.com/Gonzalo-Coradello/blackcoffee-ecommerce',
         deploy: 'https://blackcoffee-store.netlify.app/',
         credits: {
             es: 'Diseño, branding y logo: Talia Laborde',
@@ -218,7 +220,7 @@ export const projects = [
             'Node.js',
             'MUI'
         ],
-        github: '',
+        github: 'https://github.com/Gonzalo-Coradello/to-do_mern',
         deploy: 'https://to-do-mern.vercel.app/'
     }
 ]

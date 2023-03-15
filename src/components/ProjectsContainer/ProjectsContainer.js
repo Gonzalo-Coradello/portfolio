@@ -60,7 +60,7 @@ export const projects = [
         ],
         github: 'https://github.com/Gonzalo-Coradello/the-mistery-fox_ecommerce',
         backend: 'https://github.com/Gonzalo-Coradello/backend-ecommerce',
-        deploy: 'https://to-do-mern.vercel.app/',
+        deploy: '',
         credits: {
             es: 'Diseño, branding y logo: Talia Laborde',
             en: 'Branding, logo and design: Talia Laborde'

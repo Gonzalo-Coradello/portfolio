@@ -4,6 +4,8 @@ import { Autoplay } from "swiper";
 import { icons } from '../About/About'
 import SkillsIcon from '../About/SkillsIcon';
 import { useTranslation } from 'react-i18next';
+import { BsLaptop } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
 
 const ProjectDetail = ({ name, screenshots, description, status, features, technologies, github, backend, deploy, credits }) => {
 
@@ -55,15 +57,37 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
             
         <div>
             
-            { 
-                backend ? 
-                    <>
-                        <p>Backend: {backend}</p>
-                        <p>Frontend: {github}</p>
-                    </> : 
-                    <p>{github}</p>
+            { backend ? 
+                <>
+                    <p>Backend</p>
+                    <a href={backend} target='_blank' rel='noopener noreferrer'>
+                        <FaGithub size={50}/>
+                    </a>
+                    <p>Frontend</p>
+                    <a href={github} target='_blank' rel='noopener noreferrer'>
+                        <FaGithub size={50}/>
+                    </a>
+                </> : 
+                <>
+                    <p>Github</p>
+                    <a href={github} target='_blank' rel='noopener noreferrer'>
+                        <FaGithub size={50}/>
+                    </a>
+                </>
             }
-            <p>{deploy}</p>
+            { deploy ? 
+            
+                <>
+                    <p>Deploy</p>
+                    <a href={deploy} target='_blank' rel='noopener noreferrer'>
+                        <BsLaptop size={50}/>
+                    </a>
+                </> :
+                <>
+                <p>Deploy (proximamente)</p>
+                    <BsLaptop size={50} className='opacity-50' />
+                </>  
+            }
         </div>
 
         <div>

@@ -12,92 +12,101 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
     const { t, i18n } = useTranslation()
 
   return (
-    <div>
-        <h1>{name}</h1>
-        <p>{description[i18n.resolvedLanguage]}</p>
-        { status && <p>{t('details.status')}{status[i18n.resolvedLanguage]}</p>}
-
-        <div className='w-[32rem] mx-auto py-8'>
-            <Swiper
-                modules={[Autoplay]}
-                spaceBetween={0}
-                slidesPerView={1}
-                centeredSlides={true}
-                loop={true}
-                loopedSlides={1}
-                autoplay={{
-                    delay: 2000,
-                    reverseDirection: false,
-                    disableOnInteraction: false
-                }}
-                speed={600}
-            >
-                {screenshots.map(img => (
-                    <SwiperSlide key={img}>
-                        <div>
-                            <img className='object-scale-down h-72 w-full' src={img} alt='screenshot' />
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+    <section className='font-light space-y-2 pt-[8rem]'>
+        <div className='space-y-2 mb-4'>
+            <h1 className='text-2xl font-medium'>{name}</h1>
+            <p className='max-w-[50ch] mx-auto'>{description[i18n.resolvedLanguage]}</p>
+            { status && <p><span className='font-medium'>{t('details.status')}</span>{status[i18n.resolvedLanguage]}</p>}
         </div>
 
-        <div>
-            <h2>{t('details.features')}</h2>
-            <ul>
-                {features[i18n.resolvedLanguage].map(feature => <li key={feature}>{feature}</li>)}
+        <div className='w-full max-w-[680px] mx-auto py-4'>
+            {/* <h2 className='text-xl font-medium sm:mb-4'>Screenshots</h2> */}
+            <div className='py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md sm:py-12 sm:px-8'>
+                <Swiper
+                    modules={[Autoplay]}
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    centeredSlides={true}
+                    loop={true}
+                    loopedSlides={1}
+                    autoplay={{
+                        delay: 2000,
+                        reverseDirection: false,
+                        disableOnInteraction: false
+                    }}
+                    speed={600}
+                >
+                    {screenshots.map(img => (
+                        <SwiperSlide key={img}>
+                            <div>
+                                <img className='object-cover h-44 sm:h-72 w-full rounded-lg' src={img} alt='screenshot' />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+        </div>
+
+        <div className='grid justify-center pb-4'>
+            <h2 className='text-xl font-medium my-4'>{t('details.features')}</h2>
+            <ul className='text-left list-disc ml-4'>
+                {features[i18n.resolvedLanguage].map(feature => <li className='max-w-[50ch]' key={feature}>{feature}</li>)}
             </ul>
         </div>
 
-        <div className=' grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
-            <h2>{t('details.technologies')}</h2>
-            {
-                icons.filter(i => technologies.includes(i.label)).map(i => <SkillsIcon label={i.label} icon={i.icon} key={i.label} />)
-            }
-
+        <div className='max-w-[800px] mx-auto'>
+            <h2 className='text-xl font-medium my-4'>{t('details.technologies')}</h2>
+            <div className={`grid grid-cols-3 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md`}>
+                {
+                    icons.filter(i => technologies.includes(i.label)).map(i => <SkillsIcon label={i.label} icon={i.icon} key={i.label} />)
+                }
+            </div>
         </div>
         
-            
-        <div>
-            
+        <div className='text-xl font-medium flex flex-col justify-center items-center gap-4 py-8 sm:flex-row sm:gap-16 md:gap-24'>        
             { backend ? 
                 <>
-                    <p>Backend</p>
-                    <a href={backend} target='_blank' rel='noopener noreferrer'>
-                        <FaGithub size={50}/>
-                    </a>
-                    <p>Frontend</p>
-                    <a href={github} target='_blank' rel='noopener noreferrer'>
-                        <FaGithub size={50}/>
-                    </a>
+                    <div className='grid gap-4'>
+                        <p>Backend</p>
+                        <a href={backend} target='_blank' rel='noopener noreferrer'>
+                            <FaGithub className='mx-auto' size={40}/>
+                        </a>
+                    </div>
+                    <div className='grid gap-4'>
+                        <p>Frontend</p>
+                        <a href={github} target='_blank' rel='noopener noreferrer'>
+                            <FaGithub className='mx-auto' size={40}/>
+                        </a>
+                    </div>
                 </> : 
                 <>
-                    <p>Github</p>
-                    <a href={github} target='_blank' rel='noopener noreferrer'>
-                        <FaGithub size={50}/>
-                    </a>
+                    <div className='grid gap-4'>
+                        <p>Github</p>
+                        <a href={github} target='_blank' rel='noopener noreferrer'>
+                            <FaGithub className='mx-auto' size={40}/>
+                        </a>
+                    </div>
                 </>
             }
             { deploy ? 
-            
                 <>
-                    <p>Deploy</p>
-                    <a href={deploy} target='_blank' rel='noopener noreferrer'>
-                        <BsLaptop size={50}/>
-                    </a>
+                    <div className='grid gap-4'>
+                        <p>Deploy</p>
+                        <a href={deploy} target='_blank' rel='noopener noreferrer'>
+                            <BsLaptop className='mx-auto' size={40}/>
+                        </a>
+                    </div>
                 </> :
-                <>
-                <p>Deploy ({t('details.deploy')})</p>
-                    <BsLaptop size={50} className='opacity-50' />
-                </>  
+                <div className='grid gap-4'>
+                    <p>Deploy</p>
+                    <div after={`${t('details.deploy')}`} className='relative text-sm font-light text-left after:absolute after:left-full after:top-1 after:leading-none hover:after:content-[attr(after)] focus:after:content-[attr(after)]'>
+                        <BsLaptop className='mx-auto opacity-50' size={40} />
+                    </div>
+                </div>  
             }
         </div>
-
-        <div>
-            <p>{credits[i18n.resolvedLanguage]}</p>
-        </div>
-
-    </div>
+        { credits && <div><p className='font-normal'>{credits[i18n.resolvedLanguage]}</p></div> }
+    </section>
   )
 }
 

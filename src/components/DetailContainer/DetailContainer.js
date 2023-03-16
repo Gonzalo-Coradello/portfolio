@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import AboutBackground from "../AboutBackground/AboutBackground"
 import ProjectDetail from "../ProjectDetail/ProjectDetail"
 import { projects } from "../ProjectsContainer/ProjectsContainer"
 
@@ -8,9 +9,10 @@ const DetailContainer = () => {
     const project = projects.find(p => p.id === id)
 
   return (
-    <section>
+    <>
+      <AboutBackground />
       <ProjectDetail { ...project } />
-    </section>
+    </>
   )
 }
 

@@ -23,9 +23,9 @@ export const projects = [
                 'Registro de usuarios e inicio de sesión.',
                 'Autenticación y autorización con Passport y JWT.',
                 'Implementaciones de seguridad.',
-                'Products fetched from MongoDB database.',
-                'Filter by category.',
-                'Fully functional cart.',
+                'Acceso a los productos a través de base de datos de MongoDB.',
+                'Filtrado por categorías.',
+                'Funcionalidades de carrito completas.',
                 'Almacenamiento en base de datos de usuarios, carritos y compras.',
                 'Funciones de administrador. El administrador puede agregar productos nuevos y modificar o eliminar productos existentes.',
                 'Arquitectura de software y patrones de diseño.',
@@ -38,9 +38,9 @@ export const projects = [
                 'Login/register functionality.',
                 'Authentication and Authorization with Passport and JWT.',
                 'Security measures.',
-                'Acceso a los productos a través de base de datos de MongoDB.',
-                'Filtrado por categorías.',
-                'Funcionalidades de carrito completas.',
+                'Products fetched from MongoDB database.',
+                'Filter by category.',
+                'Fully functional cart.',
                 'Users, carts and orders get stored in the database.',
                 'Software arquitecture and design patterns.',
                 'Admin functionality. Admin can add new products and modify or delete existing ones.',
@@ -68,7 +68,7 @@ export const projects = [
     },
     {
         id: '2',
-        name: 'zara for men',
+        name: 'ZARA for men',
         thumbnail: '/images/zara-for-men.jpg',
         screenshots: [
             '/images/screenshots/zara-for-men/1.jpg',
@@ -76,12 +76,7 @@ export const projects = [
             '/images/screenshots/zara-for-men/3.jpg',
             '/images/screenshots/zara-for-men/4.jpg',
             '/images/screenshots/zara-for-men/5.jpg',
-            '/images/screenshots/zara-for-men/6.jpg',
-            '/images/screenshots/zara-for-men/7.png',
-            '/images/screenshots/zara-for-men/8.png',
-            '/images/screenshots/zara-for-men/9.png',
-            '/images/screenshots/zara-for-men/10.png',
-            '/images/screenshots/zara-for-men/11.png'
+            '/images/screenshots/zara-for-men/6.jpg'
         ],
         description: {
             es: 'E-commerce inspirado en ZARA, una de las principales empresas de moda internacional.',
@@ -129,7 +124,7 @@ export const projects = [
     },
     {
         id: '3',
-        name: 'blackcoffee',
+        name: 'BLACKCOFFEE',
         thumbnail: '/images/blackcoffee.jpg',
         screenshots: [
             '/images/screenshots/blackcoffee/1.jpg',
@@ -140,10 +135,7 @@ export const projects = [
             '/images/screenshots/blackcoffee/6.jpg',
             '/images/screenshots/blackcoffee/7.jpg',
             '/images/screenshots/blackcoffee/8.jpg',
-            '/images/screenshots/blackcoffee/9.jpg',
-            '/images/screenshots/blackcoffee/10.png',
-            '/images/screenshots/blackcoffee/11.png',
-            '/images/screenshots/blackcoffee/12.png'
+            '/images/screenshots/blackcoffee/9.jpg'
         ],
         description: {
             es: 'E-commerce de BLACKCOFFEE, tostadores de café de alta calidad. Su misión es que puedas disfrutar del mejor café en la comodidad de tu hogar.',

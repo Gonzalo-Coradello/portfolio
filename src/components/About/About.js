@@ -51,7 +51,6 @@ const About = () => {
                         </div>
                         <div>
                             <p className='text-left md:max-w-[30ch] font-light'>{t('about.part1')}</p>
-                            {/* <p className='md:max-w-[30ch] font-light'>I'm a Full Stack Developer available for freelance projects, full-time and part-time jobs.</p> */}
                         </div>
                     </div>
                     <div className='text-left font-light w-fit mx-auto mb-12'>
@@ -66,32 +65,8 @@ const About = () => {
                 </div>
                 <div className='max-w-[800px] mx-auto mb-4'>
                     <h2 className='text-left text-3xl font-medium mb-8 md:ml-8'>{t('about.skills')}</h2>
-                    <div className=' grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>
-                        
-                        {
-                            icons.map(i => <SkillsIcon label={i.label} icon={i.icon} key={i.label} />)
-                        }
-                        
-                        {/* <SkillsIcon label='HTML'><IoLogoHtml5 size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='CSS'><IoLogoCss3 size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='JavaScript'><FaJsSquare size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='TypeScript'><SiTypescript size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='React'><FaReact size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Next.js'><SiNextdotjs size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Redux'><SiRedux size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Node.js'><FaNodeJs size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Express'><SiExpress size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='MongoDB'><SiMongodb size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='MySQL'><SiMysql size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Firebase'><SiFirebase size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Docker'><FaDocker size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='TailwindCSS'><SiTailwindcss size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Sass'><FaSass size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Bootstrap'><SiBootstrap size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='MUI'><SiMaterialui size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='styled components'><SiStyledcomponents size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Git'><FaGitAlt size={50} className='w-8 md:w-auto'/></SkillsIcon>
-                        <SkillsIcon label='Github'><FaGithub size={50} className='w-8 md:w-auto'/></SkillsIcon> */}
+                    <div className='grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md'> 
+                        { icons.map(i => <SkillsIcon label={i.label} icon={i.icon} key={i.label} />) }
                     </div>
                 </div>
             </section>

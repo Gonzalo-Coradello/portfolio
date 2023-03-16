@@ -31,6 +31,8 @@ i18n
             presentation: 'Soy un desarrollador Full-Stack de Argentina que ama crear soluciones y hacer proyectos realidad.',
             about: {
                 heading: 'Sobre mí',
+                cv: "Mi CV",
+                url: "https://drive.google.com/file/d/16RO3ZON61N6x7oP4-IrdRb5A_UhpTXab/view",
                 part1: 'Soy un desarrollador Full-Stack disponible para trabajos de tiempo completo, medio tiempo y proyectos freelance.',
                 part2: 'Soy Gonzalo Coradello, desarrollador web. Tengo 23 años y vivo en Pergamino, Buenos Aires. Soy profesor de música y técnico multimedial.',
                 part3: 'Siempre amé la tecnología. Descubrí la programación hace poco tiempo y me enamoré de las posibilidades que existen en este campo. Empecé a programar en 2022 y desde entonces me esfuerzo cada día por mejorar mis habilidades.',
@@ -69,6 +71,8 @@ i18n
             presentation: "I'm a creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.",
             about: {
                 heading: 'About me',
+                cv: "My resume",
+                url: "https://drive.google.com/file/d/1GF_ge5u_5ElkNSlzShx6LrW0ycyuxe5C/view",
                 part1: "I'm a Full Stack Developer available for freelance projects, full-time and part-time jobs.",
                 part2: "I'm Gonzalo Coradello, web developer from Argentina. I'm 23 and I am a music professor.",
                 part3: "I've always loved technology. I discovered programming a short time ago and I fell in love with it for the amazing posibilities that it offers. I started coding in 2022 and since then I strive to get better everyday.",

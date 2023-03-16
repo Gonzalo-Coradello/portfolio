@@ -99,7 +99,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
                 </> :
                 <div className='grid gap-4'>
                     <p>Deploy</p>
-                    <div after={`${t('details.deploy')}`} className='relative text-sm font-light text-left after:absolute after:left-full after:top-1 after:leading-none hover:after:content-[attr(after)] focus:after:content-[attr(after)]'>
+                    <div after={`${t('details.deploy')}`} className='relative text-sm font-light text-left after:absolute after:left-full after:top-1/4 after:leading-none hover:after:content-[attr(after)] focus:after:content-[attr(after)]'>
                         <BsLaptop className='mx-auto opacity-50' size={40} />
                     </div>
                 </div>  

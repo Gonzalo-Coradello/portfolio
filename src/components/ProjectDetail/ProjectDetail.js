@@ -24,7 +24,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
             <div className='py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md sm:py-12 sm:px-8'>
                 <Swiper
                     modules={[Autoplay]}
-                    spaceBetween={0}
+                    spaceBetween={30}
                     slidesPerView={1}
                     centeredSlides={true}
                     loop={true}

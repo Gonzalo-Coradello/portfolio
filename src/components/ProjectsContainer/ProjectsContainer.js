@@ -6,9 +6,13 @@ export const projects = [
         name: 'the mistery fox',
         thumbnail: '/images/the-mistery-fox.jpg',
         screenshots: [
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-1.jpg',
             '/images/screenshots/the-mistery-fox/the-mistery-fox-2.jpg',
             '/images/screenshots/the-mistery-fox/the-mistery-fox-3.jpg',
-            '/images/screenshots/the-mistery-fox/the-mistery-fox-4.jpg'
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-4.jpg',
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-5.jpg',
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-6.jpg',
+            '/images/screenshots/the-mistery-fox/the-mistery-fox-7.jpg'
         ],
         description: {
             es: 'The mistery fox es una boutique de libros que ofrece una experiencia única. Inspirate y disfruta sus increíbles historias. E-commerce Full-Stack con autenticación.',

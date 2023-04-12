@@ -68,13 +68,13 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
                 <>
                     <div className='grid gap-4'>
                         <p>Backend</p>
-                        <a href={backend} target='_blank' rel='noopener noreferrer'>
+                        <a href={backend} className="hover:opacity-50 hover:scale-110 transition-all duration-200" target='_blank' rel='noopener noreferrer'>
                             <FaGithub className='mx-auto' size={40}/>
                         </a>
                     </div>
                     <div className='grid gap-4'>
                         <p>Frontend</p>
-                        <a href={github} target='_blank' rel='noopener noreferrer'>
+                        <a href={github} className="hover:opacity-50 hover:scale-110 transition-all duration-200" target='_blank' rel='noopener noreferrer'>
                             <FaGithub className='mx-auto' size={40}/>
                         </a>
                     </div>
@@ -82,7 +82,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
                 <>
                     <div className='grid gap-4'>
                         <p>Github</p>
-                        <a href={github} target='_blank' rel='noopener noreferrer'>
+                        <a href={github} className="hover:opacity-50 hover:scale-110 transition-all duration-200" target='_blank' rel='noopener noreferrer'>
                             <FaGithub className='mx-auto' size={40}/>
                         </a>
                     </div>
@@ -92,7 +92,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
                 <>
                     <div className='grid gap-4'>
                         <p>Deploy</p>
-                        <a href={deploy} target='_blank' rel='noopener noreferrer'>
+                        <a href={deploy} className="hover:opacity-50 hover:scale-110 transition-all duration-200" target='_blank' rel='noopener noreferrer'>
                             <BsLaptop className='mx-auto' size={40}/>
                         </a>
                     </div>
@@ -105,7 +105,7 @@ const ProjectDetail = ({ name, screenshots, description, status, features, techn
                 </div>  
             }
         </div>
-        { credits && <div><p className='font-normal'>{credits[i18n.resolvedLanguage]}</p></div> }
+        { credits && <div><p className='font-normal max-w-[45ch] mx-auto'>{credits[i18n.resolvedLanguage]}</p></div> }
     </section>
   )
 }

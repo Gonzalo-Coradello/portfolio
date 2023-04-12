@@ -12,10 +12,11 @@ const Projects = ({ projects }) => {
 
     const handleChange = (project) => {
 
-        if(project === 'project1') setOrder({project1: 0, project2: 1, project3: 2, project4: 3})
-        if(project === 'project2') setOrder({project2: 0, project3: 1, project4: 2, project1: 3})
-        if(project === 'project3') setOrder({project3: 0, project4: 1, project1: 2, project2: 3})
-        if(project === 'project4') setOrder({project4: 0, project1: 1, project2: 2, project3: 3})
+        if(project === 'project1') setOrder({project1: 0, project2: 1, project3: 2, project4: 3, project5: 4})
+        if(project === 'project2') setOrder({project2: 0, project3: 1, project4: 2, project5: 3, project1: 4})
+        if(project === 'project3') setOrder({project3: 0, project4: 1, project5: 2, project1: 3, project2: 4})
+        if(project === 'project4') setOrder({project4: 0, project5: 1, project1: 2, project2: 3, project3: 4})
+        if(project === 'project5') setOrder({project5: 0, project1: 1, project2: 2, project3: 3, project4: 4})
 
         setIsActive(prev => {
             
@@ -35,7 +36,7 @@ const Projects = ({ projects }) => {
             <h2 className='font-medium text-2xl md:text-3xl md:mb-8'>{t('projects.heading')}</h2>
             <div className='grid lg:grid-cols-3 lg:grid-rows-1 items-center content-center lg:min-h-[80%] mt-4 relative'>
                 <div>
-                    <p className="projectsGradient relative w-fit text-center mx-auto text-2xl lg:col-span-2 md:text-4xl font-medium lg:ml-4 mt-8 pl-2 lg:mt-0 w-fit lg:pl-4 lg:text-left">
+                    <p className="projectsGradient relative w-fit text-center mx-auto text-2xl lg:col-span-2 md:text-4xl font-medium lg:ml-4 mt-8 pl-2 lg:mt-0 lg:pl-4 lg:text-left">
                         delivering<br />
                         <span className='span'>beautiful & efficient</span><br />
                         <span>experiences</span>
@@ -53,6 +54,9 @@ const Projects = ({ projects }) => {
                     </div>
                     <div className={`${isActive['project4'] ? `project project4 active order${order.project4}` : `project project4 order${order.project4}`}`} onClick={() => handleChange('project4')}>
                         <Project {...projects[3]} mainProject={isActive['project4']} />
+                    </div>
+                    <div className={`${isActive['project5'] ? `project project5 active order${order.project5}` : `project project5 order${order.project5}`}`} onClick={() => handleChange('project5')}>
+                        <Project {...projects[4]} mainProject={isActive['project5']} />
                     </div>
                 </div>
             </div>

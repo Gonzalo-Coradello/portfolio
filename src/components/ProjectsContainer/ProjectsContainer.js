@@ -72,6 +72,61 @@ export const projects = [
     },
     {
         id: '2',
+        name: 'Pokéteams',
+        thumbnail: '/images/poketeams.png',
+        screenshots: [
+            '/images/screenshots/poketeams/poketeams1.png',
+            '/images/screenshots/poketeams/poketeams2.png',
+            '/images/screenshots/poketeams/poketeams3.png',
+            '/images/screenshots/poketeams/poketeams4.png',
+            '/images/screenshots/poketeams/poketeams5.png',
+            '/images/screenshots/poketeams/poketeams6.png',
+            '/images/screenshots/poketeams/poketeams7.png',
+            '/images/screenshots/poketeams/poketeams8.png',
+            '/images/screenshots/poketeams/poketeams9.png'
+        ],
+        description: {
+            es: 'Creá tu equipo Pokémon y compartilo con el mundo. Proyecto Full-Stack desarrollado con Next.js 13.',
+            en: 'Create your Pokémon Team and show it to the world. Full-Stack project developed with Next.js 13.',
+        },
+        features: {
+            es: [
+                'Pokédex con más de 1.000 Pokémon disponibles.',
+                'Pokémon obtenidos de la PokeAPI.',
+                'Paginación, búsqueda por nombre y filtrado por tipo.',
+                'Detalles del Pokémon con botón para agregar a tu equipo.',
+                'Página Teams en la que se muestran los equipos creados por la comunidad.',
+                'Función de crear tu propio equipo Pokémon.',
+                'Los equipos se guardan en una base de datos PostgreSQL.',
+                'Generación de sitios estáticos (SSG) y renderizado del lado del servidor (SSR).'
+            ],
+            en: [
+                'Pokédex with over 1.000 available Pokémon.',
+                'Pokémon fetched from PokeAPI.',
+                'Pagination, search by name and filter by type.',
+                "Pokémon details with 'Add to my team' button.",
+                'Teams page which lists all the teams created by the comunity.',
+                'Create team functionality.',
+                'Teams get stored and fetched from a PostgreSQL database.',
+                'Static Site Generation (SSG) and Server Side Rendering (SSR).'
+            ]
+        },
+        technologies: [
+            'Next.js',
+            'TypeScript',
+            'Prisma',
+            'PostgreSQL',
+            'TailwindCSS'
+        ],
+        github: 'https://github.com/Gonzalo-Coradello/poketeams',
+        deploy: 'https://poketeams-nextjs.vercel.app/',
+        credits: {
+            es: 'Pokémon es una marca registrada. Todos los derechos pertenecen a Nintendo y The Pokémon Company.',
+            en: 'All rights belong to Nintendo and The Pokémon Company.'
+        }
+    },
+    {
+        id: '3',
         name: 'ZARA for men',
         thumbnail: '/images/zara-for-men.jpg',
         screenshots: [
@@ -127,7 +182,7 @@ export const projects = [
         }
     },
     {
-        id: '3',
+        id: '4',
         name: 'BLACKCOFFEE',
         thumbnail: '/images/blackcoffee.jpg',
         screenshots: [
@@ -180,7 +235,7 @@ export const projects = [
         }
     },
     {
-        id: '4',
+        id: '5',
         name: 'To-do app',
         thumbnail: '/images/to-do-mern.jpg',
         screenshots: [

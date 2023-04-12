@@ -1,6 +1,6 @@
 import { IoLogoHtml5, IoLogoCss3 } from 'react-icons/io'
 import { FaJsSquare, FaReact, FaNodeJs, FaSass, FaGitAlt, FaGithub, FaLinkedin, FaEnvelope, FaDocker } from 'react-icons/fa'
-import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui, SiRedux, SiStyledcomponents, SiMysql, SiNextdotjs } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui, SiRedux, SiStyledcomponents, SiMysql, SiNextdotjs, SiPrisma, SiPostgresql, SiSqlite } from 'react-icons/si'
 import Photo from './assets/foto-gonzalo.jpg'
 import SkillsIcon from './SkillsIcon'
 import AboutBackground from '../AboutBackground/AboutBackground'
@@ -18,6 +18,9 @@ export const icons = [
     { label: 'Express', icon: <SiExpress size={50} className='w-8 md:w-auto'/> },
     { label: 'MongoDB', icon: <SiMongodb size={50} className='w-8 md:w-auto'/> },
     { label: 'MySQL', icon: <SiMysql size={50} className='w-8 md:w-auto'/> },
+    { label: 'PostgreSQL', icon: <SiPostgresql size={50} className='w-8 md:w-auto'/> },
+    { label: 'SQLite', icon: <SiSqlite size={50} className='w-8 md:w-auto'/> },
+    { label: 'Prisma', icon: <SiPrisma size={50} className='w-8 md:w-auto'/> },
     { label: 'Firebase', icon: <SiFirebase size={50} className='w-8 md:w-auto'/> },
     { label: 'Docker', icon: <FaDocker size={50} className='w-8 md:w-auto'/> },
     { label: 'TailwindCSS', icon: <SiTailwindcss size={50} className='w-8 md:w-auto'/> },
@@ -55,7 +58,7 @@ const About = () => {
                             <a
                                 href={t('about.url')}
                                 target='_blank' rel='noopener noreferrer'
-                                className='py-2 px-6 w-full mx-auto bg-white/10 backdrop-blur-sm rounded-lg shadow-md'>{t('about.cv')}
+                                className='py-2 px-6 w-full mx-auto bg-white/10 backdrop-blur-sm rounded-lg shadow-md hover:opacity-50 transition-all duration-200'>{t('about.cv')}
                             </a>
                         </div>
                     </div >

@@ -34,7 +34,7 @@ export const projects = [
                 'Funciones de administrador. El administrador puede agregar productos nuevos y modificar o eliminar productos existentes.',
                 'Arquitectura de software y patrones de diseño.',
                 'Testing con Mocha y Chai.',
-                'Deploy en la nube con Docker y Kubernetes.',
+                'Deploy en la nube con Docker.',
                 'Buena experiencia de usuario, diseño cuidado y atención a los detalles.',
                 'Completamente responsive. Se adapta a todas las pantallas.',
             ],
@@ -49,7 +49,7 @@ export const projects = [
                 'Software arquitecture and design patterns.',
                 'Admin functionality. Admin can add new products and modify or delete existing ones.',
                 'Testing with Mocha and Chai.',
-                'Cloud deployment with Docker and Kubernetes.',
+                'Cloud deployment with Docker.',
                 'Good user experience, polished design and attention to detail.',
                 'Completely responsive.'
             ]

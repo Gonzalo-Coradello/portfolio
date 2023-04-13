@@ -1,6 +1,6 @@
 import { IoLogoHtml5, IoLogoCss3 } from 'react-icons/io'
 import { FaJsSquare, FaReact, FaNodeJs, FaSass, FaGitAlt, FaGithub, FaLinkedin, FaEnvelope, FaDocker } from 'react-icons/fa'
-import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui, SiRedux, SiStyledcomponents, SiMysql, SiNextdotjs, SiPrisma, SiPostgresql, SiSqlite } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiTailwindcss, SiBootstrap, SiFirebase, SiTypescript, SiMaterialui, SiRedux, SiStyledcomponents, SiMysql, SiNextdotjs, SiPrisma, SiPostgresql, SiSqlite, SiMicrosoftsqlserver } from 'react-icons/si'
 import Photo from './assets/foto-gonzalo.jpg'
 import SkillsIcon from './SkillsIcon'
 import AboutBackground from '../AboutBackground/AboutBackground'
@@ -11,17 +11,18 @@ export const icons = [
     { label: 'CSS', icon: <IoLogoCss3 size={50} className='w-8 md:w-auto'/> },
     { label: 'JavaScript', icon: <FaJsSquare size={50} className='w-8 md:w-auto'/> },
     { label: 'TypeScript', icon: <SiTypescript size={50} className='w-8 md:w-auto'/> },
+    { label: 'MongoDB', icon: <SiMongodb size={50} className='w-8 md:w-auto'/> },
+    { label: 'Express', icon: <SiExpress size={50} className='w-8 md:w-auto'/> },
     { label: 'React', icon: <FaReact size={50} className='w-8 md:w-auto'/> },
+    { label: 'Node.js', icon: <FaNodeJs size={50} className='w-8 md:w-auto'/> },
     { label: 'Next.js', icon: <SiNextdotjs size={50} className='w-8 md:w-auto'/> },
     { label: 'Redux', icon: <SiRedux size={50} className='w-8 md:w-auto'/> },
-    { label: 'Node.js', icon: <FaNodeJs size={50} className='w-8 md:w-auto'/> },
-    { label: 'Express', icon: <SiExpress size={50} className='w-8 md:w-auto'/> },
-    { label: 'MongoDB', icon: <SiMongodb size={50} className='w-8 md:w-auto'/> },
+    { label: 'Firebase', icon: <SiFirebase size={50} className='w-8 md:w-auto'/> },
+    { label: 'Prisma', icon: <SiPrisma size={50} className='w-8 md:w-auto'/> },
     { label: 'MySQL', icon: <SiMysql size={50} className='w-8 md:w-auto'/> },
     { label: 'PostgreSQL', icon: <SiPostgresql size={50} className='w-8 md:w-auto'/> },
+    { label: 'SQL Server', icon: <SiMicrosoftsqlserver size={50} className='w-8 md:w-auto'/> },
     { label: 'SQLite', icon: <SiSqlite size={50} className='w-8 md:w-auto'/> },
-    { label: 'Prisma', icon: <SiPrisma size={50} className='w-8 md:w-auto'/> },
-    { label: 'Firebase', icon: <SiFirebase size={50} className='w-8 md:w-auto'/> },
     { label: 'Docker', icon: <FaDocker size={50} className='w-8 md:w-auto'/> },
     { label: 'TailwindCSS', icon: <SiTailwindcss size={50} className='w-8 md:w-auto'/> },
     { label: 'Sass', icon: <FaSass size={50} className='w-8 md:w-auto'/> },

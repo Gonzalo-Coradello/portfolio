@@ -34,10 +34,10 @@ i18n
                 cv: "Mi CV",
                 url: "https://drive.google.com/file/d/16RO3ZON61N6x7oP4-IrdRb5A_UhpTXab/view",
                 part1: 'Soy un desarrollador Full-Stack disponible para trabajos de tiempo completo, medio tiempo y proyectos freelance.',
-                part2: 'Soy Gonzalo Coradello, desarrollador web. Tengo 23 años y vivo en Pergamino, Buenos Aires. Soy profesor de música y técnico multimedial.',
-                part3: 'Siempre amé la tecnología. Descubrí la programación hace poco tiempo y me enamoré de las posibilidades que existen en este campo. Empecé a programar en 2022 y desde entonces me esfuerzo cada día por mejorar mis habilidades.',
-                part4: 'Tengo una experiencia sólida tanto en el Front End como en el Back End, habiendo trabajado en varios proyectos personales. Actualmente trabajo como desarrollador freelance. Además, me encuentro trabajando en un e-commerce Full-Stack, mi proyecto personal más ambicioso hasta el momento. Mi objetivo actual es seguir creciendo en mi carrera como desarrollador, además de seguir aprendiendo nuevas tecnologías y creando sitios web. ✨',
-                part5: 'Me apasiona aprender, crear soluciones y hacer realidad proyectos. 🚀',
+                part2: 'Soy Gonzalo Coradello, desarrollador web con más de un año de experiencia. Veo la programación como un proceso de aprendizaje contínuo y me esfuerzo por mejorar mis habilidades e incorporar conocimientos nuevos todos los días. Me apasiona aprender y crear proyectos.',
+                part3: 'Tengo 23 años y actualmente vivo en Pergamino, Buenos Aires. Soy técnico multimedial y profesor de música, con más de tres años de experiencia en la docencia. El año pasado ingresé en el mundo de la programación y desde entonces mi objetivo es dedicarme a tiempo completo al desarrollo de software.',
+                part4: 'Tengo experiencia creando todo tipo de proyectos, desde sitios estáticos o API simples hasta proyectos complejos como e-commerce. Cuento con conocimientos sólidos tanto en el Front End como en el Back End y actualmente me encuentro desarrollando un e-commerce Full Stack con autenticación y autorización. Estoy terminando la carrera de Desarrollo Full Stack de Coderhouse, de más de un año de duración.',
+                part5: 'Actualmente estoy buscando mi primera oportunidad laboral para dedicarme a tiempo completo al desarrollo de software. 🚀',
                 skills: 'Mis skills'
             },
             header: {
@@ -74,10 +74,10 @@ i18n
                 cv: "My resume",
                 url: "https://drive.google.com/file/d/1GF_ge5u_5ElkNSlzShx6LrW0ycyuxe5C/view",
                 part1: "I'm a Full Stack Developer available for freelance projects, full-time and part-time jobs.",
-                part2: "I'm Gonzalo Coradello, web developer from Argentina. I'm 23 and I am a music professor.",
-                part3: "I've always loved technology. I discovered programming a short time ago and I fell in love with it for the amazing posibilities that it offers. I started coding in 2022 and since then I strive to get better everyday.",
-                part4: "I have solid Front End and Back End experience, having worked at several personal projects. I'm currently working as a freelancer. I'm also working on my biggest personal proyect: a Full Stack E-commerce. My current goal is to keep growing in my career as a software developer, as well as keep learning new technologies and building websites. ✨",
-                part5: "I'm passionate about learning, creating solutions and bringing projects to life. 🚀",
+                part2: "I'm Gonzalo Coradello, web developer with more than a year of experience. I see programming as a continuous learning process and I strive to improve my skills and learn new things everyday. I am passionate about learning and building projects.",
+                part3: "I am 23 years old and I currently live in Pergamino, Buenos Aires. I am a music teacher with more than three years of teaching experience. Last year I entered the world of programming and since then my goal is to become a full-time software developer.",
+                part4: "I have experience building all kinds of projects, from static sites or simple APIs to big, complex projects such as e-commerces. I have solid knowledge in both the Front End and the Back End and I'm currently developing a Full Stack e-commerce with authentication and authorization. I am finishing Coderhouse's Full Stack Development course, which is over a year long.",
+                part5: "I am currently looking for my first job opportunity to dedicate myself full time to software development. 🚀",
                 skills: 'My skillset'
             },
             header: {

@@ -4,7 +4,7 @@ export const projects = [
   {
     id: '1',
     name: 'the mistery fox',
-    thumbnail: '/images/the-mistery-fox.jpg',
+    thumbnail: '/images/the-mistery-fox.png',
     screenshots: [
       '/images/screenshots/the-mistery-fox/the-mistery-fox-1.png',
       '/images/screenshots/the-mistery-fox/the-mistery-fox-2.png',

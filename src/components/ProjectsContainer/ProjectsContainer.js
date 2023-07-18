@@ -21,8 +21,8 @@ export const projects = [
       '/images/screenshots/the-mistery-fox/the-mistery-fox-13.png',
     ],
     description: {
-      es: 'The mistery fox es una boutique de libros que ofrece una experiencia única. Inspirate y disfruta sus increíbles historias. E-commerce Full-Stack con autenticación.',
-      en: 'The mistery fox is a book boutique which offers an unique experience. Get inspired and enjoy their incredible stories. Full-Stack e-commerce with user authentication',
+      es: 'The mistery fox es una boutique de libros que ofrece una experiencia única. E-commerce Full-Stack con autenticación.',
+      en: 'The mistery fox is a book boutique which offers an unique experience. Full-Stack e-commerce with user authentication',
     },
     features: {
       es: [
@@ -193,8 +193,8 @@ export const projects = [
       '/images/screenshots/bloglist/7.jpg',
     ],
     description: {
-      es: 'Aplicación Full Stack en la que los usuarios pueden registrarse, iniciar sesión y compartir blogs sobre programación, además de ver, comentar o poner like a otros artículos. Éste fue mi proyecto final para el curso principal de Full Stack Open.',
-      en: "Full Stack web application in which users can register, log in and share blog posts about programming, as well as view, like and comment other articles. This was my final project for Full Stack Open's core course.",
+      es: 'Aplicación Full Stack con autenticación para compartir artículos sobre programación. Proyecto final para el curso principal de Full Stack Open.',
+      en: "Full Stack app in which users can register, log in and share blog posts about programming. Final project for Full Stack Open's core course.",
     },
     features: {
       es: [

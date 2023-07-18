@@ -193,7 +193,7 @@ export const projects = [
       '/images/screenshots/bloglist/7.jpg',
     ],
     description: {
-      es: 'Aplicación Full Stack con autenticación para compartir artículos sobre programación. Proyecto final para el curso principal de Full Stack Open.',
+      es: 'Aplicación Full Stack con autenticación para compartir artículos sobre programación. Proyecto final de Full Stack Open.',
       en: "Full Stack app in which users can register, log in and share blog posts about programming. Final project for Full Stack Open's core course.",
     },
     features: {

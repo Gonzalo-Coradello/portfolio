@@ -1,127 +1,137 @@
 .projectsGradient {
-    background: linear-gradient(90deg, #811A84 4.67%, #165E9E 53.46%, #96E3E8 100%);
-    color: transparent;
-    background-clip: text;
+  background: linear-gradient(
+    90deg,
+    #811a84 4.67%,
+    #165e9e 53.46%,
+    #96e3e8 100%
+  );
+  color: transparent;
+  background-clip: text;
 }
 
 .span::before {
-    content: "<";
-    position: absolute;
-    left: -3%;
-    top: 35%;
-    color: #811A84;
+  content: '<';
+  position: absolute;
+  left: -3%;
+  top: 35%;
+  color: #811a84;
 }
 
 .span::after {
-    content: ">";
-    position: absolute;
-    right: -7%;
-    top: 35%;
-    color: #96E3E8;
+  content: '>';
+  position: absolute;
+  right: -7%;
+  top: 35%;
+  color: #96e3e8;
 }
 
 @keyframes projectAnimation {
-    0%, 50%, 100% {
-        transform: scale(1);
-    }
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
 
-    25%, 75% {
-        transform: scale(1.02);
-    }
+  25%,
+  75% {
+    transform: scale(1.02);
+  }
 }
 
 @keyframes antiAnimation {
-    0%, 50%, 100% {
-        transform: scale(1);
-    }
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
 
-    25%, 75% {
-        transform: scale(0.98);
-    }
+  25%,
+  75% {
+    transform: scale(0.98);
+  }
 }
 
-@media screen and (min-width: 1024px) {  
-    
-    .active .projectAnimation:not(:hover) {
-        animation-name: projectAnimation;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-    }
-    
-    .active .projectAnimation:not(:hover) img {
-        animation-name: antiAnimation;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-    }
+@media screen and (min-width: 1024px) {
+  .active .projectAnimation:not(:hover) {
+    animation-name: projectAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
 
-    .projectsContainer {
-        position: relative;
-        transform-style: preserve-3d;
-    }
+  .active .projectAnimation:not(:hover) img {
+    animation-name: antiAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
 
-    .project {
-        position: absolute;
-        width: 50%;
-        top: 0;
-        bottom: 0;
-        margin-top: 2.5rem;
-    }
+  .projectsContainer {
+    position: relative;
+    transform-style: preserve-3d;
+  }
 
-    .active {
-        transform: translate(0) scale(1);
-        margin-left: 1rem;
-    }
+  .project {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    margin-top: 2.5rem;
+  }
 
-    .project:not(.active) {
-        transform: translate(130%, -0.75rem) scale(0.6);
-    }
-    
-    .project h2 {
-        opacity: 0;
-    }
-    
-    .active h2 {
-        opacity: 1;
-    }
-    
-    .project:not(.active) img {
-        filter: blur(4px);
-    }
-    
-    .project:not(.active) h2 {
-        opacity: 0;
-    }
+  .active {
+    transform: translate(0) scale(1);
+    margin-left: 1rem;
+  }
 
-    .project {
-        transition: all 1000ms ease-out;
-    }
-    
-    .project img {
-        transition: filter 500ms;
-    }
-    
-    .project h2 {
-        transition: opacity 750ms;
-    }
+  .project:not(.active) {
+    transform: translate(130%, -0.75rem) scale(0.6);
+  }
 
-    .order0 {
-        z-index: 50;
-    }
-    .order1 {
-        z-index: 40;
-    }
-    .order2 {
-        z-index: 30;
-    }
-    .order3 {
-        z-index: 20;
-    }
-    .order4 {
-        z-index: 10;
-    }
-    .order5 {
-        z-index: 0;
-    }
+  .project h2 {
+    opacity: 0;
+  }
+
+  .active h2 {
+    opacity: 1;
+  }
+
+  .project:not(.active) img {
+    filter: blur(4px);
+  }
+
+  .project:not(.active) h2 {
+    opacity: 0;
+  }
+
+  .project {
+    transition: all 1000ms ease-out;
+  }
+
+  .project img {
+    transition: filter 500ms;
+  }
+
+  .project h2 {
+    transition: opacity 750ms;
+  }
+
+  .order0 {
+    z-index: 50;
+  }
+  .order1 {
+    z-index: 40;
+  }
+  .order2 {
+    z-index: 30;
+  }
+  .order3 {
+    z-index: 20;
+  }
+  .order4 {
+    z-index: 10;
+  }
+  .order5 {
+    z-index: 0;
+  }
 }

@@ -62,6 +62,7 @@ export const projects = [
       'Chai',
     ],
     github: 'https://github.com/Gonzalo-Coradello/the-mistery-fox_ecommerce',
+    important: true,
     backend: 'https://github.com/Gonzalo-Coradello/backend-ecommerce',
     deploy: 'https://themisteryfox.vercel.app',
     credits: {
@@ -118,6 +119,7 @@ export const projects = [
       'TailwindCSS',
     ],
     github: 'https://github.com/Gonzalo-Coradello/poketeams',
+    important: true,
     deploy: 'https://poketeams-nextjs.vercel.app/',
     credits: {
       es: 'Pokémon es una marca registrada. Todos los derechos pertenecen a Nintendo y The Pokémon Company.',
@@ -170,6 +172,7 @@ export const projects = [
     },
     technologies: ['React', 'CSS', 'Firebase'],
     github: 'https://github.com/Gonzalo-Coradello/zara-for-men_ecommerce',
+    important: true,
     deploy: 'https://zara-for-men.vercel.app',
     credits: {
       es: 'Diseño: Talia Laborde',
@@ -178,6 +181,81 @@ export const projects = [
   },
   {
     id: '4',
+    name: 'Bloglist',
+    thumbnail: '/images/bloglist.jpg',
+    screenshots: [
+      '/images/screenshots/bloglist/1.jpg',
+      '/images/screenshots/bloglist/2.jpg',
+      '/images/screenshots/bloglist/3.jpg',
+      '/images/screenshots/bloglist/4.jpg',
+      '/images/screenshots/bloglist/5.jpg',
+      '/images/screenshots/bloglist/6.jpg',
+      '/images/screenshots/bloglist/7.jpg',
+    ],
+    description: {
+      es: 'Aplicación Full Stack en la que los usuarios pueden registrarse, iniciar sesión y compartir blogs sobre programación, además de ver, comentar o poner like a otros artículos. Éste fue mi proyecto final para el curso principal de Full Stack Open.',
+      en: "Full Stack web application in which users can register, log in and share blog posts about programming, as well as view, like and comment other articles. This was my final project for Full Stack Open's core course.",
+    },
+    features: {
+      es: [
+        'Autenticación de usuarios.',
+        'Stack MERN.',
+        'CRUD. Los posts pueden ser vistos, creados, eliminados y editados.',
+        'Tests unitarios, de integración y End to End (E2E).',
+        'Test Driven Development (TDD).',
+      ],
+      en: [
+        'User authentication.',
+        'MERN stack.',
+        'CRUD functionality. Posts can be created, liked, commented and deleted.',
+        'Unit, integration and End to End (E2E) testing.',
+        'Test Driven Development (TDD).',
+      ],
+    },
+    technologies: [
+      'MongoDB',
+      'Express',
+      'React',
+      'Node.js',
+      'Redux',
+      'Material UI',
+      'Jest',
+      'Testing Library',
+      'Cypress',
+    ],
+    github: 'https://github.com/Gonzalo-Coradello/bloglist-mern',
+    important: true,
+    deploy: 'https://bloglist-fullstack-ag00.onrender.com/',
+  },
+  {
+    id: '5',
+    name: 'Homes',
+    thumbnail: '/images/homes.jpg',
+    screenshots: [
+      '/images/screenshots/homes/1.jpg',
+      '/images/screenshots/homes/2.jpg',
+      '/images/screenshots/homes/3.jpg',
+      '/images/screenshots/homes/4.jpg',
+    ],
+    description: {
+      es: 'Homes es una SPA de Angular que muestra casas en renta y permite acceder a los detalles de cada casa.',
+      en: 'Homes is an Angular SPA that lists houses for rent and shows the details of individual houses.',
+    },
+    features: {
+      es: [
+        'Éste es mi primer proyecto de Angular y fue creado siguiendo el tutorial de la documentación. Incluye conceptos básicos de Angular como componentes, inputs, property binding, directivas, servicios, routing, formularios reactivos y comunicación HTTP.',
+      ],
+      en: [
+        'This is my first Angular project. It was created following the tutorial on Angular docs. It features basic Angular concepts like components, inputs, property binding, directives, services, routing, reactive forms and HTTP communication.',
+      ],
+    },
+    technologies: ['Angular', 'TypeScript', 'CSS', 'HTML'],
+    github: 'https://github.com/Gonzalo-Coradello/angular-homes',
+    important: true,
+  },
+
+  {
+    id: '6',
     name: 'BLACKCOFFEE',
     thumbnail: '/images/blackcoffee.jpg',
     screenshots: [
@@ -219,6 +297,7 @@ export const projects = [
     },
     technologies: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Gonzalo-Coradello/blackcoffee-ecommerce',
+    important: true,
     deploy: 'https://blackcoffee-store.netlify.app/',
     credits: {
       es: 'Diseño, branding y logo: Talia Laborde',
@@ -226,7 +305,7 @@ export const projects = [
     },
   },
   {
-    id: '5',
+    id: '7',
     name: 'To-do app',
     thumbnail: '/images/to-do-mern.jpg',
     screenshots: [

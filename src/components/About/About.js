@@ -218,16 +218,19 @@ const About = () => {
             </div>
           </div>
 
-          <div className='text-left font-light w-fit mx-auto mb-12'>
-            <h2 className='text-2xl font-medium mb-4'>{t('about.heading')}</h2>
+          <div className='text-left font-light max-w-[800px] mx-auto mb-12'>
+            <h2 className='text-3xl font-medium md:ml-8 mb-4'>
+              {t('about.heading')}
+            </h2>
             <div className='grid gap-4 py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md md:py-12 md:px-8 leading-relaxed'>
-              <p className='md:max-w-[60ch]'>{t('about.part2')}</p>
-              <p className='md:max-w-[60ch]'>{t('about.part3')}</p>
-              <p className='md:max-w-[60ch]'>{t('about.part4')}</p>
-              <p className='md:max-w-[60ch]'>{t('about.part5')}</p>
+              <p>{t('about.part2')}</p>
+              <p>{t('about.part3')}</p>
+              <p>{t('about.part4')}</p>
+              <p>{t('about.part5')}</p>
             </div>
           </div>
         </div>
+
         <div className='max-w-[800px] mx-auto mb-4'>
           <h2 className='text-left text-3xl font-medium mb-8 md:ml-8'>
             {t('about.skills')}

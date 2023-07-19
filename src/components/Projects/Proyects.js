@@ -137,7 +137,7 @@ const Projects = ({ projects }) => {
             ))}
         </div>
       </div>
-      <div className='mt-2 lg:ml-8'>
+      <div className='mt-4 lg:ml-8'>
         <Link
           className='font-light text-xl lowercase underline underline-offset-4 hover:opacity-50 transition-all duration-300'
           to='/projects'

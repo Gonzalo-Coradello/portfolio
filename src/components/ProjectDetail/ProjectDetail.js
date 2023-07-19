@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import { Autoplay } from 'swiper'
-import { icons } from '../About/About'
+import { icons } from '../../data/icons'
 import SkillsIcon from '../About/SkillsIcon'
 import { useTranslation } from 'react-i18next'
 import { BsLaptop } from 'react-icons/bs'

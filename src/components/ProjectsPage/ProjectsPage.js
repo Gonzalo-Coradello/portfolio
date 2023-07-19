@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutBackground from '../AboutBackground/AboutBackground'
-import { projects } from '../ProjectsContainer/ProjectsContainer'
+import { projects } from '../../data/projects'
 import Project from '../Project/Project'
 import { useTranslation } from 'react-i18next'
 

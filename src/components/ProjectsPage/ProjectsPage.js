@@ -9,13 +9,13 @@ const ProjectsPage = () => {
   return (
     <>
       <AboutBackground />
-      <section className='max-w-[1200px] mx-auto px-10 my-8'>
-        <h2 className='text-3xl font-medium md:ml-8 mb-8'>
+      <section className='max-w-[1200px] mx-auto px-10'>
+        <h2 className='text-3xl mt-8 font-medium md:ml-8 mb-8'>
           {t('projects.heading')}
         </h2>
         <div className='flex flex-wrap gap-2 md:gap-4 lg:gap-8 justify-center items-center'>
           {projects.map(project => (
-            <div className='max-w-[350px]'>
+            <div key={project.id} className='max-w-[350px]'>
               <Project {...project} mainProject={true} />
             </div>
           ))}

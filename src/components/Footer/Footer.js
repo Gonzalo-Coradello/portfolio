@@ -7,9 +7,9 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <footer className='md:pb-4'>
-      <div className='md:w-[80%] mx-auto grid items-center lg:grid-cols-3 gap-8 py-10 px-8 bg-white/20 backdrop-blur-sm rounded-lg shadow-xl mt-12'>
-        <div className='w-fit mx-auto lg:order-2'>
+    <footer className='lg:pb-4'>
+      <div className='lg:w-[80%] mx-auto grid items-center xl:grid-cols-3 gap-8 py-10 px-8 bg-white/20 backdrop-blur-sm rounded-lg shadow-xl mt-12'>
+        <div className='w-fit mx-auto xl:order-2'>
           <h2 className='text-xl font-light'>Gonzalo Coradello</h2>
           <div className='flex justify-around mt-4'>
             <a
@@ -32,15 +32,15 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className='w-fit mx-auto text-md font-light col-1 lg:order-1'>
+        <div className='w-fit mx-auto text-md font-light col-1 xl:order-1'>
           <ul className='flex gap-4 justify-center'>
             <li>
               <NavLink
                 to='/'
                 className={({ isActive }) =>
                   isActive
-                    ? 'opacity-50 cursor-default'
-                    : 'hover:opacity-50 transition-opacity duration-300'
+                    ? 'opacity-50 cursor-default whitespace-nowrap'
+                    : 'hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
                 }
               >
                 {t('header.home')}
@@ -51,8 +51,8 @@ const Footer = () => {
                 to='/projects'
                 className={({ isActive }) =>
                   isActive
-                    ? 'opacity-50 cursor-default'
-                    : 'hover:opacity-50 transition-opacity duration-300'
+                    ? 'opacity-50 cursor-default whitespace-nowrap'
+                    : 'hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
                 }
               >
                 {t('header.projects')}
@@ -63,21 +63,21 @@ const Footer = () => {
                 to='/about'
                 className={({ isActive }) =>
                   isActive
-                    ? 'opacity-50 cursor-default'
-                    : 'hover:opacity-50 transition-opacity duration-300'
+                    ? 'opacity-50 cursor-default whitespace-nowrap'
+                    : 'hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
                 }
               >
                 {t('header.about')}
               </NavLink>
             </li>
-            <li className='hover:opacity-50 transition-opacity duration-300'>
+            <li className='hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'>
               <a href='mailto:gonzalocoradello@gmail.com'>
                 {t('header.contact')}
               </a>
             </li>
           </ul>
         </div>
-        <div className='w-fit mx-auto text-md lg:order-3'>
+        <div className='w-fit mx-auto text-md xl:order-3'>
           <h4>
             {t('footer.design')}
             <a

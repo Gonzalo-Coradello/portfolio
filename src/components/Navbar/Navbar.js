@@ -13,13 +13,13 @@ const Navbar = () => {
   const { i18n, t } = useTranslation()
 
   return (
-    <nav className='fixed top-0 w-full h-16 text-black shadow-md md:w-[80%] md:mx-auto md:mt-6 bg-white/20 pseudo-backdrop-blur rounded-lg px-4 z-[1000]'>
+    <nav className='fixed top-0 w-full h-16 text-black shadow-md lg:w-[80%] lg:mx-auto lg:mt-6 bg-white/20 pseudo-backdrop-blur rounded-lg px-4 z-[1000]'>
       <div
         className={`relative w-full h-full flex justify-center items-center z-[100]`}
       >
         <div
           className={
-            openMenu ? 'hamburger active md:hidden' : 'hamburger md:hidden'
+            openMenu ? 'hamburger active lg:hidden' : 'hamburger lg:hidden'
           }
           onClick={() => {
             setOpenMenu(!openMenu)
@@ -31,7 +31,7 @@ const Navbar = () => {
           <span className='bar'></span>
         </div>
         <ul
-          className={`font-light text-base flex flex-col bg-white/20 backdrop-blur-sm rounded-lg shadow-md pb-2 w-full z-100 fixed transition-all duration-300 md:w-fit md:flex-row gap-2 md:gap-24 md:ml-auto md:pl-14 md:backdrop-blur-none md:shadow-none md:static md:z-0 md:opacity-100 md:bg-transparent ${
+          className={`font-light text-base flex flex-col bg-white/20 backdrop-blur-sm rounded-lg shadow-md pb-2 w-full z-100 fixed transition-all duration-300 lg:w-fit lg:flex-row gap-2 lg:gap-24 lg:ml-auto lg:pl-14 lg:backdrop-blur-none lg:shadow-none lg:static lg:z-0 lg:opacity-100 lg:bg-transparent ${
             openMenu ? 'top-16 pt-4 opacity-1' : '-top-full opacity-0'
           }`}
         >

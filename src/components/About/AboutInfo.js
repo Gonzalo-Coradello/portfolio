@@ -4,7 +4,7 @@ const AboutInfo = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='text-left font-light max-w-[800px] mx-auto mb-12'>
+    <div className='w-[80%] text-left font-light max-w-[800px] mx-auto mb-12'>
       <h2 className='text-3xl font-medium md:ml-8 mb-4'>
         {t('about.heading')}
       </h2>

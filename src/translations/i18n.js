@@ -45,6 +45,15 @@ i18n
               'Tengo experiencia creando todo tipo de proyectos, desde sitios estáticos o API simples hasta proyectos complejos como e-commerce. Cuento con conocimientos sólidos tanto en el Front End como en el Back End. Recientemente terminé la Carrera de Desarrollo Full Stack de Coderhouse, de más de un año de duración.',
             part5:
               'Actualmente estoy buscando una oportunidad laboral para crecer en mi carrera como desarrollador. 🚀',
+            experience: {
+              experience: 'Experiencia',
+              education: 'Educación',
+              present: 'actualidad',
+              inProgress: 'en curso',
+              showMore: 'ver más',
+              showLess: 'ver menos',
+              at: 'en',
+            },
             skills: 'Mis skills',
           },
           header: {
@@ -93,6 +102,15 @@ i18n
               'I have experience building all kinds of projects, from static sites or simple APIs to big, complex projects such as e-commerces. I have solid knowledge in both the Front End and the Back End.',
             part5:
               'I am currently looking for a job opportunity to keep growing in my career as a software developer. 🚀',
+            experience: {
+              experience: 'Experience',
+              education: 'Education',
+              present: 'present',
+              inProgress: 'in progress',
+              showMore: 'show more',
+              showLess: 'show less',
+              at: 'at',
+            },
             skills: 'My skillset',
           },
           header: {

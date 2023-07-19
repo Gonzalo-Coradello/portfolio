@@ -96,6 +96,7 @@ const Experience = () => {
                             ` (${t('about.experience.inProgress')})`}
                         </h3>
                       </div>
+
                       {/* <Description text={description.es} /> */}
                     </div>
                   </div>

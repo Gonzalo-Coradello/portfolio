@@ -11,7 +11,7 @@ const AboutIntro = () => {
           <div className='rounded-full aspect-square overflow-hidden w-3/4 mx-auto md:w-full'>
             <img
               src='/images/foto-gonzalo.jpg'
-              alt=''
+              alt='Gonzalo'
               className='object-cover h-full max-h-[400px] grayscale hover:grayscale-0 hover:scale-110 active:grayscale-0 active:scale-110 transition-all duration-500'
             />
           </div>

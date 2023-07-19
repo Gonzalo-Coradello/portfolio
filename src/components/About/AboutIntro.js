@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import Photo from './assets/foto-gonzalo.jpg'
 import { useTranslation } from 'react-i18next'
 
 const AboutIntro = () => {
@@ -11,7 +10,7 @@ const AboutIntro = () => {
         <div className='basis-1/6 flex gap-16 md:gap-6 md:flex-col'>
           <div className='rounded-full aspect-square overflow-hidden w-3/4 mx-auto md:w-full'>
             <img
-              src={Photo}
+              src='/images/foto-gonzalo.jpg'
               alt=''
               className='object-cover h-full max-h-[400px] grayscale hover:grayscale-0 hover:scale-110 active:grayscale-0 active:scale-110 transition-all duration-500'
             />

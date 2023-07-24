@@ -14,6 +14,7 @@ export const experience = [
     startDate: '02/2023',
     endDate: '',
     image: '/images/companies/linne.png',
+    imageSmall: '/images/companies/linne_sm.png',
   },
   {
     id: 1,
@@ -30,6 +31,7 @@ export const experience = [
     startDate: '02/2023',
     endDate: '06/2023',
     image: '/images/companies/gbm.png',
+    imageSmall: '/images/companies/gbm_sm.png',
   },
 ]
 
@@ -48,6 +50,10 @@ export const education = [
     certificateImage: {
       es: '/images/companies/accenture.png',
       en: '/images/companies/accenture.png',
+    },
+    certificateImageSmall: {
+      es: '/images/companies/accenture_sm.png',
+      en: '/images/companies/accenture_sm.png',
     },
     startDate: '07/2023',
     endDate: '09/2023',
@@ -69,6 +75,10 @@ export const education = [
       es: '/images/companies/coderhouse.png',
       en: '/images/companies/coderhouse.png',
     },
+    certificateImageSmall: {
+      es: '/images/companies/coderhouse_sm.png',
+      en: '/images/companies/coderhouse_sm.png',
+    },
     startDate: '06/2023',
     endDate: '08/2023',
     technologies: [],
@@ -85,6 +95,10 @@ export const education = [
     certificateImage: {
       es: '/images/certificates/fullstackopen.png',
       en: '/images/certificates/fullstackopen.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/fullstackopen_sm.png',
+      en: '/images/certificates/fullstackopen_sm.png',
     },
     startDate: '03/2023',
     endDate: '07/2023',
@@ -105,6 +119,10 @@ export const education = [
       es: '/images/certificates/efset.jpg',
       en: '/images/certificates/efset.jpg',
     },
+    certificateImageSmall: {
+      es: '/images/certificates/efset_sm.jpg',
+      en: '/images/certificates/efset_sm.jpg',
+    },
     startDate: '',
     endDate: '02/2023',
     technologies: [],
@@ -123,6 +141,10 @@ export const education = [
     certificateImage: {
       es: '/images/certificates/coderhouse/carrera-full-stack.png',
       en: '/images/certificates/coderhouse/carrera-full-stack_en.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/coderhouse/carrera-full-stack_sm.png',
+      en: '/images/certificates/coderhouse/carrera-full-stack_en_sm.png',
     },
     startDate: '11/2022',
     endDate: '05/2023',
@@ -143,6 +165,10 @@ export const education = [
       es: '/images/certificates/coderhouse/backend.png',
       en: '/images/certificates/coderhouse/backend_en.png',
     },
+    certificateImageSmall: {
+      es: '/images/certificates/coderhouse/backend_sm.png',
+      en: '/images/certificates/coderhouse/backend_en_sm.png',
+    },
     startDate: '11/2022',
     endDate: '05/2023',
     technologies: [],
@@ -162,6 +188,10 @@ export const education = [
       es: '/images/certificates/freecodecamp-js.jpg',
       en: '/images/certificates/freecodecamp-js.jpg',
     },
+    certificateImageSmall: {
+      es: '/images/certificates/freecodecamp-js_sm.jpg',
+      en: '/images/certificates/freecodecamp-js_sm.jpg',
+    },
     startDate: '01/2023',
     endDate: '02/2023',
     technologies: [],
@@ -178,6 +208,10 @@ export const education = [
       es: '/images/certificates/coderhouse/react.png',
       en: '/images/certificates/coderhouse/react_en.png',
     },
+    certificateImageSmall: {
+      es: '/images/certificates/coderhouse/react_sm.png',
+      en: '/images/certificates/coderhouse/react_en_sm.png',
+    },
     startDate: '09/2022',
     endDate: '10/2022',
     technologies: [],
@@ -193,6 +227,10 @@ export const education = [
     certificateImage: {
       es: '/images/certificates/coderhouse/javascript.png',
       en: '/images/certificates/coderhouse/javascript_en.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/coderhouse/javascript_sm.png',
+      en: '/images/certificates/coderhouse/javascript_en_sm.png',
     },
     startDate: '07/2022',
     endDate: '08/2022',
@@ -213,6 +251,10 @@ export const education = [
       es: '/images/certificates/kevinpowell.jpg',
       en: '/images/certificates/kevinpowell.jpg',
     },
+    certificateImageSmall: {
+      es: '/images/certificates/kevinpowell_sm.jpg',
+      en: '/images/certificates/kevinpowell_sm.jpg',
+    },
     startDate: '',
     endDate: '07/2022',
     technologies: [],
@@ -228,6 +270,10 @@ export const education = [
     certificateImage: {
       es: '/images/certificates/coderhouse/desarrollo-web.png',
       en: '/images/certificates/coderhouse/desarrollo-web_en.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/coderhouse/desarrollo-web_sm.png',
+      en: '/images/certificates/coderhouse/desarrollo-web_en_sm.png',
     },
     startDate: '04/2022',
     endDate: '06/2022',

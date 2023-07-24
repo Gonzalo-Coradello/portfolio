@@ -22,14 +22,15 @@ const Experience = () => {
                 location,
                 startDate,
                 endDate,
-                image,
+                // image,
+                imageSmall,
                 summary,
               }) => (
                 <div key={id}>
                   <div className='flex gap-4 items-start'>
                     <div className='basis-1/3 flex-shrink-0'>
                       <img
-                        src={image}
+                        src={imageSmall}
                         alt={companyName}
                         className='aspect-[4/3] h-full w-full object-cover rounded-xl border-2 border-[#C4C3C3]'
                       />
@@ -64,6 +65,7 @@ const Experience = () => {
                 certificationName,
                 description,
                 certificateImage,
+                certificateImageSmall,
                 organization,
                 startDate,
                 endDate,
@@ -74,7 +76,7 @@ const Experience = () => {
                   <div className='flex gap-4 items-start'>
                     <div className='basis-1/3 flex-shrink-0'>
                       <ModalImage
-                        small={certificateImage[i18n.resolvedLanguage]}
+                        small={certificateImageSmall[i18n.resolvedLanguage]}
                         medium={certificateImage[i18n.resolvedLanguage]}
                         alt={certificationName[i18n.resolvedLanguage]}
                         className='aspect-[4/3] h-full w-full object-cover rounded-xl border-2 border-[#C4C3C3]'

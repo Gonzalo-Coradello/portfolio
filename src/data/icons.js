@@ -17,9 +17,12 @@ import {
   SiBootstrap,
   SiFirebase,
   SiTypescript,
+  SiCsharp,
+  SiDotnet,
   SiMaterialui,
   SiRedux,
   SiStyledcomponents,
+  SiChakraui,
   SiMysql,
   SiNextdotjs,
   SiPrisma,
@@ -54,6 +57,14 @@ export const icons = [
   {
     label: 'Nest.js',
     icon: <SiNestjs size={50} className='w-8 md:w-auto' />,
+  },
+  {
+    label: 'C#',
+    icon: <SiCsharp size={50} className='w-8 md:w-auto' />,
+  },
+  {
+    label: '.NET',
+    icon: <SiDotnet size={50} className='w-8 md:w-auto' />,
   },
   {
     label: 'JavaScript',
@@ -97,6 +108,10 @@ export const icons = [
     label: 'styled components',
     icon: <SiStyledcomponents size={50} className='w-8 md:w-auto' />,
   },
+  {
+    label: 'Chakra UI',
+    icon: <SiChakraui size={50} className='w-8 md:w-auto' />,
+  },
   { label: 'Docker', icon: <FaDocker size={50} className='w-8 md:w-auto' /> },
   { label: 'Jest', icon: <SiJest size={50} className='w-8 md:w-auto' /> },
   {
@@ -120,8 +135,14 @@ export const mainIcons = [
     label: 'TypeScript',
     icon: <SiTypescript size={50} className='w-8 md:w-auto' />,
   },
-  { label: 'HTML', icon: <IoLogoHtml5 size={50} className='w-8 md:w-auto' /> },
-  { label: 'CSS', icon: <IoLogoCss3 size={50} className='w-8 md:w-auto' /> },
+  {
+    label: 'C#',
+    icon: <SiCsharp size={50} className='w-8 md:w-auto' />,
+  },
+  {
+    label: '.NET',
+    icon: <SiDotnet size={50} className='w-8 md:w-auto' />,
+  },
   { label: 'MongoDB', icon: <SiMongodb size={50} className='w-8 md:w-auto' /> },
   { label: 'Express', icon: <SiExpress size={50} className='w-8 md:w-auto' /> },
   { label: 'React', icon: <FaReact size={50} className='w-8 md:w-auto' /> },
@@ -134,7 +155,6 @@ export const mainIcons = [
     label: 'Next.js',
     icon: <SiNextdotjs size={50} className='w-8 md:w-auto' />,
   },
-  { label: 'Redux', icon: <SiRedux size={50} className='w-8 md:w-auto' /> },
   {
     label: 'Angular',
     icon: <FaAngular size={50} className='w-8 md:w-auto' />,
@@ -144,15 +164,18 @@ export const mainIcons = [
     icon: <SiNestjs size={50} className='w-8 md:w-auto' />,
   },
   {
-    label: 'Firebase',
-    icon: <SiFirebase size={50} className='w-8 md:w-auto' />,
-  },
-  {
     label: 'SQL',
     icon: <img src={sqlLogo} alt='sql' width={50} height={50} />,
   },
+  { label: 'Redux', icon: <SiRedux size={50} className='w-8 md:w-auto' /> },
+  {
+    label: 'Firebase',
+    icon: <SiFirebase size={50} className='w-8 md:w-auto' />,
+  },
   { label: 'Docker', icon: <FaDocker size={50} className='w-8 md:w-auto' /> },
+  { label: 'HTML', icon: <IoLogoHtml5 size={50} className='w-8 md:w-auto' /> },
+  { label: 'CSS', icon: <IoLogoCss3 size={50} className='w-8 md:w-auto' /> },
   { label: 'Git', icon: <FaGitAlt size={50} className='w-8 md:w-auto' /> },
   { label: 'Github', icon: <FaGithub size={50} className='w-8 md:w-auto' /> },
-  { label: 'Figma', icon: <FaFigma size={50} className='w-8 md:w-auto' /> },
+  // { label: 'Figma', icon: <FaFigma size={50} className='w-8 md:w-auto' /> },
 ]

@@ -58,7 +58,6 @@ export const education = [
     startDate: '07/2023',
     endDate: '09/2023',
     technologies: [],
-    inProgress: true,
   },
   {
     id: 10,
@@ -72,17 +71,16 @@ export const education = [
     },
     organization: 'Coderhouse',
     certificateImage: {
-      es: '/images/companies/coderhouse.png',
-      en: '/images/companies/coderhouse.png',
+      es: '/images/certificates/coderhouse/carrera-aplicaciones.png',
+      en: '/images/certificates/coderhouse/carrera-aplicaciones_en.png',
     },
     certificateImageSmall: {
-      es: '/images/companies/coderhouse_sm.png',
-      en: '/images/companies/coderhouse_sm.png',
+      es: '/images/certificates/coderhouse/carrera-aplicaciones_sm.png',
+      en: '/images/certificates/coderhouse/carrera-aplicaciones_en_sm.png',
     },
     startDate: '06/2023',
     endDate: '08/2023',
     technologies: [],
-    inProgress: true,
   },
   {
     id: 9,

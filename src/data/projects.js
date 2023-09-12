@@ -58,6 +58,7 @@ export const projects = [
     technologies: ['React Native', 'TypeScript', 'Redux', 'Firebase', 'Expo'],
     github: 'https://github.com/Gonzalo-Coradello/crumbly-app',
     important: true,
+    mobile: true,
     credits: {
       es: 'Diseño, branding y logo: Talia Laborde',
       en: 'Branding, logo and design: Talia Laborde',
@@ -254,6 +255,7 @@ export const projects = [
     technologies: ['React Native', 'Redux', 'Firebase', 'Expo'],
     github: 'https://github.com/Gonzalo-Coradello/techstore_react-native',
     important: false,
+    mobile: true,
   },
 
   {

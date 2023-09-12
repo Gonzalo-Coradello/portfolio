@@ -18,6 +18,7 @@ const ProjectDetail = ({
   backend,
   deploy,
   credits,
+  mobile,
 }) => {
   const { t, i18n } = useTranslation()
 
@@ -36,8 +37,16 @@ const ProjectDetail = ({
         )}
       </div>
 
-      <div className='w-full max-w-[680px] mx-auto py-4'>
-        <div className='py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md sm:py-12 sm:px-8'>
+      <div
+        className={`w-full max-w-[680px] mx-auto py-4 ${
+          mobile ? 'max-w-[300px]' : ''
+        }`}
+      >
+        <div
+          className={`bg-white/10 backdrop-blur-sm rounded-lg shadow-md aspect-video ${
+            mobile ? 'p-4 sm:p-4' : 'py-6 px-4 sm:py-12 sm:px-8'
+          }`}
+        >
           <Swiper
             modules={[Autoplay]}
             spaceBetween={30}
@@ -56,7 +65,7 @@ const ProjectDetail = ({
               <SwiperSlide key={img}>
                 <div>
                   <img
-                    className='object-cover h-44 sm:h-72 w-full rounded-lg'
+                    className='object-cover w-full rounded-lg'
                     src={img}
                     alt='screenshot'
                   />

@@ -172,7 +172,7 @@ export const projects = [
     technologies: ['C#', '.NET', 'SQL Server', 'Angular', 'TailwindCSS'],
     github: 'https://github.com/STAGGI-Develop/STAGGI-homebanking_frontend',
     important: true,
-    backend: 'https://github.com/STAGGI-Develop/STAGGI-homebanking_backend',
+    backend: 'https://github.com/Gonzalo-Coradello/HomeBanking',
   },
   {
     id: '4',

@@ -30,21 +30,19 @@ i18n
             link: 'Todos los proyectos',
           },
           presentation:
-            'Soy un desarrollador Full-Stack de Argentina que ama crear soluciones y hacer proyectos realidad.',
+            'Desarrollador Full-Stack de Argentina que ama crear soluciones y hacer proyectos realidad.',
           about: {
             heading: 'Sobre mí',
             cv: 'Mi CV',
             url: 'https://drive.google.com/file/d/10bnavm0etfVJkYyFfqLVohEN3Iy_pBsN/view?usp=drive_link',
             part1:
-              'Soy un desarrollador Full-Stack disponible para trabajos de tiempo completo, medio tiempo y proyectos freelance.',
+              'Soy un desarrollador Full-Stack con amplia experiencia creando sitios web y aplicaciones móviles.',
             part2:
-              'Soy Gonzalo Coradello, desarrollador web con más de un año de experiencia. Veo la programación como un proceso de aprendizaje continuo y me esfuerzo por mejorar mis habilidades e incorporar conocimientos nuevos todos los días. Me apasiona aprender y crear proyectos.',
+              'Soy Gonzalo Coradello, desarrollador Full Stack especializado en React, Node.js y ASP.NET. Soy de Argentina y tengo 24 años.',
             part3:
-              'Tengo 23 años y actualmente vivo en Pergamino, Buenos Aires. Soy técnico multimedial y profesor de música, con más de tres años de experiencia en la docencia. El año pasado ingresé en el mundo de la programación y desde entonces mi objetivo es dedicarme a tiempo completo al desarrollo de software.',
+              'Me apasiona crear proyectos, trabajar en equipo y aprender nuevas tecnologías. Cuento con experiencia sólida en Back End, Front End y desarrollo de aplicaciones móviles.',
             part4:
-              'Tengo experiencia creando todo tipo de proyectos, desde sitios estáticos o API simples hasta proyectos complejos como e-commerce. Cuento con conocimientos sólidos tanto en el Front End como en el Back End. Recientemente terminé la Carrera de Desarrollo Full Stack de Coderhouse, de más de un año de duración.',
-            part5:
-              'Actualmente estoy buscando una oportunidad laboral para crecer en mi carrera como desarrollador. 🚀',
+              'Mi objetivo es seguir creciendo en mi carrera profesional y nunca dejar de aprender. 🚀',
             experience: {
               experience: 'Experiencia',
               education: 'Educación',
@@ -87,21 +85,19 @@ i18n
             link: 'All my projects',
           },
           presentation:
-            "I'm a creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.",
+            'Creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.',
           about: {
             heading: 'About me',
             cv: 'My resume',
             url: 'https://drive.google.com/file/d/1KZIyq7lopXPtiqh2yFvv4jwygAO-n0ix/view?usp=drive_link',
             part1:
-              "I'm a Full Stack Developer available for freelance projects, full-time and part-time jobs.",
+              'I am a Full-Stack developer with extensive experience creating websites and mobile applications.',
             part2:
-              "I'm Gonzalo Coradello, web developer with more than a year of experience. I see programming as a continuous learning process and I strive to improve my skills and learn new things everyday. I am passionate about learning and building projects.",
+              "I am Gonzalo Coradello, Full-Stack developer specialized in React, Node.js and ASP.NET. I am from Argentina and I'm 24 years old.",
             part3:
-              'I am 23 years old and I currently live in Pergamino, Buenos Aires. I am a music teacher with more than three years of teaching experience. Last year I entered the world of programming and since then my goal is to become a full-time software developer.',
+              'I am passionate about creating projects, working in teams and learning new technologies.',
             part4:
-              'I have experience building all kinds of projects, from static sites or simple APIs to big, complex projects such as e-commerces. I have solid knowledge in both the Front End and the Back End.',
-            part5:
-              'I am currently looking for a job opportunity to keep growing in my career as a software developer. 🚀',
+              'My goal is to keep growing in my professional career and never stop learning. 🚀',
             experience: {
               experience: 'Experience',
               education: 'Education',

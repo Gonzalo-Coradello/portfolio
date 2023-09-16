@@ -46,7 +46,7 @@ export const education = [
       es: '',
       en: '',
     },
-    organization: 'Accenture',
+    organization: 'Accenture + MindHub',
     certificateImage: {
       es: '/images/companies/accenture.png',
       en: '/images/companies/accenture.png',

@@ -12,7 +12,7 @@ const AboutIntro = () => {
             <img
               src='/images/foto-gonzalo.jpg'
               alt='Gonzalo'
-              className='object-cover h-full max-h-[400px] grayscale hover:grayscale-0 hover:scale-110 active:grayscale-0 active:scale-110 transition-all duration-500'
+              className='object-cover h-full max-h-[400px]  hover:scale-110  active:scale-110 transition-all duration-500'
             />
           </div>
           <div className='flex flex-col md:flex-row justify-around md:justify-between'>

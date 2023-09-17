@@ -8,11 +8,13 @@ const AboutIntro = () => {
     <div className='max-w-[1200px] mx-auto px-10'>
       <div className='flex flex-col mt-10 mb-12 gap-12 justify-center items-end md:flex-row md:gap-24 md:mt-20 md:mb-20'>
         <div className='basis-1/6 flex gap-16 md:gap-6 md:flex-col'>
-          <div className='rounded-full aspect-square overflow-hidden w-3/4 mx-auto md:w-full'>
+          <div className='relative rounded-full aspect-square overflow-hidden w-3/4 mx-auto md:w-full'>
             <img
               src='/images/foto-gonzalo.jpg'
               alt='Gonzalo'
-              className='object-cover h-full max-h-[400px] grayscale hover:grayscale-0 hover:scale-110 active:grayscale-0 active:scale-110 transition-all duration-500'
+              width={400}
+              height={400}
+              className='relative object-cover h-full max-h-[400px] grayscale hover:grayscale-0 hover:scale-110 active:grayscale-0 active:scale-110 transition-all duration-500'
             />
           </div>
           <div className='flex flex-col md:flex-row justify-around md:justify-between'>

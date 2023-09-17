@@ -38,7 +38,7 @@ const AboutIntro = () => {
             </a>
           </div>
         </div>
-        <div className='grid h-full gap-4 md:gap-16'>
+        <div className='grid gap-4 md:gap-16'>
           <p className='text-left md:max-w-[30ch] font-light'>
             {t('about.part1')}
           </p>

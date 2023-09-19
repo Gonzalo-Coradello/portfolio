@@ -43,7 +43,9 @@ const Experience = () => {
                         </h4>
                         <h2 className='font-medium mb-2'>
                           {jobTitle[i18n.resolvedLanguage]}{' '}
-                          {t('about.experience.at')} {companyName}
+                          {companyName
+                            ? `${t('about.experience.at')} ${companyName}`
+                            : null}
                         </h2>
                       </div>
                       <Description text={summary[i18n.resolvedLanguage]} />

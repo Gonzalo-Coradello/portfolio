@@ -1,20 +1,37 @@
 export const experience = [
   {
-    id: 2,
+    id: 3,
     companyName: 'Linné Studio',
     jobTitle: {
-      es: 'Desarrollador web freelance',
-      en: 'Freelance web developer',
+      es: 'Desarrollador freelance',
+      en: 'Freelance software developer',
     },
     location: '',
     summary: {
-      es: 'Cofundador y desarrollador. Creación de sitios web y aplicaciones móviles para clientes en equipo con una diseñadora. Me encargo de desarrollar tanto la funcionalidad como la UI de los proyectos en base a un diseño preexistente',
+      es: 'Cofundador y desarrollador. Creación de sitios web y aplicaciones móviles para clientes en equipo con una diseñadora. Me encargo de desarrollar tanto la funcionalidad como la UI de los proyectos en base a un diseño preexistente.',
       en: 'Co-founder and developer. Creation of websites and mobile applications for clients as a team with a designer. I am in charge of developing both the functionality and the UI of the projects based on pre-existing designs.',
     },
     startDate: '02/2023',
     endDate: '',
     image: '/images/companies/linne.png',
     imageSmall: '/images/companies/linne_sm.png',
+  },
+  {
+    id: 2,
+    companyName: '',
+    jobTitle: {
+      es: 'Desarrollador freelance',
+      en: 'Freelance software developer',
+    },
+    location: '',
+    summary: {
+      es: 'Me desempeño como desarrollador independiente, creando sitios web y aplicaciones móviles para clientes, casi siempre en equipo con otros desarrolladores y/o diseñadores UX/UI. Trabajo principalmente con React, React Native y Next.js. Mi objetivo siempre es cumplir al máximo las expectativas del usuario, entregando software de calidad dentro de las fechas estipuladas.',
+      en: 'I work as an independent developer, creating websites and mobile applications for clients, often as part of a team with other developers and UX/UI designers. I mainly work with React, React Native and Next.js. My goal is to meet user expectations, delivering quality software within the stipulated dates.',
+    },
+    startDate: '02/2023',
+    endDate: '',
+    image: '/images/companies/laptop-code.png',
+    imageSmall: '/images/companies/laptop-code.png',
   },
   {
     id: 1,

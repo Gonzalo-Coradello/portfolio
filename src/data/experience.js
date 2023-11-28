@@ -1,6 +1,23 @@
 export const experience = [
   {
     id: 3,
+    companyName: 'Accenture',
+    jobTitle: {
+      es: 'Packaged App Development Associate',
+      en: 'Packaged App Development Associate',
+    },
+    location: '',
+    summary: {
+      es: '',
+      en: '',
+    },
+    startDate: '11/2023',
+    endDate: '',
+    image: '/images/companies/accenture.png',
+    imageSmall: '/images/companies/accenture_sm.png',
+  },
+  {
+    id: 2,
     companyName: 'Linné Studio',
     jobTitle: {
       es: 'Desarrollador freelance',
@@ -17,7 +34,7 @@ export const experience = [
     imageSmall: '/images/companies/linne_sm.png',
   },
   {
-    id: 2,
+    id: 1,
     companyName: '',
     jobTitle: {
       es: 'Desarrollador freelance',
@@ -33,26 +50,95 @@ export const experience = [
     image: '/images/companies/laptop-code.png',
     imageSmall: '/images/companies/laptop-code.png',
   },
-  {
-    id: 1,
-    companyName: 'GBM Ingeniería y Ambiente',
-    jobTitle: {
-      es: 'Desarrollador web freelance',
-      en: 'Freelance web developer',
-    },
-    location: '',
-    summary: {
-      es: 'Me desempeñé como desarrollador Front End React en un equipo conformado por otro desarrollador y un grupo de diseñadores UX/UI. Me encargué del desarrollo de la interfaz de usuario de un sitio web informativo y colaboré en la organización y toma de decisiones del equipo.',
-      en: 'I worked as a Front End React developer as a team with another developer and a group of UX/UI designers. I was in charge of developing the user interface of an informative website and I cooperated in the organization and decision making of the team.',
-    },
-    startDate: '02/2023',
-    endDate: '06/2023',
-    image: '/images/companies/gbm.png',
-    imageSmall: '/images/companies/gbm_sm.png',
-  },
+  // {
+  //   id: 1,
+  //   companyName: 'GBM Ingeniería y Ambiente',
+  //   jobTitle: {
+  //     es: 'Desarrollador web freelance',
+  //     en: 'Freelance web developer',
+  //   },
+  //   location: '',
+  //   summary: {
+  //     es: 'Me desempeñé como desarrollador Front End React en un equipo conformado por otro desarrollador y un grupo de diseñadores UX/UI. Me encargué del desarrollo de la interfaz de usuario de un sitio web informativo y colaboré en la organización y toma de decisiones del equipo.',
+  //     en: 'I worked as a Front End React developer as a team with another developer and a group of UX/UI designers. I was in charge of developing the user interface of an informative website and I cooperated in the organization and decision making of the team.',
+  //   },
+  //   startDate: '02/2023',
+  //   endDate: '06/2023',
+  //   image: '/images/companies/gbm.png',
+  //   imageSmall: '/images/companies/gbm_sm.png',
+  // },
 ]
 
 export const education = [
+  {
+    id: 14,
+    certificationName: {
+      es: 'TypeScript',
+      en: 'TypeScript',
+    },
+    description: {
+      es: '',
+      en: '',
+    },
+    organization: 'Full Stack open',
+    certificateImage: {
+      es: '/images/certificates/fullstackopen-typescript.png',
+      en: '/images/certificates/fullstackopen-typescript.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/fullstackopen-typescript_sm.png',
+      en: '/images/certificates/fullstackopen-typescript_sm.png',
+    },
+    startDate: '',
+    endDate: '10/2023',
+    technologies: [],
+  },
+  {
+    id: 13,
+    certificationName: {
+      es: 'Fundamentos de C# con Microsoft',
+      en: 'Foundational C# with Microsoft',
+    },
+    description: {
+      es: '',
+      en: '',
+    },
+    organization: 'freeCodeCamp + Microsoft',
+    certificateImage: {
+      es: '/images/certificates/freecodecamp-csharp.png',
+      en: '/images/certificates/freecodecamp-csharp.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/freecodecamp-csharp_sm.png',
+      en: '/images/certificates/freecodecamp-csharp_sm.png',
+    },
+    startDate: '09/2023',
+    endDate: '10/2023',
+    technologies: [],
+  },
+  {
+    id: 12,
+    certificationName: {
+      es: 'GraphQL',
+      en: 'GraphQL',
+    },
+    description: {
+      es: '',
+      en: '',
+    },
+    organization: 'Full Stack open',
+    certificateImage: {
+      es: '/images/certificates/fullstackopen-graphql.png',
+      en: '/images/certificates/fullstackopen-graphql.png',
+    },
+    certificateImageSmall: {
+      es: '/images/certificates/fullstackopen-graphql_sm.png',
+      en: '/images/certificates/fullstackopen-graphql_sm.png',
+    },
+    startDate: '',
+    endDate: '09/2023',
+    technologies: [],
+  },
   {
     id: 11,
     certificationName: {

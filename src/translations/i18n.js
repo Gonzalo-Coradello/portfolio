@@ -22,19 +22,23 @@ i18n
           hero: {
             part1: 'Hola,',
             part2: 'soy',
-            part3: 'visitá mis proyectos',
+            part3: 'experiencia y proyectos',
+            button: 'Contáctame',
           },
           projects: {
             heading: 'Mis proyectos',
             inst: 'Click en el título para ver más detalles.',
             link: 'Todos los proyectos',
           },
+          title: 'Desarrollador Full-Stack',
           presentation:
-            'Desarrollador Full-Stack de Argentina que ama crear soluciones y hacer proyectos realidad.',
+            'de Argentina con amplia experiencia creando y dando mantenimiento a sitios web y aplicaciones móviles.',
           about: {
             heading: 'Sobre mí',
             cv: 'Mi CV',
             url: 'https://drive.google.com/file/d/10bnavm0etfVJkYyFfqLVohEN3Iy_pBsN/view?usp=drive_link',
+            description:
+              'Desarrollador Full Stack especializado en React Native, Node.js y .NET, con amplia experiencia en el desarrollo de aplicaciones móviles y web.\nMe he encargado del desarrollo completo de tres aplicaciones móviles desde la etapa inicial hasta su lanzamiento en producción y he creado múltiples sitios web para diversos clientes. Además, he trabajado en el mantenimiento de aplicaciones empresariales de gran escala y he brindado mentoría a nuevos desarrolladores, ayudándolos a integrarse de manera efectiva en los proyectos.\nEnfocado en ofrecer soluciones eficientes y de calidad, con un fuerte compromiso en trabajar de forma colaborativa para lograr el éxito de los proyectos.',
             part1:
               'Soy un desarrollador Full-Stack con amplia experiencia creando sitios web y aplicaciones móviles.',
             part2:
@@ -68,7 +72,7 @@ i18n
             status: 'Estado: ',
             features: 'Características',
             technologies: 'Creado con: ',
-            deploy: 'proximamente',
+            deploy: 'Próximamente',
           },
         },
       },
@@ -77,19 +81,23 @@ i18n
           hero: {
             part1: 'Hello,',
             part2: "I'm",
-            part3: 'check out my work',
+            part3: 'experience and projects',
+            button: 'Get in touch',
           },
           projects: {
             heading: 'My works',
             inst: 'Click on title to see more details.',
             link: 'All my projects',
           },
+          title: 'Full-Stack developer',
           presentation:
-            'Creative Full-Stack Developer from Argentina who loves to create solutions and bring projects to life.',
+            'based in Argentina with extensive experience creating and maintaining websites and mobile applications.',
           about: {
             heading: 'About me',
             cv: 'My resume',
             url: 'https://drive.google.com/file/d/1KZIyq7lopXPtiqh2yFvv4jwygAO-n0ix/view?usp=drive_link',
+            description:
+              'Full Stack Developer specialized in React Native, Node.js, and .NET, with extensive experience in developing mobile and web applications.\nI have been responsible for the complete development of three mobile applications, from the initial stage to production, and have created multiple websites for various clients. Additionally, I have worked on maintaining large-scale enterprise applications and mentored new developers, helping them effectively integrate into projects.\nFocused on delivering efficient and high-quality solutions, with a strong commitment to collaborative work to ensure project success.',
             part1:
               'I am a Full-Stack developer with extensive experience creating websites and mobile applications.',
             part2:
@@ -123,7 +131,7 @@ i18n
             status: 'Status: ',
             features: 'Features',
             technologies: 'Created with: ',
-            deploy: 'coming soon',
+            deploy: 'Coming soon',
           },
         },
       },

@@ -1,6 +1,6 @@
 export const experience = [
   {
-    id: 3,
+    id: 4,
     companyName: 'Accenture',
     jobTitle: {
       es: 'Packaged App Development Associate',
@@ -8,19 +8,57 @@ export const experience = [
     },
     location: '',
     summary: {
-      es: '',
-      en: '',
+      es: 'Me desempeño como desarrollador Full-Stack, encargado de resolver bugs, implementar nuevas funcionalidades, realizar mejoras y desarrollar tests unitarios. Mi principal responsabilidad es el mantenimiento de dos aplicaciones internas de la compañía, una de las cuales es utilizada por todos los empleados de Accenture a nivel mundial. Me caracterizo por resolver mis tareas de manera eficiente, siempre enfocado en entregar la mejor solución para cada requerimiento. Trabajo frecuentemente en equipo, brindando apoyo a mis compañeros en la resolución de sus tareas. Además, he tenido la oportunidad de impartir charlas técnicas para mi equipo y otros equipos del proyecto, compartiendo mi conocimiento sobre el código, la lógica de negocio y la infraestructura de las aplicaciones.',
+      en: 'I work as a Full-Stack Developer, responsible for solving bugs, implementing new features, making improvements, and developing unit tests. My main responsibility is maintaining two internal applications, one of which is used by all Accenture employees worldwide. I am known for efficiently completing tasks, always focused on delivering the best solution for each requirement. I frequently work collaboratively and provide support to my colleagues in completing their tasks. Additionally, I have had the opportunity to deliver technical talks for my team and members of external projects, sharing my knowledge about the code, business logic, and application infrastructure.',
     },
     startDate: '11/2023',
     endDate: '',
     image: '/images/companies/accenture.png',
     imageSmall: '/images/companies/accenture_sm.png',
+    technologies: [
+      'C#',
+      '.NET',
+      'Vue.js',
+      'Node.js',
+      'AWS',
+      'JavaScript',
+      'PostgreSQL',
+      'HTML',
+      'CSS',
+      'Sass',
+      'Jest',
+    ],
+  },
+  {
+    id: 3,
+    companyName: 'Zergex',
+    jobTitle: {
+      es: 'Desarrollador React Native y Full-Stack',
+      en: 'React Native and Full-Stack Developer',
+    },
+    location: '',
+    summary: {
+      es: 'Desarrollador Full-Stack especializado en el desarrollo de aplicaciones móviles utilizando React Native y TypeScript. Me encargué del desarrollo completo de tres aplicaciones móviles, desde la etapa inicial hasta su lanzamiento a producción, dos de las cuales también cuentan con soporte para web.\nAsumí el rol de mentor para nuevos desarrolladores, guiándolos en la comprensión de la lógica de las aplicaciones y el stack tecnológico y resolviendo sus dudas para que puedan avanzar con el desarrollo de manera eficiente.\nMi experiencia incluye la implementación de integraciones con servicios de terceros como proveedores de autenticación (Google, Apple, Facebook, X), mapas y geolocalización, y gestión de pagos mediante Mercado Pago. También he desarrollado paneles administrativos en React y TypeScript y trabajado en el back-end utilizando Node.js, Express, TypeScript, TypeORM y PostgreSQL. Mis principales aportes al back-end han sido desarrollar nuevas funcionalidades, realizar optimizaciones y correcciones al código existente y realizar integraciones con AWS S3 y servicios de autenticación como Google y Apple. Además, en uno de los proyectos desarrollé un script de automatización con Node.js para procesar miles de registros desde distintas hojas de cálculo de Excel y guardarlas en la base de datos de PostgreSQL, optimizando significativamente el tiempo y esfuerzo del cliente ya que de esta manera se evitó que tenga que recrear todos los datos manualmente desde el panel de administración.\nEstoy enfocado en brindar soluciones eficientes y de calidad y disfruto trabajar de manera colaborativa, aportando mi experiencia y conocimientos para el éxito de los proyectos.',
+      en: 'Full-Stack Developer specialized in mobile application development using React Native and TypeScript. I was responsible for the complete development of three mobile applications, from the initial stage to production, two of which include web support.\nI took on the role of mentoring new developers, guiding them in understanding the application logic and the technology stack, and resolving their doubts so they could progress efficiently.\nMy experience includes implementing integrations with third-party services such as authentication providers (Google, Apple, Facebook, X), maps and geolocation, and payment management through Mercado Pago. I have also developed admin panels for the three projects using React and TypeScript and worked on the back-end using Node.js, Express, TypeScript, TypeORM, and PostgreSQL. My main contributions to the back-end have been developing new features, optimizing and fixing existing code, and integrating AWS S3 and authentication services like Google and Apple. Additionally, in one project, I developed an automation script with Node.js to process thousands of records from various Excel spreadsheets and save them to the PostgreSQL database, significantly saving the client time and effort as it avoided manually recreating all the data through the admin panel.\nI focus on delivering efficient and high-quality solutions and enjoy working collaboratively, contributing my experience and knowledge to the success of the projects.',
+    },
+    startDate: '09/2023',
+    endDate: '',
+    image: '',
+    imageSmall: '',
+    technologies: [
+      'React Native',
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+    ],
   },
   {
     id: 2,
     companyName: 'Linné Studio',
     jobTitle: {
-      es: 'Desarrollador freelance',
+      es: 'Cofundador y desarrollador freelance',
       en: 'Freelance software developer',
     },
     location: '',
@@ -32,6 +70,7 @@ export const experience = [
     endDate: '',
     image: '/images/companies/linne.png',
     imageSmall: '/images/companies/linne_sm.png',
+    technologies: ['Astro', 'Next.js', 'React', 'HTML', 'CSS', 'TypeScript'],
   },
   {
     id: 1,
@@ -42,342 +81,20 @@ export const experience = [
     },
     location: '',
     summary: {
-      es: 'Me desempeño como desarrollador independiente, creando sitios web y aplicaciones móviles para clientes, casi siempre en equipo con otros desarrolladores y/o diseñadores UX/UI. Trabajo principalmente con React, React Native y Next.js. Mi objetivo siempre es cumplir al máximo las expectativas del usuario, entregando software de calidad dentro de las fechas estipuladas.',
-      en: 'I work as an independent developer, creating websites and mobile applications for clients, often as part of a team with other developers and UX/UI designers. I mainly work with React, React Native and Next.js. My goal is to meet user expectations, delivering quality software within the stipulated dates.',
+      es: 'Me desempeño como desarrollador independiente creando sitios web para diversos clientes, casi siempre en equipo con otros desarrolladores y/o diseñadores UX/UI. Trabajo principalmente con React y Next.js. Mi objetivo es cumplir al máximo las expectativas del cliente, entregando software de calidad dentro de las fechas estipuladas.',
+      en: 'I work as an independent developer creating websites for diverse clients, often as part of a team with other developers and UX/UI designers. I mainly work with React and Next.js. My goal is to meet client expectations, delivering quality software within the stipulated dates.',
     },
-    startDate: '02/2023',
-    endDate: '',
+    startDate: '08/2022',
+    endDate: '06/2023',
     image: '/images/companies/laptop-code.png',
     imageSmall: '/images/companies/laptop-code.png',
-  },
-  // {
-  //   id: 1,
-  //   companyName: 'GBM Ingeniería y Ambiente',
-  //   jobTitle: {
-  //     es: 'Desarrollador web freelance',
-  //     en: 'Freelance web developer',
-  //   },
-  //   location: '',
-  //   summary: {
-  //     es: 'Me desempeñé como desarrollador Front End React en un equipo conformado por otro desarrollador y un grupo de diseñadores UX/UI. Me encargué del desarrollo de la interfaz de usuario de un sitio web informativo y colaboré en la organización y toma de decisiones del equipo.',
-  //     en: 'I worked as a Front End React developer as a team with another developer and a group of UX/UI designers. I was in charge of developing the user interface of an informative website and I cooperated in the organization and decision making of the team.',
-  //   },
-  //   startDate: '02/2023',
-  //   endDate: '06/2023',
-  //   image: '/images/companies/gbm.png',
-  //   imageSmall: '/images/companies/gbm_sm.png',
-  // },
-]
-
-export const education = [
-  {
-    id: 14,
-    certificationName: {
-      es: 'TypeScript',
-      en: 'TypeScript',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Full Stack open',
-    certificateImage: {
-      es: '/images/certificates/fullstackopen-typescript.png',
-      en: '/images/certificates/fullstackopen-typescript.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/fullstackopen-typescript_sm.png',
-      en: '/images/certificates/fullstackopen-typescript_sm.png',
-    },
-    startDate: '',
-    endDate: '10/2023',
-    technologies: [],
-  },
-  {
-    id: 13,
-    certificationName: {
-      es: 'Fundamentos de C# con Microsoft',
-      en: 'Foundational C# with Microsoft',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'freeCodeCamp + Microsoft',
-    certificateImage: {
-      es: '/images/certificates/freecodecamp-csharp.png',
-      en: '/images/certificates/freecodecamp-csharp.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/freecodecamp-csharp_sm.png',
-      en: '/images/certificates/freecodecamp-csharp_sm.png',
-    },
-    startDate: '09/2023',
-    endDate: '10/2023',
-    technologies: [],
-  },
-  {
-    id: 12,
-    certificationName: {
-      es: 'GraphQL',
-      en: 'GraphQL',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Full Stack open',
-    certificateImage: {
-      es: '/images/certificates/fullstackopen-graphql.png',
-      en: '/images/certificates/fullstackopen-graphql.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/fullstackopen-graphql_sm.png',
-      en: '/images/certificates/fullstackopen-graphql_sm.png',
-    },
-    startDate: '',
-    endDate: '09/2023',
-    technologies: [],
-  },
-  {
-    id: 11,
-    certificationName: {
-      es: 'Bootcamp de .NET',
-      en: 'Microsoft .NET Bootcamp',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Accenture + MindHub',
-    certificateImage: {
-      es: '/images/companies/accenture.png',
-      en: '/images/companies/accenture.png',
-    },
-    certificateImageSmall: {
-      es: '/images/companies/accenture_sm.png',
-      en: '/images/companies/accenture_sm.png',
-    },
-    startDate: '07/2023',
-    endDate: '09/2023',
-    technologies: [],
-  },
-  {
-    id: 10,
-    certificationName: {
-      es: 'Desarrollo de aplicaciones',
-      en: 'Mobile Development',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Coderhouse',
-    certificateImage: {
-      es: '/images/certificates/coderhouse/carrera-aplicaciones.png',
-      en: '/images/certificates/coderhouse/carrera-aplicaciones_en.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/coderhouse/carrera-aplicaciones_sm.png',
-      en: '/images/certificates/coderhouse/carrera-aplicaciones_en_sm.png',
-    },
-    startDate: '06/2023',
-    endDate: '08/2023',
-    technologies: [],
-  },
-  {
-    id: 9,
-    certificationName: { es: 'Full Stack Open', en: 'Full Stack Open' },
-    description: {
-      es: 'Project-based course that integrates modern Full Stack Development technologies. MERN, Redux, TypeScript, GraphQL, React Native, Docker and CI/CD.',
-      en: 'Curso basado en proyectos que integra las tecnologías del desarrollo Full Stack moderno. MERN, Redux, TypeScript, GraphQL, React Native, Docker y CI/CD',
-    },
-    organization: 'University of Helsinki',
-    certificateImage: {
-      es: '/images/certificates/fullstackopen.png',
-      en: '/images/certificates/fullstackopen.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/fullstackopen_sm.png',
-      en: '/images/certificates/fullstackopen_sm.png',
-    },
-    startDate: '03/2023',
-    endDate: '07/2023',
-    technologies: [],
-  },
-  {
-    id: 8,
-    certificationName: {
-      es: 'EF SET English Certificate 76/100 (C2 Proficient)',
-      en: 'EF SET English Certificate 76/100 (C2 Proficient)',
-    },
-    description: {
-      es: 'Test estandarizado de inglés. Conseguí un resultado de 76/100, que indica que mi nivel de inglés es C2 Proficient.',
-      en: 'Standarized English test.',
-    },
-    organization: 'EF Standard English Test',
-    certificateImage: {
-      es: '/images/certificates/efset.jpg',
-      en: '/images/certificates/efset.jpg',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/efset_sm.jpg',
-      en: '/images/certificates/efset_sm.jpg',
-    },
-    startDate: '',
-    endDate: '02/2023',
-    technologies: [],
-  },
-  {
-    id: 7,
-    certificationName: {
-      es: 'Desarrollo Full Stack',
-      en: 'Full Stack Development',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Coderhouse',
-    certificateImage: {
-      es: '/images/certificates/coderhouse/carrera-full-stack.png',
-      en: '/images/certificates/coderhouse/carrera-full-stack_en.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/coderhouse/carrera-full-stack_sm.png',
-      en: '/images/certificates/coderhouse/carrera-full-stack_en_sm.png',
-    },
-    startDate: '11/2022',
-    endDate: '05/2023',
-    technologies: [],
-  },
-  {
-    id: 6,
-    certificationName: {
-      es: 'Programación Backend',
-      en: 'Backend Development',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Coderhouse',
-    certificateImage: {
-      es: '/images/certificates/coderhouse/backend.png',
-      en: '/images/certificates/coderhouse/backend_en.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/coderhouse/backend_sm.png',
-      en: '/images/certificates/coderhouse/backend_en_sm.png',
-    },
-    startDate: '11/2022',
-    endDate: '05/2023',
-    technologies: [],
-  },
-  {
-    id: 5,
-    certificationName: {
-      es: 'Algoritmos y Estructuras de Datos de JavaScript',
-      en: 'JavaScript Algorithms and Data Structures',
-    },
-    description: {
-      es: 'Practical course that teaches advanced modern JavaScript concepts (ES6+), object oriented programming, functional programming and RegEx. Its main focus is the development of algorithms used to solve problems.',
-      en: 'Curso práctico que incluye conceptos avanzados de JavaScript moderno (ES6+), programación orientada a objetos y programación funcional. El principal enfoque es el desarrollo de algoritmos para resolver problemas.',
-    },
-    organization: 'freeCodeCamp',
-    certificateImage: {
-      es: '/images/certificates/freecodecamp-js.jpg',
-      en: '/images/certificates/freecodecamp-js.jpg',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/freecodecamp-js_sm.jpg',
-      en: '/images/certificates/freecodecamp-js_sm.jpg',
-    },
-    startDate: '01/2023',
-    endDate: '02/2023',
-    technologies: [],
-  },
-  {
-    id: 4,
-    certificationName: { es: 'React', en: 'React' },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Coderhouse',
-    certificateImage: {
-      es: '/images/certificates/coderhouse/react.png',
-      en: '/images/certificates/coderhouse/react_en.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/coderhouse/react_sm.png',
-      en: '/images/certificates/coderhouse/react_en_sm.png',
-    },
-    startDate: '09/2022',
-    endDate: '10/2022',
-    technologies: [],
-  },
-  {
-    id: 3,
-    certificationName: { es: 'JavaScript', en: 'JavaScript' },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Coderhouse',
-    certificateImage: {
-      es: '/images/certificates/coderhouse/javascript.png',
-      en: '/images/certificates/coderhouse/javascript_en.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/coderhouse/javascript_sm.png',
-      en: '/images/certificates/coderhouse/javascript_en_sm.png',
-    },
-    startDate: '07/2022',
-    endDate: '08/2022',
-    technologies: [],
-  },
-  {
-    id: 2,
-    certificationName: {
-      es: 'Conquering Responsive Layouts',
-      en: 'Conquering Responsive Layouts',
-    },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Kevin Powell',
-    certificateImage: {
-      es: '/images/certificates/kevinpowell.jpg',
-      en: '/images/certificates/kevinpowell.jpg',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/kevinpowell_sm.jpg',
-      en: '/images/certificates/kevinpowell_sm.jpg',
-    },
-    startDate: '',
-    endDate: '07/2022',
-    technologies: [],
-  },
-  {
-    id: 1,
-    certificationName: { es: 'Desarrollo Web', en: 'Web Development' },
-    description: {
-      es: '',
-      en: '',
-    },
-    organization: 'Coderhouse',
-    certificateImage: {
-      es: '/images/certificates/coderhouse/desarrollo-web.png',
-      en: '/images/certificates/coderhouse/desarrollo-web_en.png',
-    },
-    certificateImageSmall: {
-      es: '/images/certificates/coderhouse/desarrollo-web_sm.png',
-      en: '/images/certificates/coderhouse/desarrollo-web_en_sm.png',
-    },
-    startDate: '04/2022',
-    endDate: '06/2022',
-    technologies: [],
+    technologies: [
+      'React',
+      'Next.js',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'TailwindCSS',
+    ],
   },
 ]

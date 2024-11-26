@@ -1,26 +1,35 @@
 @import '../Background/Background.css';
 
 .blob5 {
-    width: 627px;
-    height: 954px;
-    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
-    background: linear-gradient(180deg, #C76996 0%, rgba(128, 209, 255, 0.6) 100%, #B667F3 100%);
-    top: 0;
-    left: 0;
-    rotate: 180deg;
-    animation-name: spin, moveX;
-    filter: blur(120px);
+  width: 627px;
+  height: 954px;
+  border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+  background: linear-gradient(
+    180deg,
+    #c76996 0%,
+    rgba(128, 209, 255, 0.6) 100%,
+    #b667f3 100%
+  );
+  top: 0;
+  left: 0;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  filter: blur(120px);
 }
 
 .blob6 {
-    width: 627px;
-    height: 600px;
-    border-radius: 49% 51% 47% 53% / 56% 60% 40% 44%;
-    background: linear-gradient(180deg, rgba(119, 255, 255, 0.63) 0%, rgba(120, 91, 183, 0.61) 100%);    
-    bottom: -5%;
-    left: 25%;
-    animation-name: spin, moveX;
-    animation-direction: reverse;
-    filter: blur(180px);
-    opacity: .7;
+  width: 627px;
+  height: 600px;
+  border-radius: 49% 51% 47% 53% / 56% 60% 40% 44%;
+  background: linear-gradient(
+    180deg,
+    rgba(119, 255, 255, 0.63) 0%,
+    rgba(120, 91, 183, 0.61) 100%
+  );
+  bottom: -5%;
+  left: 25%;
+  animation-name: spin, moveX;
+  animation-direction: reverse;
+  filter: blur(180px);
+  opacity: 0.7;
 }

@@ -1,6 +1,5 @@
 import './Footer.css'
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
@@ -8,10 +7,10 @@ const Footer = () => {
 
   return (
     <footer className='lg:pb-4'>
-      <div className='lg:w-[80%] mx-auto grid items-center xl:grid-cols-3 gap-8 py-10 px-8 bg-white/20 backdrop-blur-sm rounded-lg shadow-xl mt-12'>
-        <div className='w-fit mx-auto xl:order-2'>
-          <h2 className='text-xl font-light'>Gonzalo Coradello</h2>
-          <div className='flex justify-around mt-4'>
+      <div className='lg:w-[80%] mx-auto grid items-center justify-center lg:grid-cols-3 gap-6 py-10 px-8 bg-white/20 backdrop-blur-sm rounded-lg shadow-xl mt-12'>
+        <h2 className='text-xl font-light'>Gonzalo Coradello</h2>
+        <div className='w-full max-w-[200px] mx-auto lg:order-3'>
+          <div className='flex justify-around'>
             <a
               href='mailto:gonzalocoradello@gmail.com'
               className='w-fit hover:opacity-50 hover:scale-110 transition-all duration-200'
@@ -32,43 +31,23 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className='w-fit mx-auto text-md font-light col-1 xl:order-1'>
-          <ul className='flex gap-4 justify-center'>
+        <div className='w-fit mx-auto text-md font-light col-1'>
+          <ul className='flex gap-6 justify-center'>
             <li>
-              <NavLink
-                to='/'
-                className={({ isActive }) =>
-                  isActive
-                    ? 'opacity-50 cursor-default whitespace-nowrap'
-                    : 'hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
-                }
+              <a
+                href='/#'
+                className='hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
               >
                 {t('header.home')}
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to='/projects'
-                className={({ isActive }) =>
-                  isActive
-                    ? 'opacity-50 cursor-default whitespace-nowrap'
-                    : 'hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
-                }
-              >
-                {t('header.projects')}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to='/about'
-                className={({ isActive }) =>
-                  isActive
-                    ? 'opacity-50 cursor-default whitespace-nowrap'
-                    : 'hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
-                }
+              <a
+                href='/#about'
+                className='hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'
               >
                 {t('header.about')}
-              </NavLink>
+              </a>
             </li>
             <li className='hover:opacity-50 transition-opacity duration-300 whitespace-nowrap'>
               <a href='mailto:gonzalocoradello@gmail.com'>
@@ -76,30 +55,6 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
-        <div className='w-fit mx-auto text-md xl:order-3'>
-          <h4>
-            {t('footer.design')}
-            <a
-              className='footer-gradient hover:opacity-70 transition-opacity duration-500'
-              href='https://www.linkedin.com/in/talia-laborde/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Talia Laborde
-            </a>
-          </h4>
-          <h4>
-            {t('footer.illustration')}
-            <a
-              className='footer-gradient hover:opacity-70 transition-opacity duration-500'
-              href='https://www.instagram.com/wiwadd/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              wiwadd
-            </a>
-          </h4>
         </div>
       </div>
     </footer>

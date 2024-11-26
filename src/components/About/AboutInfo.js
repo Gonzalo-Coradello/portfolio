@@ -4,16 +4,21 @@ const AboutInfo = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='w-[80%] text-left font-light max-w-[670px] mx-auto mb-12'>
-      <h2 className='text-3xl font-medium md:ml-8 mb-4'>
+    <section
+      id='about'
+      className='w-full md:w-[80%] text-left font-light max-w-full md:max-w-[670px] mx-auto mb-12 mt-8 pt-0'
+    >
+      <h2 className='text-3xl font-medium mb-4 text-center md:text-left'>
         {t('about.heading')}
       </h2>
       <div className='grid gap-4 py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md md:py-12 md:px-8 leading-relaxed'>
-        <p>{t('about.part2')}</p>
-        <p>{t('about.part3')}</p>
-        <p>{t('about.part4')}</p>
+        {t('about.description')
+          .split('\n')
+          .map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
       </div>
-    </div>
+    </section>
   )
 }
 

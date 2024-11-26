@@ -2,11 +2,9 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
-import About from './components/About/About'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Footer from './components/Footer/Footer'
 import DetailContainer from './components/DetailContainer/DetailContainer'
-import ProjectsPage from './components/ProjectsPage/ProjectsPage'
 
 function App() {
   return (
@@ -19,9 +17,9 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/projects' element={<ProjectsPage />} />
+            {/* <Route path='/projects' element={<ProjectsPage />} /> */}
             <Route path='/projects/:id' element={<DetailContainer />} />
-            <Route path='/about' element={<About />} />
+            {/* <Route path='/about' element={<About />} /> */}
           </Routes>
           <Footer />
         </main>

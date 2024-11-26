@@ -10,8 +10,14 @@ const Description = ({ text, maxCh = 70 }) => {
 
   return (
     <div className='text-sm'>
-      <p className='mr-2 inline'>
-        {show ? text : `${text.slice(0, maxCh)}...`}
+      <p className={`inline ${show ? 'mr-0' : 'mr-2'}`}>
+        {show
+          ? text.split('\n').map((paragraph, idx) => (
+              <p key={idx} style={{ marginTop: idx === 0 ? 0 : '0.5rem' }}>
+                {paragraph}
+              </p>
+            ))
+          : `${text.replace(/\n/g, ' ').slice(0, maxCh)}...`}
       </p>
       <button
         className='underline underline-offset-2 hover:opacity-50'

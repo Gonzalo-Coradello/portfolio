@@ -1,6 +1,5 @@
 import './Navbar.css'
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import { BiWorld } from 'react-icons/bi'
 import { MdArrowDropDown } from 'react-icons/md'
 import { useTranslation } from 'react-i18next'
@@ -36,19 +35,15 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <NavLink
-              to='/'
-              className={({ isActive }) =>
-                isActive
-                  ? 'opacity-50 cursor-default'
-                  : 'hover:opacity-50 transition-opacity duration-300'
-              }
+            <a
+              href='/#'
+              className='hover:opacity-50 transition-opacity duration-300'
               onClick={() => setOpenMenu(false)}
             >
               {t('header.home')}
-            </NavLink>
+            </a>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to='/projects'
               className={({ isActive }) =>
@@ -60,19 +55,15 @@ const Navbar = () => {
             >
               {t('header.projects')}
             </NavLink>
-          </li>
+          </li> */}
           <li>
-            <NavLink
-              to='/about'
-              className={({ isActive }) =>
-                isActive
-                  ? 'opacity-50 cursor-default'
-                  : 'hover:opacity-50 transition-opacity duration-300'
-              }
+            <a
+              href='/#about'
+              className='hover:opacity-50 transition-opacity duration-300'
               onClick={() => setOpenMenu(false)}
             >
               {t('header.about')}
-            </NavLink>
+            </a>
           </li>
           <li className='hover:opacity-50 transition-opacity duration-300'>
             <a

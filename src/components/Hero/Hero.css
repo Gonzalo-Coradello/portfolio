@@ -1,33 +1,40 @@
 .gradient {
-    background: rgb(75,15,77);
-    background: linear-gradient(90deg, rgba(75,15,77,1) 0%, rgb(10, 87, 158) 100%); 
-    color: transparent;
-    background-clip: text;
+  background: rgb(75, 15, 77);
+  background: linear-gradient(
+    90deg,
+    rgba(75, 15, 77, 1) 0%,
+    rgb(10, 87, 158) 100%
+  );
+  color: transparent;
+  background-clip: text;
 }
 
 .arrowAnimation {
-    animation-name: arrow;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    z-index: -1;
+  animation-name: arrow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  z-index: -1;
 }
 
 .fade {
-    opacity:0;
-    transition: opacity 1s ease-out;
+  opacity: 0;
+  transition: opacity 1s ease-out;
 }
 
 .fade:hover {
-    opacity: 0;
-    cursor: default;
-    pointer-events: none;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
 }
 
 @keyframes arrow {
-   0%, 50%, 100%{
+  0%,
+  50%,
+  100% {
     translate: 0 4px;
-   }
-   25%, 75% {
+  }
+  25%,
+  75% {
     translate: 0 -4px;
-   }
+  }
 }

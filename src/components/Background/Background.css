@@ -4,105 +4,203 @@
 .blob4,
 .blob5,
 .blob6,
-.blob7 {
-    position: absolute;
-    filter: blur(80px);
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear, ease-in-out;
+.blob7,
+.blob8,
+.blob9,
+.blob10,
+.blob11 {
+  position: absolute;
+  filter: blur(80px);
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear, ease-in-out;
+  opacity: 0.6;
 }
 
 .blob1 {
-    width: 330px;
-    height: 504px;
-    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
-    background: linear-gradient(180deg, rgba(164, 77, 232, 0.49) 0%, rgba(224, 106, 135, 0.69) 47.67%, rgba(253, 154, 154, 0.54) 100%);
-    top: 5rem;
-    left: 8rem;
-    rotate: 180deg;
-    animation-name: spin, moveX;
-    animation-direction: reverse;
+  width: 330px;
+  height: 504px;
+  border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+  background: linear-gradient(
+    180deg,
+    rgba(164, 77, 232, 0.49) 0%,
+    rgba(224, 106, 135, 0.69) 47.67%,
+    rgba(253, 154, 154, 0.54) 100%
+  );
+  top: 5rem;
+  left: 8rem;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  animation-direction: reverse;
 }
 
 .blob2 {
-    width: 345px;
-    height: 525px;
-    border-radius: 31% 69% 53% 47% / 63% 48% 52% 37%;
-    background: linear-gradient(180deg, rgba(120, 91, 183, 0.61) 0%, rgba(128, 209, 255, 0.6) 100%, rgba(128, 232, 255, 0.6) 100%);
-    top: -8rem;
-    left: 25rem;
-    animation-name: spin, moveX;
+  width: 345px;
+  height: 525px;
+  border-radius: 31% 69% 53% 47% / 63% 48% 52% 37%;
+  background: linear-gradient(
+    180deg,
+    rgba(120, 91, 183, 0.61) 0%,
+    rgba(128, 209, 255, 0.6) 100%,
+    rgba(128, 232, 255, 0.6) 100%
+  );
+  top: -8rem;
+  left: 25rem;
+  animation-name: spin, moveX;
 }
 
 .blob3 {
-    width: 310px;
-    height: 275px;
-    border-radius: 49% 51% 47% 53% / 56% 60% 40% 44%;
-    background: linear-gradient(180deg, rgba(119, 255, 255, 0.63) 0%, rgba(255, 72, 182, 0.85) 100%);
-    top: 70vh;
-    right: 0;
-    animation-name: spin, moveY;
-    animation-duration: 8s;
+  width: 310px;
+  height: 275px;
+  border-radius: 49% 51% 47% 53% / 56% 60% 40% 44%;
+  background: linear-gradient(
+    180deg,
+    rgba(119, 255, 255, 0.63) 0%,
+    rgba(255, 72, 182, 0.85) 100%
+  );
+  top: 70vh;
+  right: 0;
+  animation-name: spin, moveY;
+  animation-duration: 8s;
 }
 
 .blob4 {
-    width: 420px;
-    height: 310px;
-    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
-    background: linear-gradient(180deg, rgba(183, 91, 91, 0.57) 0%, rgba(128, 163, 255, 0.45) 100%);
-    top: 120vh;
-    left: 30rem;
-    rotate: 180deg;
-    animation-name: spin, moveX;
-    filter: blur(60px);
+  width: 530px;
+  height: 410px;
+  border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+  background: linear-gradient(
+    180deg,
+    rgba(207, 94, 94, 0.57) 0%,
+    rgba(135, 160, 223, 0.45) 100%
+  );
+  top: 120vh;
+  left: 28rem;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  filter: blur(115px);
+  opacity: 0.5;
+}
+
+.blob8 {
+  width: 300px;
+  height: 310px;
+  border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+  background: linear-gradient(
+    180deg,
+    rgba(119, 255, 255, 0.63) 0%,
+    rgba(255, 72, 182, 0.85) 100%
+  );
+  top: 180vh;
+  left: 4rem;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  filter: blur(115px);
+}
+
+.blob9 {
+  width: 640px;
+  height: 590px;
+  border-radius: 21% 89% 53% 37% / 89% 33% 77% 31%;
+  background: linear-gradient(
+    180deg,
+    rgba(228, 130, 163, 0.57) 0%,
+    rgba(169, 189, 240, 0.45) 100%
+  );
+  top: 222vh;
+  right: -25rem;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  filter: blur(115px);
+  opacity: 0.7;
+  animation-direction: reverse;
+}
+
+.blob10 {
+  width: 345px;
+  height: 525px;
+  border-radius: 31% 69% 53% 47% / 63% 48% 52% 37%;
+  background: linear-gradient(
+    180deg,
+    rgba(88, 41, 189, 0.61) 0%,
+    rgba(138, 221, 240, 0.6) 100%
+  );
+  top: 337vh;
+  left: 14rem;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  filter: blur(115px);
+}
+
+.blob11 {
+  width: 417px;
+  height: 604px;
+  border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+  background: linear-gradient(
+    180deg,
+    rgba(111, 67, 207, 0.61) 0%,
+    rgba(128, 232, 255, 0.6) 100%
+  );
+  left: 28vw;
+  bottom: 22vh;
+  animation-name: spin, moveX;
+  animation-direction: reverse;
 }
 
 .blob7 {
-    width: 300px;
-    height: 310px;
-    border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
-    background: linear-gradient(180deg, rgba(119, 255, 255, 0.63) 0%, rgba(255, 72, 182, 0.85) 100%);
-    bottom: 0;
-    right: 0;
-    rotate: 180deg;
-    animation-name: spin, moveX;
-    filter: blur(80px);
+  width: 300px;
+  height: 310px;
+  border-radius: 39% 61% 53% 47% / 59% 53% 47% 41%;
+  background: linear-gradient(
+    180deg,
+    rgba(119, 255, 255, 0.63) 0%,
+    rgba(255, 72, 182, 0.85) 100%
+  );
+  bottom: 0;
+  right: 0;
+  rotate: 180deg;
+  animation-name: spin, moveX;
+  filter: blur(80px);
 }
 
 @media screen and (max-width: 900px) {
+  .blob2 {
+    left: -8rem;
+  }
 
-    .blob2 {
-        left: -8rem;
-    }
-
-    .blob4 {
-        left: 0;
-    }
+  .blob4 {
+    left: 0;
+  }
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes moveX {
-    0%, 50%, 100% {
-        translate: 2rem;
-    }
-    25%, 75% {
-        translate: -2rem;
-    }
+  0%,
+  50%,
+  100% {
+    translate: 2rem;
+  }
+  25%,
+  75% {
+    translate: -2rem;
+  }
 }
 
 @keyframes moveY {
-    0%, 50%, 100% {
-        translate: 0 2rem;
-    }
-    25%, 75% {
-        translate: 0 -2rem;
-    }
+  0%,
+  50%,
+  100% {
+    translate: 0 2rem;
+  }
+  25%,
+  75% {
+    translate: 0 -2rem;
+  }
 }

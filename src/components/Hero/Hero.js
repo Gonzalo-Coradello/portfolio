@@ -68,7 +68,7 @@ const Hero = () => {
       </div>
       <a
         href='#experience'
-        className={`text-lg fixed bottom-0 left-0 right-0 flex justify-center flex-col w-fit mx-auto mb-6 md:mb-4 hover:opacity-50 transition-opacity duration-300 ${
+        className={`hidden text-lg fixed bottom-0 left-0 right-0 md:flex justify-center flex-col w-fit mx-auto mb-6 md:mb-4 hover:opacity-50 transition-opacity duration-300 ${
           scroll ? 'fade' : null
         }`}
       >

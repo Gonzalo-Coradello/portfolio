@@ -1,6 +1,6 @@
-import i18n from 'i18next'
-import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18n
   // detect user language
@@ -38,7 +38,7 @@ i18n
             cv: 'Mi CV',
             url: 'https://drive.google.com/file/d/10bnavm0etfVJkYyFfqLVohEN3Iy_pBsN/view?usp=drive_link',
             description:
-              'Desarrollador Full Stack especializado en React Native, Node.js y .NET, con amplia experiencia en el desarrollo de aplicaciones móviles y web.\nMe he encargado del desarrollo completo de tres aplicaciones móviles desde la etapa inicial hasta su lanzamiento en producción y he creado múltiples sitios web para diversos clientes. Además, he trabajado en el mantenimiento de aplicaciones empresariales de gran escala y he brindado mentoría a nuevos desarrolladores, ayudándolos a integrarse de manera efectiva en los proyectos.\nEnfocado en ofrecer soluciones eficientes y de calidad, con un fuerte compromiso en trabajar de forma colaborativa para lograr el éxito de los proyectos.',
+              'Desarrollador Full Stack especializado en React Native, React, Node.js y TypeScript, con amplia experiencia en el desarrollo de aplicaciones móviles y web.\nMe he encargado del desarrollo completo de tres aplicaciones móviles desde la etapa inicial hasta su lanzamiento en producción y he creado múltiples sitios web para diversos clientes. Además, he trabajado en el mantenimiento de aplicaciones empresariales de gran escala y he brindado mentoría a nuevos desarrolladores, ayudándolos a integrarse de manera efectiva en los proyectos.\nEnfocado en ofrecer soluciones eficientes y de calidad, con un fuerte compromiso en trabajar de forma colaborativa para lograr el éxito de los proyectos.',
             part1:
               'Soy un desarrollador Full-Stack con amplia experiencia creando sitios web y aplicaciones móviles.',
             part2:
@@ -97,7 +97,7 @@ i18n
             cv: 'My resume',
             url: 'https://drive.google.com/file/d/1KZIyq7lopXPtiqh2yFvv4jwygAO-n0ix/view?usp=drive_link',
             description:
-              'Full Stack Developer specialized in React Native, Node.js, and .NET, with extensive experience in developing mobile and web applications.\nI have been responsible for the complete development of three mobile applications, from the initial stage to production, and have created multiple websites for various clients. Additionally, I have worked on maintaining large-scale enterprise applications and mentored new developers, helping them effectively integrate into projects.\nFocused on delivering efficient and high-quality solutions, with a strong commitment to collaborative work to ensure project success.',
+              'Full Stack Developer specialized in React Native, React, Node.js, and TypeScript, with extensive experience in developing mobile and web applications.\nI have been responsible for the complete development of three mobile applications, from the initial stage to production, and have created multiple websites for various clients. Additionally, I have worked on maintaining large-scale enterprise applications and mentored new developers, helping them effectively integrate into projects.\nFocused on delivering efficient and high-quality solutions, with a strong commitment to collaborative work to ensure project success.',
             part1:
               'I am a Full-Stack developer with extensive experience creating websites and mobile applications.',
             part2:
@@ -136,6 +136,6 @@ i18n
         },
       },
     },
-  })
+  });
 
-export default i18n
+export default i18n;

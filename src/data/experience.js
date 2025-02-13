@@ -1,36 +1,6 @@
 export const experience = [
   {
     id: 4,
-    companyName: 'Accenture',
-    jobTitle: {
-      es: 'Packaged App Development Associate',
-      en: 'Packaged App Development Associate',
-    },
-    location: '',
-    summary: {
-      es: 'Me desempeño como desarrollador Full-Stack, encargado de resolver bugs, implementar nuevas funcionalidades, realizar mejoras y desarrollar tests unitarios. Mi principal responsabilidad es el mantenimiento de dos aplicaciones internas de la compañía, una de las cuales es utilizada por todos los empleados de Accenture a nivel mundial. Me caracterizo por resolver mis tareas de manera eficiente, siempre enfocado en entregar la mejor solución para cada requerimiento. Trabajo frecuentemente en equipo, brindando apoyo a mis compañeros en la resolución de sus tareas. Además, he tenido la oportunidad de impartir charlas técnicas para mi equipo y otros equipos del proyecto, compartiendo mi conocimiento sobre el código, la lógica de negocio y la infraestructura de las aplicaciones.',
-      en: 'I work as a Full-Stack Developer, responsible for solving bugs, implementing new features, making improvements, and developing unit tests. My main responsibility is maintaining two internal applications, one of which is used by all Accenture employees worldwide. I am known for efficiently completing tasks, always focused on delivering the best solution for each requirement. I frequently work collaboratively and provide support to my colleagues in completing their tasks. Additionally, I have had the opportunity to deliver technical talks for my team and members of external projects, sharing my knowledge about the code, business logic, and application infrastructure.',
-    },
-    startDate: '11/2023',
-    endDate: '',
-    image: '/images/companies/accenture.png',
-    imageSmall: '/images/companies/accenture_sm.png',
-    technologies: [
-      'C#',
-      '.NET',
-      'Vue.js',
-      'Node.js',
-      'AWS',
-      'JavaScript',
-      'PostgreSQL',
-      'HTML',
-      'CSS',
-      'Sass',
-      'Jest',
-    ],
-  },
-  {
-    id: 3,
     companyName: 'Zergex',
     jobTitle: {
       es: 'Desarrollador React Native y Full-Stack',
@@ -55,6 +25,36 @@ export const experience = [
     ],
   },
   {
+    id: 3,
+    companyName: 'Accenture',
+    jobTitle: {
+      es: 'Packaged App Development Associate',
+      en: 'Packaged App Development Associate',
+    },
+    location: '',
+    summary: {
+      es: 'Me desempeño como desarrollador Full-Stack, encargado de resolver bugs, implementar nuevas funcionalidades, realizar mejoras y desarrollar tests unitarios. Mi principal responsabilidad es el mantenimiento de dos aplicaciones internas de la compañía, una de las cuales es utilizada por todos los empleados de Accenture a nivel mundial. Me caracterizo por resolver mis tareas de manera eficiente, siempre enfocado en entregar la mejor solución para cada requerimiento. Trabajo frecuentemente en equipo, brindando apoyo a mis compañeros en la resolución de sus tareas. Además, he tenido la oportunidad de impartir charlas técnicas para mi equipo y otros equipos del proyecto, compartiendo mi conocimiento sobre el código, la lógica de negocio y la infraestructura de las aplicaciones.',
+      en: 'I work as a Full-Stack Developer, responsible for solving bugs, implementing new features, making improvements, and developing unit tests. My main responsibility is maintaining two internal applications, one of which is used by all Accenture employees worldwide. I am known for efficiently completing tasks, always focused on delivering the best solution for each requirement. I frequently work collaboratively and provide support to my colleagues in completing their tasks. Additionally, I have had the opportunity to deliver technical talks for my team and members of external projects, sharing my knowledge about the code, business logic, and application infrastructure.',
+    },
+    startDate: '11/2023',
+    endDate: '',
+    image: '/images/companies/accenture.png',
+    imageSmall: '/images/companies/accenture_sm.png',
+    technologies: [
+      'Vue.js',
+      'Node.js',
+      'AWS',
+      'C#',
+      '.NET',
+      'JavaScript',
+      'PostgreSQL',
+      'HTML',
+      'CSS',
+      'Sass',
+      'Jest',
+    ],
+  },
+  {
     id: 2,
     companyName: 'Linné Studio',
     jobTitle: {
@@ -70,7 +70,7 @@ export const experience = [
     endDate: '',
     image: '/images/companies/linne.png',
     imageSmall: '/images/companies/linne_sm.png',
-    technologies: ['Astro', 'Next.js', 'React', 'HTML', 'CSS', 'TypeScript'],
+    technologies: ['Next.js', 'React', 'Astro', 'HTML', 'CSS', 'TypeScript'],
   },
   {
     id: 1,
@@ -89,12 +89,12 @@ export const experience = [
     image: '/images/companies/laptop-code.png',
     imageSmall: '/images/companies/laptop-code.png',
     technologies: [
-      'React',
       'Next.js',
+      'React',
       'JavaScript',
       'HTML',
       'CSS',
       'TailwindCSS',
     ],
   },
-]
+];

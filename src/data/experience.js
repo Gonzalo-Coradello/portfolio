@@ -41,9 +41,10 @@ export const experience = [
     image: '/images/companies/accenture.png',
     imageSmall: '/images/companies/accenture_sm.png',
     technologies: [
-      'Vue.js',
+      'React',
       'Node.js',
       'AWS',
+      'Vue.js',
       'C#',
       '.NET',
       'JavaScript',

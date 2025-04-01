@@ -41,8 +41,9 @@ export const projects = [
       'Express',
       'PostgreSQL',
     ],
-    deploy: 'coming-soon',
-    googlePlay: 'coming-soon',
+    deploy: 'https://app.realmeet.net',
+    googlePlay:
+      'https://play.google.com/store/apps/details?id=net.realmeet&hl=es_419',
     appStore: 'coming-soon',
     important: true,
     mobile: true,
@@ -151,4 +152,4 @@ export const projects = [
     important: true,
     mobile: true,
   },
-]
+];

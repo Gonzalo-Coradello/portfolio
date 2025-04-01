@@ -1,7 +1,7 @@
-import { FaAppStoreIos } from 'react-icons/fa'
-import { IoLogoGooglePlaystore } from 'react-icons/io5'
-import { BsLaptop } from 'react-icons/bs'
-import i18n from '../../translations/i18n'
+import { FaAppStoreIos } from 'react-icons/fa';
+import { IoLogoGooglePlaystore } from 'react-icons/io5';
+import { BsLaptop } from 'react-icons/bs';
+import i18n from '../../translations/i18n';
 
 export default function ZergexProjects() {
   const projects = [
@@ -11,8 +11,9 @@ export default function ZergexProjects() {
       description: '',
       image: '/images/realmeet.PNG',
       appStore: 'coming-soon',
-      playStore: 'coming-soon',
-      website: 'coming-soon',
+      playStore:
+        'https://play.google.com/store/apps/details?id=net.realmeet&hl=es_419',
+      website: 'https://app.realmeet.net',
     },
     {
       id: 2,
@@ -33,7 +34,7 @@ export default function ZergexProjects() {
       playStore: 'coming-soon',
       website: '',
     },
-  ]
+  ];
 
   return (
     <div>
@@ -134,5 +135,5 @@ export default function ZergexProjects() {
         ))}
       </div>
     </div>
-  )
+  );
 }

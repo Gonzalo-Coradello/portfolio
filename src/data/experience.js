@@ -1,31 +1,6 @@
 export const experience = [
   {
     id: 4,
-    companyName: 'Zergex',
-    jobTitle: {
-      es: 'Desarrollador React Native y Full-Stack',
-      en: 'React Native and Full-Stack Developer',
-    },
-    location: '',
-    summary: {
-      es: 'Desarrollador Full-Stack especializado en el desarrollo de aplicaciones móviles utilizando React Native y TypeScript. Me encargué del desarrollo completo de tres aplicaciones móviles, desde la etapa inicial hasta su lanzamiento a producción, dos de las cuales también cuentan con soporte para web.\nAsumí el rol de mentor para nuevos desarrolladores, guiándolos en la comprensión de la lógica de las aplicaciones y el stack tecnológico y resolviendo sus dudas para que puedan avanzar con el desarrollo de manera eficiente.\nMi experiencia incluye la implementación de integraciones con servicios de terceros como proveedores de autenticación (Google, Apple, Facebook, X), mapas y geolocalización, y gestión de pagos mediante Mercado Pago. También he desarrollado paneles administrativos en React y TypeScript y trabajado en el back-end utilizando Node.js, Express, TypeScript, TypeORM y PostgreSQL. Mis principales aportes al back-end han sido desarrollar nuevas funcionalidades, realizar optimizaciones y correcciones al código existente y realizar integraciones con AWS S3 y servicios de autenticación como Google y Apple. Además, en uno de los proyectos desarrollé un script de automatización con Node.js para procesar miles de registros desde distintas hojas de cálculo de Excel y guardarlas en la base de datos de PostgreSQL, optimizando significativamente el tiempo y esfuerzo del cliente ya que de esta manera se evitó que tenga que recrear todos los datos manualmente desde el panel de administración.\nEstoy enfocado en brindar soluciones eficientes y de calidad y disfruto trabajar de manera colaborativa, aportando mi experiencia y conocimientos para el éxito de los proyectos.',
-      en: 'Full-Stack Developer specialized in mobile application development using React Native and TypeScript. I was responsible for the complete development of three mobile applications, from the initial stage to production, two of which include web support.\nI took on the role of mentoring new developers, guiding them in understanding the application logic and the technology stack, and resolving their doubts so they could progress efficiently.\nMy experience includes implementing integrations with third-party services such as authentication providers (Google, Apple, Facebook, X), maps and geolocation, and payment management through Mercado Pago. I have also developed admin panels for the three projects using React and TypeScript and worked on the back-end using Node.js, Express, TypeScript, TypeORM, and PostgreSQL. My main contributions to the back-end have been developing new features, optimizing and fixing existing code, and integrating AWS S3 and authentication services like Google and Apple. Additionally, in one project, I developed an automation script with Node.js to process thousands of records from various Excel spreadsheets and save them to the PostgreSQL database, significantly saving the client time and effort as it avoided manually recreating all the data through the admin panel.\nI focus on delivering efficient and high-quality solutions and enjoy working collaboratively, contributing my experience and knowledge to the success of the projects.',
-    },
-    startDate: '09/2023',
-    endDate: '',
-    image: '',
-    imageSmall: '',
-    technologies: [
-      'React Native',
-      'React',
-      'TypeScript',
-      'Node.js',
-      'Express',
-      'PostgreSQL',
-    ],
-  },
-  {
-    id: 3,
     companyName: 'Accenture',
     jobTitle: {
       es: 'Packaged App Development Associate',
@@ -53,6 +28,31 @@ export const experience = [
       'CSS',
       'Sass',
       'Jest',
+    ],
+  },
+  {
+    id: 3,
+    companyName: 'Zergex',
+    jobTitle: {
+      es: 'Desarrollador React Native y Full-Stack',
+      en: 'React Native and Full-Stack Developer',
+    },
+    location: '',
+    summary: {
+      es: 'Desarrollador Full-Stack especializado en el desarrollo de aplicaciones móviles utilizando React Native y TypeScript. Me encargué del desarrollo completo de tres aplicaciones móviles, desde la etapa inicial hasta su lanzamiento a producción, dos de las cuales también cuentan con soporte para web.\nAsumí el rol de mentor para nuevos desarrolladores, guiándolos en la comprensión de la lógica de las aplicaciones y el stack tecnológico y resolviendo sus dudas para que puedan avanzar con el desarrollo de manera eficiente.\nMi experiencia incluye la implementación de integraciones con servicios de terceros como proveedores de autenticación (Google, Apple, Facebook, X), mapas y geolocalización, y gestión de pagos mediante Mercado Pago. También he desarrollado paneles administrativos en React y TypeScript y trabajado en el back-end utilizando Node.js, Express, TypeScript, TypeORM y PostgreSQL. Mis principales aportes al back-end han sido desarrollar nuevas funcionalidades, realizar optimizaciones y correcciones al código existente y realizar integraciones con AWS S3 y servicios de autenticación como Google y Apple. Además, en uno de los proyectos desarrollé un script de automatización con Node.js para procesar miles de registros desde distintas hojas de cálculo de Excel y guardarlas en la base de datos de PostgreSQL, optimizando significativamente el tiempo y esfuerzo del cliente ya que de esta manera se evitó que tenga que recrear todos los datos manualmente desde el panel de administración.\nEstoy enfocado en brindar soluciones eficientes y de calidad y disfruto trabajar de manera colaborativa, aportando mi experiencia y conocimientos para el éxito de los proyectos.',
+      en: 'Full-Stack Developer specialized in mobile application development using React Native and TypeScript. I was responsible for the complete development of three mobile applications, from the initial stage to production, two of which include web support.\nI took on the role of mentoring new developers, guiding them in understanding the application logic and the technology stack, and resolving their doubts so they could progress efficiently.\nMy experience includes implementing integrations with third-party services such as authentication providers (Google, Apple, Facebook, X), maps and geolocation, and payment management through Mercado Pago. I have also developed admin panels for the three projects using React and TypeScript and worked on the back-end using Node.js, Express, TypeScript, TypeORM, and PostgreSQL. My main contributions to the back-end have been developing new features, optimizing and fixing existing code, and integrating AWS S3 and authentication services like Google and Apple. Additionally, in one project, I developed an automation script with Node.js to process thousands of records from various Excel spreadsheets and save them to the PostgreSQL database, significantly saving the client time and effort as it avoided manually recreating all the data through the admin panel.\nI focus on delivering efficient and high-quality solutions and enjoy working collaboratively, contributing my experience and knowledge to the success of the projects.',
+    },
+    startDate: '09/2023',
+    endDate: '03/2025',
+    image: '',
+    imageSmall: '',
+    technologies: [
+      'React Native',
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
     ],
   },
   {

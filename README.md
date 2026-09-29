@@ -2,11 +2,19 @@
 
 ## Gonzalo Coradello
 
-_[en]_ Full Stack Developer specialized in React Native, Node.js, and .NET, with extensive experience in developing mobile and web applications.
-I have been responsible for the complete development of three mobile applications, from the initial stage to production, and have created multiple websites for various clients. Additionally, I have worked on maintaining large-scale enterprise applications and mentored new developers, helping them effectively integrate into projects.
-Focused on delivering efficient and high-quality solutions, with a strong commitment to collaborative work to ensure project success.
+_[en]_ Mobile and Full-Stack Developer specialized in React Native and TypeScript, with extensive experience shipping mobile and web applications to production. I work on architecture, API integration, and releases to the iOS and Android stores, and I deliver end-to-end features with Node.js, Nest.js, React, Next.js, PostgreSQL, and AWS.
 
-_[es]_ Desarrollador Full Stack especializado en React Native, Node.js y .NET, con amplia experiencia en el desarrollo de aplicaciones móviles y web.
-Me he encargado del desarrollo completo de tres aplicaciones móviles desde la etapa inicial hasta su lanzamiento en producción y he creado múltiples sitios web para diversos clientes. Además, he trabajado en el mantenimiento de aplicaciones empresariales de gran escala y he brindado mentoría a nuevos desarrolladores, ayudándolos a integrarse de manera efectiva en los proyectos.
-Enfocado en ofrecer soluciones eficientes y de calidad, con un fuerte compromiso en trabajar de forma colaborativa para lograr el éxito de los proyectos.
+I currently work on production projects with a large number of active users. I have also maintained large-scale enterprise applications with a serverless architecture, and built mobile apps from scratch to production as the only developer.
 
+_[es]_ Desarrollador Mobile y Full-Stack especializado en React Native y TypeScript, con experiencia llevando aplicaciones móviles y web a producción. Trabajo en arquitectura, integración con APIs y subidas a los stores de iOS y Android, y desarrollo funcionalidades end-to-end con Node.js, Nest.js, React, Next.js, PostgreSQL y AWS.
+
+Actualmente trabajo en proyectos en producción con un gran número de usuarios activos, como Escuela Fácil. También he trabajado en el mantenimiento de aplicaciones empresariales de gran escala con arquitectura serverless, y he construido aplicaciones móviles desde cero hasta producción como único desarrollador.
+
+## Run locally
+
+```bash
+npm install
+npm start
+```
+
+The site opens at [http://localhost:3000](http://localhost:3000).

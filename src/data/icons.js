@@ -32,6 +32,7 @@ import {
   SiSqlite,
   SiMicrosoftsqlserver,
   SiNestjs,
+  SiExpo,
   SiCypress,
   SiJest,
   SiTestinglibrary,
@@ -88,6 +89,10 @@ export const icons = [
   {
     label: 'Nest.js',
     icon: <SiNestjs size={50} className='w-8 md:w-auto max-w-[100%]' />,
+  },
+  {
+    label: 'Expo',
+    icon: <SiExpo size={50} className='w-8 md:w-auto max-w-[100%]' />,
   },
   {
     label: 'C#',

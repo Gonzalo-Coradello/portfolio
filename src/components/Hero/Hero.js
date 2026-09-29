@@ -3,6 +3,7 @@ import { BsChevronCompactDown } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { getYearsOfExperience } from '../../utils/yearsOfExperience'
 
 const Hero = () => {
   const { t } = useTranslation()
@@ -25,11 +26,11 @@ const Hero = () => {
           </h2>
           <p className='font-light text-lg md:text-lg max-w-[35ch] mb-auto leading-7 md:leading-6'>
             <span className='font-medium'>{t('title')}</span>{' '}
-            {t('presentation')}
+            {t('presentation', { years: getYearsOfExperience() })}
           </p>
           <a
             href='mailto:gonzalocoradello@gmail.com'
-            className='w-fit font-light bg-white/30 z-10 backdrop-blur-sm rounded-lg shadow-md px-8 py-3 hover:opacity-80 hover:scale-105 active:opacity-50 transition-all duration-300 mx-auto md:mx-0'
+            className='w-fit font-light bg-white/40 z-10 backdrop-blur-sm rounded-lg shadow-md px-8 py-3 hover:opacity-80 hover:scale-105 active:opacity-50 transition-all duration-300 mx-auto md:mx-0'
           >
             {t('hero.button')}
           </a>

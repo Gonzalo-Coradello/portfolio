@@ -1,9 +1,48 @@
 import React from 'react'
 import { experience } from '../../data/experience'
 import { useTranslation } from 'react-i18next'
-import ZergexProjects from './ZergexProjects'
+import CompanyProjects from './CompanyProjects'
 import Description from '../About/Description'
 import { icons } from '../../data/icons'
+
+const companyProjects = {
+  Magnético: [
+    {
+      id: 4,
+      name: 'Escuela Fácil',
+      image: '/images/escuela-facil.PNG',
+      playStore:
+        'https://play.google.com/store/apps/details?id=app.escuelafacil&hl=es_AR',
+      appStore:
+        'https://apps.apple.com/ar/app/escuela-f%C3%A1cil-comunica-bien/id6747779893',
+    },
+    {
+      id: 5,
+      name: 'Soy Más',
+      image: '/images/soy-mas.PNG',
+      playStore:
+        'https://play.google.com/store/apps/details?id=la.soymas.app&hl=es_AR',
+      appStore: 'https://apps.apple.com/us/app/soy-mas/id6774607557',
+    },
+  ],
+  Zergex: [
+    {
+      id: 3,
+      name: 'Stetsiuk Weightlifting',
+      image: '/images/stetsiuk-fitness.PNG',
+      appStore:
+        'https://apps.apple.com/ye/app/stetsiuk-weightlifting/id6766249285',
+      playStore:
+        'https://play.google.com/store/apps/details?id=com.stetsiukweightlifting',
+    },
+    {
+      id: 1,
+      name: 'RealMeet',
+      image: '/images/realmeet.PNG',
+      website: 'https://app.realmeet.net',
+    },
+  ],
+}
 
 export default function Experience() {
   const { t, i18n } = useTranslation()
@@ -22,7 +61,6 @@ export default function Experience() {
                   id,
                   jobTitle,
                   companyName,
-                  location,
                   startDate,
                   endDate,
                   imageSmall,
@@ -33,10 +71,7 @@ export default function Experience() {
                     key={id}
                     className='rounded-lg p-px bg-gradient-to-r from-[rgb(236,188,238)] to-[rgb(71,138,201)] mt-8'
                   >
-                    <div
-                      key={id}
-                      className='bg-white z-10 backdrop-blur-sm rounded-[7px] shadow-md px-10 py-4'
-                    >
+                    <div className='bg-white z-10 backdrop-blur-sm rounded-[7px] shadow-md px-10 py-4'>
                       <div>
                         <div className='w-full grid gap-4'>
                           <div className='flex flex-col items-center'>
@@ -58,7 +93,11 @@ export default function Experience() {
                             </h2>
                             <h3 className='font-medium mt-2'>{companyName}</h3>
                           </div>
-                          {companyName === 'Zergex' && <ZergexProjects />}
+                          {companyProjects[companyName] && (
+                            <CompanyProjects
+                              projects={companyProjects[companyName]}
+                            />
+                          )}
                           <div className='max-w-[620px] mx-auto'>
                             <Description
                               text={summary[i18n.resolvedLanguage]}

@@ -1,6 +1,25 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+const projectLinks = {
+  'Hub+': '/projects/2',
+}
+
+const renderWithProjectLinks = text =>
+  text.split(/(Hub\+)/).map((part, index) =>
+    projectLinks[part] ? (
+      <a
+        key={index}
+        href={projectLinks[part]}
+        className='underline underline-offset-2 hover:opacity-50'
+      >
+        {part}
+      </a>
+    ) : (
+      part
+    )
+  )
+
 const Description = ({ text, maxCh = 70 }) => {
   const { t } = useTranslation()
 
@@ -14,7 +33,7 @@ const Description = ({ text, maxCh = 70 }) => {
         {show
           ? text.split('\n').map((paragraph, idx) => (
               <p key={idx} style={{ marginTop: idx === 0 ? 0 : '0.5rem' }}>
-                {paragraph}
+                {renderWithProjectLinks(paragraph)}
               </p>
             ))
           : `${text.replace(/\n/g, ' ').slice(0, maxCh)}...`}

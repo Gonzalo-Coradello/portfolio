@@ -1,66 +1,33 @@
-import { FaAppStoreIos } from 'react-icons/fa';
-import { IoLogoGooglePlaystore } from 'react-icons/io5';
-import { BsLaptop } from 'react-icons/bs';
-import i18n from '../../translations/i18n';
+import { FaAppStoreIos } from 'react-icons/fa'
+import { IoLogoGooglePlaystore } from 'react-icons/io5'
+import { BsLaptop } from 'react-icons/bs'
+import i18n from '../../translations/i18n'
 
-export default function ZergexProjects() {
-  const projects = [
-    {
-      id: 1,
-      name: 'RealMeet',
-      description: '',
-      image: '/images/realmeet.PNG',
-      appStore: 'coming-soon',
-      playStore:
-        'https://play.google.com/store/apps/details?id=net.realmeet&hl=es_419',
-      website: 'https://app.realmeet.net',
-    },
-    {
-      id: 2,
-      name: 'Hub+',
-      description: 'Appointments app',
-      image: '/images/hubplus.PNG',
-      playStore:
-        'https://play.google.com/store/apps/details?id=ar.com.stylehub',
-      appStore: 'https://apps.apple.com/ar/app/hub/id6503994129',
-      website: 'https://hubplus.com.ar',
-    },
-    {
-      id: 3,
-      name: 'Stetsiuk Fitness',
-      description: 'Fitness app for the home',
-      image: '/images/stetsiuk-fitness.PNG',
-      appStore: 'coming-soon',
-      playStore: 'coming-soon',
-      website: '',
-    },
-  ];
-
+export default function CompanyProjects({ projects }) {
   return (
     <div>
       <div className='flex gap-4 flex-wrap justify-center'>
         {projects.map(project => (
           <div
             key={project.id}
-            className='rounded-lg p-px w-full sm:w-[180px] bg-gradient-to-r from-[rgb(236,188,238)] to-[rgb(71,138,201)]'
+            className='rounded-lg p-px w-full sm:max-w-[240px] lg:max-w-[300px] bg-gradient-to-r from-[rgb(236,188,238)] to-[rgb(71,138,201)]'
           >
             <div className='bg-white rounded-[7px] p-2'>
               <a
-                href={`projects/${project.id}`}
+                href={`/projects/${project.id}`}
                 className='hover:opacity-60 active:opacity-40 transition-opacity duration-300'
               >
                 <img
                   src={project.image}
-                  alt=''
+                  alt={project.name}
                   className='border border-gray-300 rounded-lg min-h-80 w-full mx-auto object-cover mb-2'
                 />
               </a>
               <a
-                href={`projects/${project.id}`}
+                href={`/projects/${project.id}`}
                 className='text-center hover:opacity-60 active:opacity-40 transition-opacity duration-300 w-fit'
               >
                 <h3>{project.name}</h3>
-                {/* <p>{project.description}</p> */}
               </a>
               <div className='flex gap-3 justify-center mt-2'>
                 {project.appStore && (
@@ -135,5 +102,5 @@ export default function ZergexProjects() {
         ))}
       </div>
     </div>
-  );
+  )
 }

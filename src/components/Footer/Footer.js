@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer className='lg:pb-4'>
-      <div className='lg:w-[80%] mx-auto grid items-center justify-center lg:grid-cols-3 gap-6 py-10 px-8 bg-white/20 backdrop-blur-sm rounded-lg shadow-xl mt-12'>
+      <div className='lg:w-[80%] mx-auto grid items-center justify-center lg:grid-cols-3 gap-6 py-10 px-8 bg-white/40 pseudo-backdrop-blur rounded-lg shadow-xl mt-12'>
         <h2 className='text-xl font-light'>Gonzalo Coradello</h2>
         <div className='w-full max-w-[200px] mx-auto lg:order-3'>
           <div className='flex justify-around'>

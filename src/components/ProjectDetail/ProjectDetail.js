@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import './ProjectDetail.css'
 import { Autoplay } from 'swiper'
 import { icons } from '../../data/icons'
 import SkillsIcon from '../About/SkillsIcon'
@@ -42,11 +43,11 @@ const ProjectDetail = ({
 
       <div
         className={`w-full max-w-[680px] mx-auto py-4 ${
-          mobile ? 'max-w-[300px]' : ''
+          mobile ? 'max-w-[360px]' : ''
         }`}
       >
         <div
-          className={`bg-white/10 backdrop-blur-sm rounded-lg shadow-md aspect-video ${
+          className={`carousel-frame bg-white/10 backdrop-blur-sm rounded-lg shadow-md aspect-video ${
             mobile ? 'p-4 sm:p-4' : 'py-6 px-4 sm:py-12 sm:px-8'
           }`}
         >
@@ -243,7 +244,7 @@ const ProjectDetail = ({
           {t('details.technologies')}
         </h2>
         <div
-          className={`grid grid-cols-3 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/10 backdrop-blur-sm rounded-lg shadow-md`}
+          className={`grid grid-cols-3 gap-6 md:gap-10 justify-items-center py-12 px-8 bg-white/40 backdrop-blur-sm rounded-lg shadow-md`}
         >
           {technologies.map(tech => (
             <SkillsIcon

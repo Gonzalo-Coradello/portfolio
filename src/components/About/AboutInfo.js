@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { getYearsOfExperience } from '../../utils/yearsOfExperience'
 
 const AboutInfo = () => {
   const { t } = useTranslation()
@@ -11,8 +12,8 @@ const AboutInfo = () => {
       <h2 className='text-3xl font-medium mb-4 text-center md:text-left'>
         {t('about.heading')}
       </h2>
-      <div className='grid gap-4 py-6 px-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md md:py-12 md:px-8 leading-relaxed'>
-        {t('about.description')
+      <div className='grid gap-4 py-4 px-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-md md:py-8 md:px-8 leading-relaxed'>
+        {t('about.description', { years: getYearsOfExperience() })
           .split('\n')
           .map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
